@@ -1,0 +1,71 @@
+{
+  "Version": "1.1",
+  "ModID": "FamTaubeLexy_NewWorldHotels",
+  "IncompatibleIds": [
+    "NewHorizons"
+  ],
+  "ModDependencies": null,
+  "Category": {
+    "Chinese": null,
+    "English": "Gameplay",
+    "French": null,
+    "German": "Spielablauf",
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": "Rozgrywka",
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "ModName": {
+    "Chinese": null,
+    "English": "New World Hotels",
+    "French": null,
+    "German": "Hotels in der neuen Welt",
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "Description": {
+    "Chinese": null,
+    "English": "Adds Tourists and Hotels to the new World.",
+    "French": null,
+    "German": "Fügt Touristen und Hotels für die neue Welt hinzu.",
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": [
+    {
+      "Chinese": null,
+      "English": "Unlock for New World Tourists is 4.000 OW Tourists and 1.500 Obreros. Obreros only start counting once you reached 4.000 OW Tourists.",
+      "French": null,
+      "German": "Freischaltung für NW-Touristen erfolgt bei 4.000 AW-Touristen und 1.5000 Obreros. Obreros werden erst gezählt, wenn 4.000 AW-Touristen erreicht wurden.",
+      "Italian": null,
+      "Japanese": null,
+      "Korean": null,
+      "Polish": null,
+      "Russian": null,
+      "Spanish": null,
+      "Taiwanese": null
+    }
+  ],
+  "DLCDependencies": [
+    {
+      "DLC": "Tourism",
+      "Dependant": "required"
+    }
+  ],
+  "CreatorName": "Fam, DaLexy and Taubenangriff. Thanks to Lordys for the NW Hotel Retexture!",
+  "CreatorContact": "https://discord.gg/YTQGDFK",
+  "Image" : null
+}

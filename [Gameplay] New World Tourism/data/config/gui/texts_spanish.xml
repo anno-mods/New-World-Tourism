@@ -1,0 +1,321 @@
+<ModOps>
+	<!-- Spanish translation by Sealring -->
+	<ModOp Path="/TextExport/Texts" Type="add">
+		<Text>
+			<GUID>1440134340</GUID>
+			<Text>Restaurante</Text>
+		</Text>
+		<Text>
+			<GUID>1440134341</GUID>
+			<Text>Café</Text>
+		</Text>
+		<Text>
+			<GUID>1440134342</GUID>
+			<Text>Bar</Text>
+		</Text>
+		<Text>
+			<GUID>1440134300</GUID>
+			<Text>Hotel Tropical</Text>
+		</Text>
+		<Text>
+			<GUID>1440134301</GUID>
+			<Text>Parada de Autobús</Text>
+		</Text>
+		<Text>
+			<GUID>1440134302</GUID>
+			<Text>Embarcadero Turístico</Text>
+		</Text>
+		<Text>
+			<GUID>1440134330</GUID>
+			<Text>Churrasco</Text>
+		</Text>
+		<Text>
+			<GUID>1440134331</GUID>
+			<Text>Pamoña</Text>
+		</Text>
+		<Text>
+			<GUID>1440134332</GUID>
+			<Text>Enchiladas</Text>
+		</Text>
+		<Text>
+			<GUID>1440134333</GUID>
+			<Text>Pan de Plátano</Text>
+		</Text>
+		<Text>
+			<GUID>1440134334</GUID>
+			<Text>Sorbete "Congelacerebros"</Text>
+		</Text>
+		<Text>
+			<GUID>1440134335</GUID>
+			<Text>Plátanos al estilo Foster</Text>
+		</Text>
+		<Text>
+			<GUID>1440134336</GUID>
+			<Text>Caipiriña</Text>
+		</Text>
+		<Text>
+			<GUID>1440134337</GUID>
+			<Text>Navegado</Text>
+		</Text>
+		<Text>
+			<GUID>1440134338</GUID>
+			<Text>El Secreto de la Isla de los Monos</Text>
+		</Text>
+		<Text>
+			<GUID>1440134303</GUID>
+			<Text>Restaurante: Churrasco</Text>
+		</Text>
+		<Text>
+			<GUID>1440134304</GUID>
+			<Text>Restaurante: Pamoña</Text>
+		</Text>
+		<Text>
+			<GUID>1440134305</GUID>
+			<Text>Restaurante: Enchiladas</Text>
+		</Text>
+		<Text>
+			<GUID>1440134306</GUID>
+			<Text>Café: Pan de Plátano</Text>
+		</Text>
+		<Text>
+			<GUID>1440134307</GUID>
+			<Text>Café: Sorbete "Congelacerebros"</Text>
+		</Text>
+		<Text>
+			<GUID>1440134308</GUID>
+			<Text>Café: Plátanos al estilo Foster</Text>
+		</Text>
+		<Text>
+			<GUID>1440134309</GUID>
+			<Text>Bar: Caipiriña</Text>
+		</Text>
+		<Text>
+			<GUID>1440134310</GUID>
+			<Text>Bar: Navegado</Text>
+		</Text>
+		<Text>
+			<GUID>1440134311</GUID>
+			<Text>Bar: El Secreto de la Isla de los Monos</Text>
+		</Text>
+		<Text>
+			<GUID>1440134380</GUID>
+			<Text>Turistas</Text>
+		</Text>
+		<Text>
+			<GUID>1440134381</GUID>
+			<Text>Deliciosa carne, a la parrilla en su grasa.</Text>
+		</Text>
+		<Text>
+			<GUID>1440134382</GUID>
+			<Text> Una pasta de maíz ccon salchichas y pimientos rojos, envuelto en una hoja de maíz para mayor sorpresa.</Text>
+		</Text>
+		<Text>
+			<GUID>1440134383</GUID>
+			<Text>Las enchiladas son un plato raro, burritos con una salsa de chocolate.  Confía en los gourmets del nuevo mundo, tus sentidos no se arrepentirán.</Text>
+		</Text>
+		<Text>
+			<GUID>1440134384</GUID>
+			<Text>El pan de plátano es una opción sana y dulce para cualquiera que no puede soportar la nata.</Text>
+		</Text>
+		<Text>
+			<GUID>1440134385</GUID>
+			<Text>Este sorbete congelará tus sentidos en el momento que lo pruebes.</Text>
+		</Text>
+		<Text>
+			<GUID>1440134386</GUID>
+			<Text> Es verdaderamente un postre bastante ardiente y muy adelantado a su tiempo.</Text>
+		</Text>
+		<Text>
+			<GUID>1440134387</GUID>
+			<Text> El "pequeño granjero" es bastante agrio, pero el perfecto refrigerio para cualquiera que no necesite su cerebro en las próximas horas.</Text>
+		</Text>
+		<Text>
+			<GUID>1440134388</GUID>
+			<Text> Una bebida que te calentará doblemente</Text>
+		</Text>
+		<Text>
+			<GUID>1440134389</GUID>
+			<Text>Esta bebida solo se puede disfrutar después de vencer al maestro de la espada en esgrima, robar un artefacto y encontrar un tesoro.</Text>
+		</Text>
+		<Text>
+			<GUID>1440134394</GUID>
+			<Text>Todas las Residencias del Nuevo Mundo</Text>
+		</Text>
+		<Text>
+			<GUID>1440134395</GUID>
+			<Text>Arena de Boxeo</Text>
+		</Text>
+		<Text>
+			<GUID>1440134350</GUID>
+			<Text>Churrasco</Text>
+		</Text>
+		<Text>
+			<GUID>1440134360</GUID>
+			<Text>Churrasco</Text>
+		</Text>
+		<Text>
+			<GUID>1440134370</GUID>
+			<Text>Churrasco</Text>
+		</Text>
+		<Text>
+			<GUID>1440134351</GUID>
+			<Text>Pamoña</Text>
+		</Text>
+		<Text>
+			<GUID>1440134361</GUID>
+			<Text>Pamoña</Text>
+		</Text>
+		<Text>
+			<GUID>1440134371</GUID>
+			<Text>Pamoña</Text>
+		</Text>
+		<Text>
+			<GUID>1440134352</GUID>
+			<Text>Enchiladas</Text>
+		</Text>
+		<Text>
+			<GUID>1440134362</GUID>
+			<Text>Enchiladas</Text>
+		</Text>
+		<Text>
+			<GUID>1440134372</GUID>
+			<Text>Enchiladas</Text>
+		</Text>
+		<Text>
+			<GUID>1440134353</GUID>
+			<Text>Pan de Plátano</Text>
+		</Text>
+		<Text>
+			<GUID>1440134363</GUID>
+			<Text>Pan de Plátano</Text>
+		</Text>
+		<Text>
+			<GUID>1440134373</GUID>
+			<Text>Pan de Plátano</Text>
+		</Text>
+		<Text>
+			<GUID>1440134354</GUID>
+			<Text>Sorbete "Congelacerebros"</Text>
+		</Text>
+		<Text>
+			<GUID>1440134364</GUID>
+			<Text>Sorbete "Congelacerebros"</Text>
+		</Text>
+		<Text>
+			<GUID>1440134374</GUID>
+			<Text>Sorbete "Congelacerebros"</Text>
+		</Text>
+		<Text>
+			<GUID>1440134355</GUID>
+			<Text>Plátanos al estilo Foster</Text>
+		</Text>
+		<Text>
+			<GUID>1440134365</GUID>
+			<Text>Plátanos al estilo Foster</Text>
+		</Text>
+		<Text>
+			<GUID>1440134375</GUID>
+			<Text>Plátanos al estilo Foster</Text>
+		</Text>
+		<Text>
+			<GUID>1440134356</GUID>
+			<Text>Caipiriña</Text>
+		</Text>
+		<Text>
+			<GUID>1440134366</GUID>
+			<Text>Caipiriña</Text>
+		</Text>
+		<Text>
+			<GUID>1440134376</GUID>
+			<Text>Caipiriña</Text>
+		</Text>
+		<Text>
+			<GUID>1440134357</GUID>
+			<Text>Navegado</Text>
+		</Text>
+		<Text>
+			<GUID>1440134367</GUID>
+			<Text>Navegado</Text>
+		</Text>
+		<Text>
+			<GUID>1440134377</GUID>
+			<Text>Navegado</Text>
+		</Text>
+		<Text>
+			<GUID>1440134358</GUID>
+			<Text>El Secreto de la Isla de los Monos</Text>
+		</Text>
+		<Text>
+			<GUID>1440134368</GUID>
+			<Text>El Secreto de la Isla de los Monos</Text>
+		</Text>
+		<Text>
+			<GUID>1440134378</GUID>
+			<Text>El Secreto de la Isla de los Monos</Text>
+		</Text>
+		<Text>
+			<GUID>1440134400</GUID>
+			<Text>Cristo Redentor</Text>
+		</Text>
+		<Text>
+			<GUID>1440134401</GUID>
+			<Text>Comer un pequeño tetempié exclusivo junto a una estatua de Cristo, el Redentor, es una experiencia que ningún turista olvidará jamás en sus vida.</Text>
+		</Text>
+		<Text>
+			<GUID>1440134410</GUID>
+			<Text>Cristo Redentor</Text>
+		</Text>
+		<Text>
+			<GUID>1440134411</GUID>
+			<Text>Cristo Redentor</Text>
+		</Text>
+		<Text>
+			<GUID>1440134412</GUID>
+			<Text>Cristo Redentor</Text>
+		</Text>
+		<Text>
+			<GUID>1440134402</GUID>
+			<Text>Brioche royale</Text>
+		</Text>
+		<Text>
+			<GUID>1440134403</GUID>
+			<Text>Torre trifle</Text>
+		</Text>
+		<Text>
+			<GUID>1440134404</GUID>
+			<Text>Lady Marmelade</Text>
+		</Text>
+		<Text>
+			<GUID>1440134413</GUID>
+			<Text>A menudo se trata de pequeñas cosas. Ya sea una mazorca a la parrilla, una taza de café, un trozo de chocolate o un cigarrillo. Hace que tu día sea mucho mejor.</Text>
+		</Text>
+		<Text>
+			<GUID>1440134414</GUID>
+			<Text>Aperitivos de todo el Nuevo Mundo. Es la experiencia para cualquier turista que quiera un viaje inmersivo.</Text>
+		</Text>
+		<Text>
+			<GUID>1440134415</GUID>
+			<Text>La morriña le ocurre incluso al turista más explorador. Un pequeño refrigerio de tu viejo hogar puede ayudar con ello de vez en cuando.</Text>
+		</Text>
+		<Text>
+			<GUID>1440134420</GUID>
+			<Text>Brioche royale</Text>
+		</Text>
+		<Text>
+			<GUID>1440134421</GUID>
+			<Text>Torre trifle</Text>
+		</Text>
+		<Text>
+			<GUID>1440134422</GUID>
+			<Text>Lady Marmelade</Text>
+		</Text>
+		<Text>
+			<GUID>1440134405</GUID>
+			<Text>[AssetData(1010348) Text]</Text>
+		</Text>
+		<Text>
+			<GUID>1440134406</GUID>
+			<Text>[AssetData(1440134400) Text]</Text>
+		</Text>
+	</ModOp>
+</ModOps>

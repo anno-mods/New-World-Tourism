@@ -2,22 +2,44 @@
     <a href="https://git.io/anno-mods"><img src="https://github.com/anno-mods.png"></a>
 </p>
 
-<p align="center">Please check and discuss the <a href="https://github.com/anno-mods/Collection/issues">Issues</a></p>
-
-<br />
-
-<p align="center"><a href="https://github.com/taubenangriff/Modinfo">Modinfo</a><br /><em>Community GUID ranges</em><br /> Documentation, Serializable Classes and Sample files</p>
-
-<br />
-
-<h2 align="center">Anno 1800 Mod Collections</h2>
+<h1 align="center">:fire: New World Tourism</h1>
 
 <p align="center">
-    :fish: <a href="https://github.com/anno-mods/Fishboss-Mods">Fishboss Mods</a>
-    <br /><br />
-    :ghost:  <a href="https://github.com/anno-mods/Ghostbusters-Mods">Ghostbusters Mods</a>
-    <br /><br />
-    :star: <a href="https://github.com/Serpens66/Anno-1800-Mods">Serp's Mods</a>
-    <br /><br />
-    :fire: <a href="https://github.com/anno-mods/Spice-it-Up">Spice it Up</a>
+    <img src ="https://staticdelivery.nexusmods.com/mods/2820/images/196/196-1630445384-1489610267.jpeg">
 </p>
+
+<p align="left">
+    [Gameplay] New World Tourism is a new mod that adds tropical hotels, restaurants, bars and Cafés, altogether with a total of nine newly designed recipes for them. Be it the new Pamonha, Banana Bread or the headfreezing fruit sorbet, the tourists cannot wait to taste all the new world specialities, as well as your local population who will have a great time visiting your restaurants.
+</p>
+
+<p align="left">
+    The New World also get's a new monument (forgive us, it does not have building phases because they are stupidly time consuming to do right): After constructing a total of 8 Tropical Hotels, you can welcome Tourists to the Restaurant "La Reine" around Christo Redentor!
+</p>
+
+<p align="left">
+    So, essentially, this is an extension of the tourist season DLC to the New World. Of course, this mod will require the Tourist Season DLC.
+    We wish you much fun with this mod!
+</p>
+<p align="center">
+    Fam, DaLexy and Taubenangriff
+</p>
+
+<h1></h1>
+
+We want to specifically thank all the people who helped translate this mod into every possible language in their free time!
+
+- Immortalxiang - Simplified Chinese
+- Ildrenium - French
+- Robbob - Italian
+- Tomasz "Nalier" Klonowski - Japanese
+- Zuzanna Klonowska - Korean
+- Thurif - Polish
+- sealring - Russian and Spanish
+- MaxCheng95 - Traditional Chinese
+
+<h1></h1>
+
+<p align="center">Please check and report bugs at the <a href="https://github.com/anno-mods/New-World-Tourism/issues">Issues</a></p>
+<br />
+<p align="center"><a href="https://www.nexusmods.com/anno1800/mods/196">Nexusmods Mirror</a> <br/>
+<a href="https://discord.com/invite/KtfWbev">Discord: Anno 1800 Modcorner</a></p>

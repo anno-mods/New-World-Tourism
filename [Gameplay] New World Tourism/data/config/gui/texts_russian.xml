@@ -1,0 +1,321 @@
+<ModOps>
+	<!-- Russian Translation by sealring -->
+	<ModOp Path="/TextExport/Texts" Type="add">
+		<Text>
+			<GUID>1440134340</GUID>
+			<Text>Ресторан</Text>
+		</Text>
+		<Text>
+			<GUID>1440134341</GUID>
+			<Text>Кафе</Text>
+		</Text>
+		<Text>
+			<GUID>1440134342</GUID>
+			<Text>Бар</Text>
+		</Text>
+		<Text>
+			<GUID>1440134300</GUID>
+			<Text>Тропический Отель</Text>
+		</Text>
+		<Text>
+			<GUID>1440134301</GUID>
+			<Text>Автобусная остановка</Text>
+		</Text>
+		<Text>
+			<GUID>1440134302</GUID>
+			<Text>Туристический причал</Text>
+		</Text>
+		<Text>
+			<GUID>1440134330</GUID>
+			<Text>Чурраско</Text>
+		</Text>
+		<Text>
+			<GUID>1440134331</GUID>
+			<Text>Памонха</Text>
+		</Text>
+		<Text>
+			<GUID>1440134332</GUID>
+			<Text>Энчилады</Text>
+		</Text>
+		<Text>
+			<GUID>1440134333</GUID>
+			<Text>Банановый Хлеб</Text>
+		</Text>
+		<Text>
+			<GUID>1440134334</GUID>
+			<Text>Щербет "Обморожение Головы"</Text>
+		</Text>
+		<Text>
+			<GUID>1440134335</GUID>
+			<Text>Бананы Фостер</Text>
+		</Text>
+		<Text>
+			<GUID>1440134336</GUID>
+			<Text>Кайпиринья</Text>
+		</Text>
+		<Text>
+			<GUID>1440134337</GUID>
+			<Text>Навегадо</Text>
+		</Text>
+		<Text>
+			<GUID>1440134338</GUID>
+			<Text>Секрет Острова Обезьян</Text>
+		</Text>
+		<Text>
+			<GUID>1440134303</GUID>
+			<Text>Ресторан: Чурраско</Text>
+		</Text>
+		<Text>
+			<GUID>1440134304</GUID>
+			<Text>Ресторан: Памонха</Text>
+		</Text>
+		<Text>
+			<GUID>1440134305</GUID>
+			<Text>Ресторан: Энчилады</Text>
+		</Text>
+		<Text>
+			<GUID>1440134306</GUID>
+			<Text>Кафе: Банановый Хлеб</Text>
+		</Text>
+		<Text>
+			<GUID>1440134307</GUID>
+			<Text>Кафе: Щербет "Обморожение Головы"</Text>
+		</Text>
+		<Text>
+			<GUID>1440134308</GUID>
+			<Text>Кафе: Бананы Фостер</Text>
+		</Text>
+		<Text>
+			<GUID>1440134309</GUID>
+			<Text>Бар: Кайпиринья</Text>
+		</Text>
+		<Text>
+			<GUID>1440134310</GUID>
+			<Text>Бар: Навегадо</Text>
+		</Text>
+		<Text>
+			<GUID>1440134311</GUID>
+			<Text>Бар: Секрет Острова Обезьян</Text>
+		</Text>
+		<Text>
+			<GUID>1440134380</GUID>
+			<Text>Туристы</Text>
+		</Text>
+		<Text>
+			<GUID>1440134381</GUID>
+			<Text>Вкуснейшее мясо, жаренное в чистом жиру.</Text>
+		</Text>
+		<Text>
+			<GUID>1440134382</GUID>
+			<Text>Кукурузная паста с сосисками и красным перцем, завернутая в кукурузную шелуху в качестве дополнительного сюрприза.</Text>
+		</Text>
+		<Text>
+			<GUID>1440134383</GUID>
+			<Text>Энчилады это странное блюдо: буррито с шоколадно-сальсовым соусом. Доверьтесь гурманам нового мира - вы об этом не пожалеете.</Text>
+		</Text>
+		<Text>
+			<GUID>1440134384</GUID>
+			<Text>Банановый Хлеб это здоровое и сладкое блюдо для тех кто терпеть не может крем.</Text>
+		</Text>
+		<Text>
+			<GUID>1440134385</GUID>
+			<Text>Этот щербет заморозит ваши чувства как только вы его попробуете.</Text>
+		</Text>
+		<Text>
+			<GUID>1440134386</GUID>
+			<Text>Это воистенну горячий десерт, опередивший свое время.</Text>
+		</Text>
+		<Text>
+			<GUID>1440134387</GUID>
+			<Text>"Маленький Фермер" довольно кислый, но идеальн освежит тех, кому не нужен мозг в ближайшие несколько часов..</Text>
+		</Text>
+		<Text>
+			<GUID>1440134388</GUID>
+			<Text>Горячий напиток с двойным согревающим эффектом.</Text>
+		</Text>
+		<Text>
+			<GUID>1440134389</GUID>
+			<Text>Этим напитком можно наслаждаться только после победы над мастером меча в фехтовании, кражи артефакта или нахождения сокровища.</Text>
+		</Text>
+		<Text>
+			<GUID>1440134394</GUID>
+			<Text>Все резеденции Нового Света</Text>
+		</Text>
+		<Text>
+			<GUID>1440134395</GUID>
+			<Text>Боксерская Арена</Text>
+		</Text>
+		<Text>
+			<GUID>1440134350</GUID>
+			<Text>Чурраско</Text>
+		</Text>
+		<Text>
+			<GUID>1440134360</GUID>
+			<Text>Чурраско</Text>
+		</Text>
+		<Text>
+			<GUID>1440134370</GUID>
+			<Text>Чурраско</Text>
+		</Text>
+		<Text>
+			<GUID>1440134351</GUID>
+			<Text>Памонха</Text>
+		</Text>
+		<Text>
+			<GUID>1440134361</GUID>
+			<Text>Памонха</Text>
+		</Text>
+		<Text>
+			<GUID>1440134371</GUID>
+			<Text>Памонха</Text>
+		</Text>
+		<Text>
+			<GUID>1440134352</GUID>
+			<Text>Энчилады</Text>
+		</Text>
+		<Text>
+			<GUID>1440134362</GUID>
+			<Text>Энчилады</Text>
+		</Text>
+		<Text>
+			<GUID>1440134372</GUID>
+			<Text>Энчилады</Text>
+		</Text>
+		<Text>
+			<GUID>1440134353</GUID>
+			<Text>Банановый Хлеб</Text>
+		</Text>
+		<Text>
+			<GUID>1440134363</GUID>
+			<Text>Банановый Хлеб</Text>
+		</Text>
+		<Text>
+			<GUID>1440134373</GUID>
+			<Text>Банановый Хлеб</Text>
+		</Text>
+		<Text>
+			<GUID>1440134354</GUID>
+			<Text>Щербет "Обморожение Головы"</Text>
+		</Text>
+		<Text>
+			<GUID>1440134364</GUID>
+			<Text>Щербет "Обморожение Головы"</Text>
+		</Text>
+		<Text>
+			<GUID>1440134374</GUID>
+			<Text>Щербет "Обморожение Головы"</Text>
+		</Text>
+		<Text>
+			<GUID>1440134355</GUID>
+			<Text>Бананы Фостер</Text>
+		</Text>
+		<Text>
+			<GUID>1440134365</GUID>
+			<Text>Бананы Фостер</Text>
+		</Text>
+		<Text>
+			<GUID>1440134375</GUID>
+			<Text>Бананы Фостер</Text>
+		</Text>
+		<Text>
+			<GUID>1440134356</GUID>
+			<Text>Кайпиринья</Text>
+		</Text>
+		<Text>
+			<GUID>1440134366</GUID>
+			<Text>Кайпиринья</Text>
+		</Text>
+		<Text>
+			<GUID>1440134376</GUID>
+			<Text>Кайпиринья</Text>
+		</Text>
+		<Text>
+			<GUID>1440134357</GUID>
+			<Text>Навегадо</Text>
+		</Text>
+		<Text>
+			<GUID>1440134367</GUID>
+			<Text>Навегадо</Text>
+		</Text>
+		<Text>
+			<GUID>1440134377</GUID>
+			<Text>Навегадо</Text>
+		</Text>
+		<Text>
+			<GUID>1440134358</GUID>
+			<Text>Секрет Острова Обезьян</Text>
+		</Text>
+		<Text>
+			<GUID>1440134368</GUID>
+			<Text>Секрет Острова Обезьян</Text>
+		</Text>
+		<Text>
+			<GUID>1440134378</GUID>
+			<Text>Секрет Острова Обезьян</Text>
+		</Text>
+		<Text>
+			<GUID>1440134400</GUID>
+			<Text>Христос-Искупитель</Text>
+		</Text>
+		<Text>
+			<GUID>1440134401</GUID>
+			<Text>Перекусить эксклюзивной закуской рядом со статуей Хриса-Искупителья - это незабываемый опыт, который ни один турист никогда не забудет в своей жизни.</Text>
+		</Text>
+		<Text>
+			<GUID>1440134410</GUID>
+			<Text>Христос-Искупитель</Text>
+		</Text>
+		<Text>
+			<GUID>1440134411</GUID>
+			<Text>Христос-Искупитель</Text>
+		</Text>
+		<Text>
+			<GUID>1440134412</GUID>
+			<Text>Христос-Искупитель</Text>
+		</Text>
+		<Text>
+			<GUID>1440134402</GUID>
+			<Text>Королевская бриошь</Text>
+		</Text>
+		<Text>
+			<GUID>1440134403</GUID>
+			<Text>Бисквитная башня</Text>
+		</Text>
+		<Text>
+			<GUID>1440134404</GUID>
+			<Text>Леди-джем</Text>
+		</Text>
+		<Text>
+			<GUID>1440134413</GUID>
+			<Text>Часто дело в мелочах. Будь то початки на гриле, чашка кофе, кусок шоколада или сигарета. Они делают твой день намного лучше.</Text>
+		</Text>
+		<Text>
+			<GUID>1440134414</GUID>
+			<Text>Закуски со всего Нового Света. Это опыт для любого туриста, который хочет захватывающего путешествия.</Text>
+		</Text>
+		<Text>
+			<GUID>1440134415</GUID>
+			<Text>Тоска по дому случается даже с самым искушенным туристом. Небольшая закуска из старого доброго дома время от времени может помочь от нее избавиться.</Text>
+		</Text>
+		<Text>
+			<GUID>1440134420</GUID>
+			<Text>Королевская бриошь</Text>
+		</Text>
+		<Text>
+			<GUID>1440134421</GUID>
+			<Text>Бисквитная башня</Text>
+		</Text>
+		<Text>
+			<GUID>1440134422</GUID>
+			<Text>Леди-джем</Text>
+		</Text>
+		<Text>
+			<GUID>1440134405</GUID>
+			<Text>[AssetData(1010348) Text]</Text>
+		</Text>
+		<Text>
+			<GUID>1440134406</GUID>
+			<Text>[AssetData(1440134400) Text]</Text>
+		</Text>
+	</ModOp>
+</ModOps>

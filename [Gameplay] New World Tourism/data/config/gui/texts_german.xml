@@ -1,0 +1,320 @@
+<ModOps>
+	<ModOp Path="/TextExport/Texts" Type="add">
+		<Text>
+			<GUID>1440134340</GUID>
+			<Text>Restaurant</Text>
+		</Text>
+		<Text>
+			<GUID>1440134341</GUID>
+			<Text>Café</Text>
+		</Text>
+		<Text>
+			<GUID>1440134342</GUID>
+			<Text>Bar</Text>
+		</Text>
+		<Text>
+			<GUID>1440134300</GUID>
+			<Text>Tropenhotel</Text>
+		</Text>
+		<Text>
+			<GUID>1440134301</GUID>
+			<Text>Bushaltestelle</Text>
+		</Text>
+		<Text>
+			<GUID>1440134302</GUID>
+			<Text>Touristenhafen</Text>
+		</Text>
+		<Text>
+			<GUID>1440134330</GUID>
+			<Text>Churrasco</Text>
+		</Text>
+		<Text>
+			<GUID>1440134331</GUID>
+			<Text>Pamonha</Text>
+		</Text>
+		<Text>
+			<GUID>1440134332</GUID>
+			<Text>Enchiladas</Text>
+		</Text>
+		<Text>
+			<GUID>1440134333</GUID>
+			<Text>Bananenbrot</Text>
+		</Text>
+		<Text>
+			<GUID>1440134334</GUID>
+			<Text>Sorbet "Hirnfrost"</Text>
+		</Text>
+		<Text>
+			<GUID>1440134335</GUID>
+			<Text>Flambierte Bananen</Text>
+		</Text>
+		<Text>
+			<GUID>1440134336</GUID>
+			<Text>Caipirinha</Text>
+		</Text>
+		<Text>
+			<GUID>1440134337</GUID>
+			<Text>Navegado</Text>
+		</Text>
+		<Text>
+			<GUID>1440134338</GUID>
+			<Text>Geheimnis der Affeninsel</Text>
+		</Text>
+		<Text>
+			<GUID>1440134303</GUID>
+			<Text>Restaurant: Churrasco</Text>
+		</Text>
+		<Text>
+			<GUID>1440134304</GUID>
+			<Text>Restaurant: Pamonha</Text>
+		</Text>
+		<Text>
+			<GUID>1440134305</GUID>
+			<Text>Restaurant: Enchiladas</Text>
+		</Text>
+		<Text>
+			<GUID>1440134306</GUID>
+			<Text>Cafe: Bananenbrot</Text>
+		</Text>
+		<Text>
+			<GUID>1440134307</GUID>
+			<Text>Cafe: Sorbet "Hirnfrost"</Text>
+		</Text>
+		<Text>
+			<GUID>1440134308</GUID>
+			<Text>Cafe: Flambierte Bananen</Text>
+		</Text>
+		<Text>
+			<GUID>1440134309</GUID>
+			<Text>Bar: Caipirinha</Text>
+		</Text>
+		<Text>
+			<GUID>1440134310</GUID>
+			<Text>Bar: Navegado</Text>
+		</Text>
+		<Text>
+			<GUID>1440134311</GUID>
+			<Text>Bar: Geheimnis der Affeninsel</Text>
+		</Text>
+		<Text>
+			<GUID>1440134380</GUID>
+			<Text>Touristen</Text>
+		</Text>
+		<Text>
+			<GUID>1440134381</GUID>
+			<Text>Köstliches Fleisch, gegrillt in purem Fett.</Text>
+		</Text>
+		<Text>
+			<GUID>1440134382</GUID>
+			<Text>Maisbrei mit Würstchen und Paprika in einer Maispflanze eingewickelt - Für die Extra-Essens-Überraschung</Text>
+		</Text>
+		<Text>
+			<GUID>1440134383</GUID>
+			<Text>Enchiladas sind doch ein seltsames Gericht, Burritos mit einer Schokoladen-Salsa-Sauce. Der Tourist möge den Feinschmeckern der neuen Welt vertrauen, und er wird es nicht bereuen!</Text>
+		</Text>
+		<Text>
+			<GUID>1440134384</GUID>
+			<Text>Das Bananenbrot ist eine gesunde und süße Alternative für Sahne-Verabscheuer und Abnehm-Enthusiasten.</Text>
+		</Text>
+		<Text>
+			<GUID>1440134385</GUID>
+			<Text>Dieses Sorbet friert die Sinne förmlich ein, sobald es den Gaumen berührt.</Text>
+		</Text>
+		<Text>
+			<GUID>1440134386</GUID>
+			<Text>Jeder Tourist ist Feuer und Flamme bei diesem Dessert, das seiner Zeit geradezu vorauseilt.</Text>
+		</Text>
+		<Text>
+			<GUID>1440134387</GUID>
+			<Text>Der "kleine Bauer" ist fast schon abstoßend säuerlich, aber die ideale Erfrischung für jeden, der nicht plant, seine Sinne in den nächsten Stunden anzustrengen</Text>
+		</Text>
+		<Text>
+			<GUID>1440134388</GUID>
+			<Text>Das Heißgetränk mit einem Zwei-in-Eins Aufwärmeffekt.</Text>
+		</Text>
+		<Text>
+			<GUID>1440134389</GUID>
+			<Text>Dieses seltsame Getränk darf nur genießen, wer den Schwertmeister im Fechten besiegt, das Artefakt gestohlen und den Schatz gefunden hat.</Text>
+		</Text>
+		<Text>
+			<GUID>1440134394</GUID>
+			<Text>Alle Wohnhäuser der neuen Welt</Text>
+		</Text>
+		<Text>
+			<GUID>1440134395</GUID>
+			<Text>Boxkampfarena</Text>
+		</Text>
+		<Text>
+			<GUID>1440134350</GUID>
+			<Text>Churrasco</Text>
+		</Text>
+		<Text>
+			<GUID>1440134360</GUID>
+			<Text>Churrasco</Text>
+		</Text>
+		<Text>
+			<GUID>1440134370</GUID>
+			<Text>Churrasco</Text>
+		</Text>
+		<Text>
+			<GUID>1440134351</GUID>
+			<Text>Pamonha</Text>
+		</Text>
+		<Text>
+			<GUID>1440134361</GUID>
+			<Text>Pamonha</Text>
+		</Text>
+		<Text>
+			<GUID>1440134371</GUID>
+			<Text>Pamonha</Text>
+		</Text>
+		<Text>
+			<GUID>1440134352</GUID>
+			<Text>Enchiladas</Text>
+		</Text>
+		<Text>
+			<GUID>1440134362</GUID>
+			<Text>Enchiladas</Text>
+		</Text>
+		<Text>
+			<GUID>1440134372</GUID>
+			<Text>Enchiladas</Text>
+		</Text>
+		<Text>
+			<GUID>1440134353</GUID>
+			<Text>Bananenbrot</Text>
+		</Text>
+		<Text>
+			<GUID>1440134363</GUID>
+			<Text>Bananenbrot</Text>
+		</Text>
+		<Text>
+			<GUID>1440134373</GUID>
+			<Text>Bananenbrot</Text>
+		</Text>
+		<Text>
+			<GUID>1440134354</GUID>
+			<Text>Sorbet "Hirnfrost"</Text>
+		</Text>
+		<Text>
+			<GUID>1440134364</GUID>
+			<Text>Sorbet "Hirnfrost"</Text>
+		</Text>
+		<Text>
+			<GUID>1440134374</GUID>
+			<Text>Sorbet "Hirnfrost"</Text>
+		</Text>
+		<Text>
+			<GUID>1440134355</GUID>
+			<Text>Flambierte Bananen</Text>
+		</Text>
+		<Text>
+			<GUID>1440134365</GUID>
+			<Text>Flambierte Bananen</Text>
+		</Text>
+		<Text>
+			<GUID>1440134375</GUID>
+			<Text>Flambierte Bananen</Text>
+		</Text>
+		<Text>
+			<GUID>1440134356</GUID>
+			<Text>Caipirinha</Text>
+		</Text>
+		<Text>
+			<GUID>1440134366</GUID>
+			<Text>Caipirinha</Text>
+		</Text>
+		<Text>
+			<GUID>1440134376</GUID>
+			<Text>Caipirinha</Text>
+		</Text>
+		<Text>
+			<GUID>1440134357</GUID>
+			<Text>Navegado</Text>
+		</Text>
+		<Text>
+			<GUID>1440134367</GUID>
+			<Text>Navegado</Text>
+		</Text>
+		<Text>
+			<GUID>1440134377</GUID>
+			<Text>Navegado</Text>
+		</Text>
+		<Text>
+			<GUID>1440134358</GUID>
+			<Text>Geheimnis der Affeninsel</Text>
+		</Text>
+		<Text>
+			<GUID>1440134368</GUID>
+			<Text>Geheimnis der Affeninsel</Text>
+		</Text>
+		<Text>
+			<GUID>1440134378</GUID>
+			<Text>Geheimnis der Affeninsel</Text>
+		</Text>
+		<Text>
+			<GUID>1440134400</GUID>
+			<Text>Christo Redentor</Text>
+		</Text>
+		<Text>
+			<GUID>1440134401</GUID>
+			<Text>Sei es auch nur ein Imbiss: Neben einer Statue von Christus, dem Erlöser wird kein Tourist jemals die kleine, sündhaft überteuerte Mahlzeit vergessen!</Text>
+		</Text>
+		<Text>
+			<GUID>1440134410</GUID>
+			<Text>Christo Redentor</Text>
+		</Text>
+		<Text>
+			<GUID>1440134411</GUID>
+			<Text>Christo Redentor</Text>
+		</Text>
+		<Text>
+			<GUID>1440134412</GUID>
+			<Text>Christo Redentor</Text>
+		</Text>
+		<Text>
+			<GUID>1440134402</GUID>
+			<Text>Brioche Royale</Text>
+		</Text>
+		<Text>
+			<GUID>1440134403</GUID>
+			<Text>La Tour Trifle</Text>
+		</Text>
+		<Text>
+			<GUID>1440134404</GUID>
+			<Text>Madame Marmelade</Text>
+		</Text>
+		<Text>
+			<GUID>1440134413</GUID>
+			<Text>Es geht eben so oft um die kleinen Dinge, sei es ein gegrillter Maiskolben, eine Tasse Kaffee, ein Stück Schokolade oder eine Zigarette. Es macht deinen Tag besser.</Text>
+		</Text>
+		<Text>
+			<GUID>1440134414</GUID>
+			<Text>Imbisse aus der neuen Welt - Für den, der wirklich die Geschmäcker des Dschungels erleben will.</Text>
+		</Text>
+		<Text>
+			<GUID>1440134415</GUID>
+			<Text>Heimweh hat auch der entdeckungslustigste Tourist von Zeit zu Zeit. Sich mal ganz wie zuhause fühlen ist da eine willkommene Abwechslung.</Text>
+		</Text>
+		<Text>
+			<GUID>1440134420</GUID>
+			<Text>Brioche Royale</Text>
+		</Text>
+		<Text>
+			<GUID>1440134421</GUID>
+			<Text>La Tour Trifle</Text>
+		</Text>
+		<Text>
+			<GUID>1440134422</GUID>
+			<Text>Madame Marmelade</Text>
+		</Text>
+		<Text>
+			<GUID>1440134405</GUID>
+			<Text>[AssetData(1010348) Text]</Text>
+		</Text>
+		<Text>
+			<GUID>1440134406</GUID>
+			<Text>[AssetData(1440134400) Text]</Text>
+		</Text>
+	</ModOp>
+</ModOps>

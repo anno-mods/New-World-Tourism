@@ -1,0 +1,321 @@
+<ModOps>
+	<!-- Italian Translation by Robbob -->
+	<ModOp Path="/TextExport/Texts" Type="add">
+		<Text>
+			<GUID>1440134340</GUID>
+			<Text>Ristorante</Text>
+		</Text>
+		<Text>
+			<GUID>1440134341</GUID>
+			<Text>Caffé</Text>
+		</Text>
+		<Text>
+			<GUID>1440134342</GUID>
+			<Text>Bar</Text>
+		</Text>
+		<Text>
+			<GUID>1440134300</GUID>
+			<Text>Hotel Tropicale</Text>
+		</Text>
+		<Text>
+			<GUID>1440134301</GUID>
+			<Text>Fermata degli autobus</Text>
+		</Text>
+		<Text>
+			<GUID>1440134302</GUID>
+			<Text>Attracco turistico</Text>
+		</Text>
+		<Text>
+			<GUID>1440134330</GUID>
+			<Text>Churrasco</Text>
+		</Text>
+		<Text>
+			<GUID>1440134331</GUID>
+			<Text>Pamonha</Text>
+		</Text>
+		<Text>
+			<GUID>1440134332</GUID>
+			<Text>Enchiladas</Text>
+		</Text>
+		<Text>
+			<GUID>1440134333</GUID>
+			<Text>Banana Bread</Text>
+		</Text>
+		<Text>
+			<GUID>1440134334</GUID>
+			<Text>Sorbetto "Gelatesta"</Text>
+		</Text>
+		<Text>
+			<GUID>1440134335</GUID>
+			<Text>Bananas Foster</Text>
+		</Text>
+		<Text>
+			<GUID>1440134336</GUID>
+			<Text>Caipirinha</Text>
+		</Text>
+		<Text>
+			<GUID>1440134337</GUID>
+			<Text>Navegado</Text>
+		</Text>
+		<Text>
+			<GUID>1440134338</GUID>
+			<Text>Il segreto di Monkey Island</Text>
+		</Text>
+		<Text>
+			<GUID>1440134303</GUID>
+			<Text>Ristorante: Churrasco</Text>
+		</Text>
+		<Text>
+			<GUID>1440134304</GUID>
+			<Text>Ristorante: Pamonha</Text>
+		</Text>
+		<Text>
+			<GUID>1440134305</GUID>
+			<Text>Ristorante: Enchiladas</Text>
+		</Text>
+		<Text>
+			<GUID>1440134306</GUID>
+			<Text>Caffé: Banana Bread</Text>
+		</Text>
+		<Text>
+			<GUID>1440134307</GUID>
+			<Text>Caffé: Sorbetto "Gelatesta"</Text>
+		</Text>
+		<Text>
+			<GUID>1440134308</GUID>
+			<Text>Caffé: Bananas Foster</Text>
+		</Text>
+		<Text>
+			<GUID>1440134309</GUID>
+			<Text>Bar: Caipirinha</Text>
+		</Text>
+		<Text>
+			<GUID>1440134310</GUID>
+			<Text>Bar: Navegado</Text>
+		</Text>
+		<Text>
+			<GUID>1440134311</GUID>
+			<Text>Bar: Il segreto di Monkey Island</Text>
+		</Text>
+		<Text>
+			<GUID>1440134380</GUID>
+			<Text>Turisti</Text>
+		</Text>
+		<Text>
+			<GUID>1440134381</GUID>
+			<Text>Carne deliziosa, rosolata nel puro grasso.</Text>
+		</Text>
+		<Text>
+			<GUID>1440134382</GUID>
+			<Text>Un fagottino di mais con salsiccia e peperoni rossi, avvolto con una foglia di mais così da creare un effetto sopresa.</Text>
+		</Text>
+		<Text>
+			<GUID>1440134383</GUID>
+			<Text>Le Enchiladas sono un piatto strano, dei burritos con una salsa al cacao. Fidati dei gourmet del Nuovo Mondo, i tuoi sensi non se ne pentiranno.</Text>
+		</Text>
+		<Text>
+			<GUID>1440134384</GUID>
+			<Text>Il banana bread è un'opzione dolce e salutare per tutti quelli che non sopportano la panna.</Text>
+		</Text>
+		<Text>
+			<GUID>1440134385</GUID>
+			<Text>Questo sorbetto ti congelerà i sensi fin dal primo assaggio.</Text>
+		</Text>
+		<Text>
+			<GUID>1440134386</GUID>
+			<Text>Sicuramente un dessert piuttosto infiammabile e un po' avanti rispetto ai tempi.</Text>
+		</Text>
+		<Text>
+			<GUID>1440134387</GUID>
+			<Text>Il "contadinotto" è piuttosto aspro, ma è un drink rinfrescante perfetto per chi non ha bisogno del cervello nelle ore successive.</Text>
+		</Text>
+		<Text>
+			<GUID>1440134388</GUID>
+			<Text>Un caldo drink dal doppio effetto riscaldante.</Text>
+		</Text>
+		<Text>
+			<GUID>1440134389</GUID>
+			<Text>Questo drink può essere apprezzato a pieno solo dopo aver battuto a duello il Maestro di Spada, aver rubato un artefatto e aver trovato un tesoro.</Text>
+		</Text>
+		<Text>
+			<GUID>1440134394</GUID>
+			<Text>Tutte le residenze del Nuovo Mondo</Text>
+		</Text>
+		<Text>
+			<GUID>1440134395</GUID>
+			<Text>Arena di pugilato</Text>
+		</Text>
+		<Text>
+			<GUID>1440134350</GUID>
+			<Text>Churrasco</Text>
+		</Text>
+		<Text>
+			<GUID>1440134360</GUID>
+			<Text>Churrasco</Text>
+		</Text>
+		<Text>
+			<GUID>1440134370</GUID>
+			<Text>Churrasco</Text>
+		</Text>
+		<Text>
+			<GUID>1440134351</GUID>
+			<Text>Pamonha</Text>
+		</Text>
+		<Text>
+			<GUID>1440134361</GUID>
+			<Text>Pamonha</Text>
+		</Text>
+		<Text>
+			<GUID>1440134371</GUID>
+			<Text>Pamonha</Text>
+		</Text>
+		<Text>
+			<GUID>1440134352</GUID>
+			<Text>Enchiladas</Text>
+		</Text>
+		<Text>
+			<GUID>1440134362</GUID>
+			<Text>Enchiladas</Text>
+		</Text>
+		<Text>
+			<GUID>1440134372</GUID>
+			<Text>Enchiladas</Text>
+		</Text>
+		<Text>
+			<GUID>1440134353</GUID>
+			<Text>Banana Bread</Text>
+		</Text>
+		<Text>
+			<GUID>1440134363</GUID>
+			<Text>Banana Bread</Text>
+		</Text>
+		<Text>
+			<GUID>1440134373</GUID>
+			<Text>Banana Bread</Text>
+		</Text>
+		<Text>
+			<GUID>1440134354</GUID>
+			<Text>Sorbetto "Gelatesta"</Text>
+		</Text>
+		<Text>
+			<GUID>1440134364</GUID>
+			<Text>Sorbetto "Gelatesta"</Text>
+		</Text>
+		<Text>
+			<GUID>1440134374</GUID>
+			<Text>Sorbetto "Gelatesta"</Text>
+		</Text>
+		<Text>
+			<GUID>1440134355</GUID>
+			<Text>Bananas Foster</Text>
+		</Text>
+		<Text>
+			<GUID>1440134365</GUID>
+			<Text>Bananas Foster</Text>
+		</Text>
+		<Text>
+			<GUID>1440134375</GUID>
+			<Text>Bananas Foster</Text>
+		</Text>
+		<Text>
+			<GUID>1440134356</GUID>
+			<Text>Caipirinha</Text>
+		</Text>
+		<Text>
+			<GUID>1440134366</GUID>
+			<Text>Caipirinha</Text>
+		</Text>
+		<Text>
+			<GUID>1440134376</GUID>
+			<Text>Caipirinha</Text>
+		</Text>
+		<Text>
+			<GUID>1440134357</GUID>
+			<Text>Navegado</Text>
+		</Text>
+		<Text>
+			<GUID>1440134367</GUID>
+			<Text>Navegado</Text>
+		</Text>
+		<Text>
+			<GUID>1440134377</GUID>
+			<Text>Navegado</Text>
+		</Text>
+		<Text>
+			<GUID>1440134358</GUID>
+			<Text>Il Segreto di Monkey Island</Text>
+		</Text>
+		<Text>
+			<GUID>1440134368</GUID>
+			<Text>Il Segreto di Monkey Island</Text>
+		</Text>
+		<Text>
+			<GUID>1440134378</GUID>
+			<Text>Il Segreto di Monkey Island</Text>
+		</Text>
+		<Text>
+			<GUID>1440134400</GUID>
+			<Text>Cristo Redentor</Text>
+		</Text>
+		<Text>
+			<GUID>1440134401</GUID>
+			<Text>Mangiare un piccolo ed esclusivo spuntino vicino ad una statua del Cristo Redentore è un'esperienza che nessun turista dimenticherà mai per il resto della propria vita.</Text>
+		</Text>
+		<Text>
+			<GUID>1440134410</GUID>
+			<Text>Cristo Redentor</Text>
+		</Text>
+		<Text>
+			<GUID>1440134411</GUID>
+			<Text>Cristo Redentor</Text>
+		</Text>
+		<Text>
+			<GUID>1440134412</GUID>
+			<Text>Cristo Redentor</Text>
+		</Text>
+		<Text>
+			<GUID>1440134402</GUID>
+			<Text>Brioche Royale</Text>
+		</Text>
+		<Text>
+			<GUID>1440134403</GUID>
+			<Text>Torre di zuppa inglese</Text>
+		</Text>
+		<Text>
+			<GUID>1440134404</GUID>
+			<Text>Lady Marmelade</Text>
+		</Text>
+		<Text>
+			<GUID>1440134413</GUID>
+			<Text>Spesso sono le piccole cose quelle che contano. Che siano una pannocchia tostata, una tazza di caffé, un pezzo di cioccolata o anche una sigaretta. Sono quelle cose che migliorano una giornata.</Text>
+		</Text>
+		<Text>
+			<GUID>1440134414</GUID>
+			<Text>Spuntini da ogni angolo del Nuovo Mondo. L'esperienza per ogni turista che voglia vivere un viaggio autentico.</Text>
+		</Text>
+		<Text>
+			<GUID>1440134415</GUID>
+			<Text>La nostalgia può prendere anche il turista più avventuroso. Un bello spuntino dalla cara vecchia casa può farla passare di tanto in tanto.</Text>
+		</Text>
+		<Text>
+			<GUID>1440134420</GUID>
+			<Text>Brioche Royale</Text>
+		</Text>
+		<Text>
+			<GUID>1440134421</GUID>
+			<Text>Torre di zuppa inglese</Text>
+		</Text>
+		<Text>
+			<GUID>1440134422</GUID>
+			<Text>Lady Marmelade</Text>
+		</Text>
+		<Text>
+			<GUID>1440134405</GUID>
+			<Text>[AssetData(1010348) Text]</Text>
+		</Text>
+		<Text>
+			<GUID>1440134406</GUID>
+			<Text>[AssetData(1440134400) Text]</Text>
+		</Text>
+	</ModOp>
+</ModOps>

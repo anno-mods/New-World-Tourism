@@ -1,0 +1,321 @@
+<ModOps>
+	<!-- French Translation by Ildrenium -->
+	<ModOp Path="/TextExport/Texts" Type="add">
+		<Text>
+			<GUID>1440134340</GUID>
+			<Text>Restaurant</Text>
+		</Text>
+		<Text>
+			<GUID>1440134341</GUID>
+			<Text>Bistrot</Text>
+		</Text>
+		<Text>
+			<GUID>1440134342</GUID>
+			<Text>Bar</Text>
+		</Text>
+		<Text>
+			<GUID>1440134300</GUID>
+			<Text>Hôtel Tropical</Text>
+		</Text>
+		<Text>
+			<GUID>1440134301</GUID>
+			<Text>Arrêt de bus</Text>
+		</Text>
+		<Text>
+			<GUID>1440134302</GUID>
+			<Text>Ammarage de tourisme</Text>
+		</Text>
+		<Text>
+			<GUID>1440134330</GUID>
+			<Text>Churrasco</Text>
+		</Text>
+		<Text>
+			<GUID>1440134331</GUID>
+			<Text>Pamonha</Text>
+		</Text>
+		<Text>
+			<GUID>1440134332</GUID>
+			<Text>Enchiladas</Text>
+		</Text>
+		<Text>
+			<GUID>1440134333</GUID>
+			<Text>Pain à la banane</Text>
+		</Text>
+		<Text>
+			<GUID>1440134334</GUID>
+			<Text>Sorbet "Gel du cerveau"</Text>
+		</Text>
+		<Text>
+			<GUID>1440134335</GUID>
+			<Text>Banane flambée</Text>
+		</Text>
+		<Text>
+			<GUID>1440134336</GUID>
+			<Text>Caipirinha</Text>
+		</Text>
+		<Text>
+			<GUID>1440134337</GUID>
+			<Text>Navegado</Text>
+		</Text>
+		<Text>
+			<GUID>1440134338</GUID>
+			<Text>The Secret of Monkey Island</Text>
+		</Text>
+		<Text>
+			<GUID>1440134303</GUID>
+			<Text>Restaurant : Churrasco</Text>
+		</Text>
+		<Text>
+			<GUID>1440134304</GUID>
+			<Text>Restaurant : Pamonha</Text>
+		</Text>
+		<Text>
+			<GUID>1440134305</GUID>
+			<Text>Restaurant : Enchiladas</Text>
+		</Text>
+		<Text>
+			<GUID>1440134306</GUID>
+			<Text>Bistrot : Pain à la banane</Text>
+		</Text>
+		<Text>
+			<GUID>1440134307</GUID>
+			<Text>Bistrot : Sorbet "Gel du cerveau"</Text>
+		</Text>
+		<Text>
+			<GUID>1440134308</GUID>
+			<Text>Bistrot : Banane flambée</Text>
+		</Text>
+		<Text>
+			<GUID>1440134309</GUID>
+			<Text>Bar : Caipirinha</Text>
+		</Text>
+		<Text>
+			<GUID>1440134310</GUID>
+			<Text>Bar : Navegado</Text>
+		</Text>
+		<Text>
+			<GUID>1440134311</GUID>
+			<Text>Bar : The Secret of Monkey Island</Text>
+		</Text>
+		<Text>
+			<GUID>1440134380</GUID>
+			<Text>Touristes</Text>
+		</Text>
+		<Text>
+			<GUID>1440134381</GUID>
+			<Text>Délicieuse viande, cuite dans la graisse de la plus haute qualité.</Text>
+		</Text>
+		<Text>
+			<GUID>1440134382</GUID>
+			<Text>Une pâte de maïs avec des saucisses et des poivrons rouges, le tout emballé d'une feuille de maïs pour une présentation autentique.</Text>
+		</Text>
+		<Text>
+			<GUID>1440134383</GUID>
+			<Text> Les Enchiladas sont un plat curieux, des burritos avec une sauce chocolatée. Fiez vous aux gourmets du Nouveau Monde, vos sens ne le regretteront pas.</Text>
+		</Text>
+		<Text>
+			<GUID>1440134384</GUID>
+			<Text>Le pain à la banane est une option saine et sucrée pour ceux qui ne tolérent pas la créme.</Text>
+		</Text>
+		<Text>
+			<GUID>1440134385</GUID>
+			<Text>Ce sorbet vous glacera le palais à la dégustation.</Text>
+		</Text>
+		<Text>
+			<GUID>1440134386</GUID>
+			<Text>C'est effectivement un dessert des plus inflamable, très en avance sur son temps.</Text>
+		</Text>
+		<Text>
+			<GUID>1440134387</GUID>
+			<Text>Bien qu'amére la "petite rustique" reste le rafraichissement parfait pour quiconque n'aura pas besoin de son cerveau dans les prochaines heures.</Text>
+		</Text>
+		<Text>
+			<GUID>1440134388</GUID>
+			<Text>Une boisson chaude qui vous réchauffera de deux façon.</Text>
+		</Text>
+		<Text>
+			<GUID>1440134389</GUID>
+			<Text>On ne peut profiter de cette boisson qu'aprés avoir gagné un duel contre la Reine du Sabre, trouvé un trésor, et volé une idole.</Text>
+		</Text>
+		<Text>
+			<GUID>1440134394</GUID>
+			<Text>Affecte Toutes les résidences du Nouveau Monde</Text>
+		</Text>
+		<Text>
+			<GUID>1440134395</GUID>
+			<Text>Salle de boxe</Text>
+		</Text>
+		<Text>
+			<GUID>1440134350</GUID>
+			<Text>Churrasco</Text>
+		</Text>
+		<Text>
+			<GUID>1440134360</GUID>
+			<Text>Churrasco</Text>
+		</Text>
+		<Text>
+			<GUID>1440134370</GUID>
+			<Text>Churrasco</Text>
+		</Text>
+		<Text>
+			<GUID>1440134351</GUID>
+			<Text>Pamonha</Text>
+		</Text>
+		<Text>
+			<GUID>1440134361</GUID>
+			<Text>Pamonha</Text>
+		</Text>
+		<Text>
+			<GUID>1440134371</GUID>
+			<Text>Pamonha</Text>
+		</Text>
+		<Text>
+			<GUID>1440134352</GUID>
+			<Text>Enchiladas</Text>
+		</Text>
+		<Text>
+			<GUID>1440134362</GUID>
+			<Text>Enchiladas</Text>
+		</Text>
+		<Text>
+			<GUID>1440134372</GUID>
+			<Text>Enchiladas</Text>
+		</Text>
+		<Text>
+			<GUID>1440134353</GUID>
+			<Text>Pain à la banane</Text>
+		</Text>
+		<Text>
+			<GUID>1440134363</GUID>
+			<Text>Pain à la banane</Text>
+		</Text>
+		<Text>
+			<GUID>1440134373</GUID>
+			<Text>Pain à la banane</Text>
+		</Text>
+		<Text>
+			<GUID>1440134354</GUID>
+			<Text>Sorbet "Gel du cerveau"</Text>
+		</Text>
+		<Text>
+			<GUID>1440134364</GUID>
+			<Text>Sorbet "Gel du cerveau"</Text>
+		</Text>
+		<Text>
+			<GUID>1440134374</GUID>
+			<Text>Sorbet "Gel du cerveau"</Text>
+		</Text>
+		<Text>
+			<GUID>1440134355</GUID>
+			<Text>Banane flambée</Text>
+		</Text>
+		<Text>
+			<GUID>1440134365</GUID>
+			<Text>Banane flambée</Text>
+		</Text>
+		<Text>
+			<GUID>1440134375</GUID>
+			<Text>Banane flambée</Text>
+		</Text>
+		<Text>
+			<GUID>1440134356</GUID>
+			<Text>Caipirinha</Text>
+		</Text>
+		<Text>
+			<GUID>1440134366</GUID>
+			<Text>Caipirinha</Text>
+		</Text>
+		<Text>
+			<GUID>1440134376</GUID>
+			<Text>Caipirinha</Text>
+		</Text>
+		<Text>
+			<GUID>1440134357</GUID>
+			<Text>Navegado</Text>
+		</Text>
+		<Text>
+			<GUID>1440134367</GUID>
+			<Text>Navegado</Text>
+		</Text>
+		<Text>
+			<GUID>1440134377</GUID>
+			<Text>Navegado</Text>
+		</Text>
+		<Text>
+			<GUID>1440134358</GUID>
+			<Text>The Secret of Monkey Island</Text>
+		</Text>
+		<Text>
+			<GUID>1440134368</GUID>
+			<Text>The Secret of Monkey Island</Text>
+		</Text>
+		<Text>
+			<GUID>1440134378</GUID>
+			<Text>The Secret of Monkey Island</Text>
+		</Text>
+		<Text>
+			<GUID>1440134400</GUID>
+			<Text>Le Christ Rédempteur</Text>
+		</Text>
+		<Text>
+			<GUID>1440134401</GUID>
+			<Text>Avoir une petite collation à coté du Chirst Rédempteur est une expérience qu'aucun touriste n'oubliera de sa vie.</Text>
+		</Text>
+		<Text>
+			<GUID>1440134410</GUID>
+			<Text>Le Christ Rédempteur</Text>
+		</Text>
+		<Text>
+			<GUID>1440134411</GUID>
+			<Text>Le Christ Rédempteur</Text>
+		</Text>
+		<Text>
+			<GUID>1440134412</GUID>
+			<Text>Le Christ Rédempteur</Text>
+		</Text>
+		<Text>
+			<GUID>1440134402</GUID>
+			<Text>Brioche royale</Text>
+		</Text>
+		<Text>
+			<GUID>1440134403</GUID>
+			<Text>Tour pâtissière</Text>
+		</Text>
+		<Text>
+			<GUID>1440134404</GUID>
+			<Text>Lady Marmelade</Text>
+		</Text>
+		<Text>
+			<GUID>1440134413</GUID>
+			<Text>Souvent tout est dans les petits détails. Qu'il s'agisse d'un maïs grillé, d'une tasse de café, d'un morceau de chocolat ou d'une cigarette. Cela améliore grandement votre journée.</Text>
+		</Text>
+		<Text>
+			<GUID>1440134414</GUID>
+			<Text>De la nouriture des quatres coins du Nouveau Monde. C'est l'expérience qu'il faut à tout touriste voulant un voyage immersif.</Text>
+		</Text>
+		<Text>
+			<GUID>1440134415</GUID>
+			<Text>Le mal du pays atteint même le plus explorateur des touristes. Un petit snack de la maison peut y remedier de temps à autre.</Text>
+		</Text>
+		<Text>
+			<GUID>1440134420</GUID>
+			<Text>Brioche royale</Text>
+		</Text>
+		<Text>
+			<GUID>1440134421</GUID>
+			<Text>Tour pâtissière</Text>
+		</Text>
+		<Text>
+			<GUID>1440134422</GUID>
+			<Text>Lady Marmelade</Text>
+		</Text>
+		<Text>
+			<GUID>1440134405</GUID>
+			<Text>[AssetData(1010348) Text]</Text>
+		</Text>
+		<Text>
+			<GUID>1440134406</GUID>
+			<Text>[AssetData(1440134400) Text]</Text>
+		</Text>
+	</ModOp>
+</ModOps>

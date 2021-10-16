@@ -1,0 +1,321 @@
+<ModOps>
+	<!-- Korean Translation by Zuzanna Klonowska -->
+	<ModOp Path="/TextExport/Texts" Type="add">
+		<Text>
+			<GUID>1440134340</GUID>
+			<Text>레스토랑</Text>
+		</Text>
+		<Text>
+			<GUID>1440134341</GUID>
+			<Text>카페</Text>
+		</Text>
+		<Text>
+			<GUID>1440134342</GUID>
+			<Text>술집</Text>
+		</Text>
+		<Text>
+			<GUID>1440134300</GUID>
+			<Text>트로피칼 호텔</Text>
+		</Text>
+		<Text>
+			<GUID>1440134301</GUID>
+			<Text>버스 정류장</Text>
+		</Text>
+		<Text>
+			<GUID>1440134302</GUID>
+			<Text>여행객 정박지</Text>
+		</Text>
+		<Text>
+			<GUID>1440134330</GUID>
+			<Text>슈하스쿠</Text>
+		</Text>
+		<Text>
+			<GUID>1440134331</GUID>
+			<Text>파몬하</Text>
+		</Text>
+		<Text>
+			<GUID>1440134332</GUID>
+			<Text>엔칠라다</Text>
+		</Text>
+		<Text>
+			<GUID>1440134333</GUID>
+			<Text>바나나 빵</Text>
+		</Text>
+		<Text>
+			<GUID>1440134334</GUID>
+			<Text>셔벗 "헤드프리즈"</Text>
+		</Text>
+		<Text>
+			<GUID>1440134335</GUID>
+			<Text>바나나 포스테르</Text>
+		</Text>
+		<Text>
+			<GUID>1440134336</GUID>
+			<Text>카이피리냐</Text>
+		</Text>
+		<Text>
+			<GUID>1440134337</GUID>
+			<Text>나베가도</Text>
+		</Text>
+		<Text>
+			<GUID>1440134338</GUID>
+			<Text>원숭이 섬의 비밀</Text>
+		</Text>
+		<Text>
+			<GUID>1440134303</GUID>
+			<Text>레스토랑: 슈하스쿠</Text>
+		</Text>
+		<Text>
+			<GUID>1440134304</GUID>
+			<Text>레스토랑: 파몬하</Text>
+		</Text>
+		<Text>
+			<GUID>1440134305</GUID>
+			<Text>레스토랑: 엔칠라다</Text>
+		</Text>
+		<Text>
+			<GUID>1440134306</GUID>
+			<Text>카페: 바나나 빵</Text>
+		</Text>
+		<Text>
+			<GUID>1440134307</GUID>
+			<Text>카페: 셔벗 "헤드프리즈"</Text>
+		</Text>
+		<Text>
+			<GUID>1440134308</GUID>
+			<Text>카페: 바나나 포스테르</Text>
+		</Text>
+		<Text>
+			<GUID>1440134309</GUID>
+			<Text>술집: 카이피리냐</Text>
+		</Text>
+		<Text>
+			<GUID>1440134310</GUID>
+			<Text>술집: 나베가도</Text>
+		</Text>
+		<Text>
+			<GUID>1440134311</GUID>
+			<Text>술집: 원숭이 섬의 비밀</Text>
+		</Text>
+		<Text>
+			<GUID>1440134380</GUID>
+			<Text>여행객들</Text>
+		</Text>
+		<Text>
+			<GUID>1440134381</GUID>
+			<Text>순지방으로 구운 맛있는 고기.</Text>
+		</Text>
+		<Text>
+			<GUID>1440134382</GUID>
+			<Text>깜짝 놀라게 하려고 옥수수 껍질에 싸는 옥수수 페이스트와 소시지와 밝은 고추.</Text>
+		</Text>
+		<Text>
+			<GUID>1440134383</GUID>
+			<Text>엔칠라다는 부리토와 초콜릿-살사 서스가 있고 이상한 요리다. 산대륙의 마식가를 믿으면 감각은 후회하지 않을 것이다.</Text>
+		</Text>
+		<Text>
+			<GUID>1440134384</GUID>
+			<Text>바나나 빵은 크림을 싫어하는 아무도에게 건강에 좋고 단 디저트.</Text>
+		</Text>
+		<Text>
+			<GUID>1440134385</GUID>
+			<Text>맛보는 순간에 그 셔벗은 당신의 감각을 얼어붙게 할 것이다.</Text>
+		</Text>
+		<Text>
+			<GUID>1440134386</GUID>
+			<Text>시간을 앞서 가는 가연성의 후식이다.</Text>
+		</Text>
+		<Text>
+			<GUID>1440134387</GUID>
+			<Text>"리틀 파르메르"가 조금 시지만 앞으로 몇 시간 동안 뇌가 필요 없는 사람을 위한 완벽한 다과.</Text>
+		</Text>
+		<Text>
+			<GUID>1440134388</GUID>
+			<Text>2중 온열 효과가 있는 뜨거운 음료.</Text>
+		</Text>
+		<Text>
+			<GUID>1440134389</GUID>
+			<Text>검술의 명인을 물리치고 유물을 훔치고 보물을 찾은 후에만 그 술은 즐길 수 있다.</Text>
+		</Text>
+		<Text>
+			<GUID>1440134394</GUID>
+			<Text>모든 신대륙 주택</Text>
+		</Text>
+		<Text>
+			<GUID>1440134395</GUID>
+			<Text>권투 경기장</Text>
+		</Text>
+		<Text>
+			<GUID>1440134350</GUID>
+			<Text>슈하스쿠</Text>
+		</Text>
+		<Text>
+			<GUID>1440134360</GUID>
+			<Text>슈하스쿠</Text>
+		</Text>
+		<Text>
+			<GUID>1440134370</GUID>
+			<Text>슈하스쿠</Text>
+		</Text>
+		<Text>
+			<GUID>1440134351</GUID>
+			<Text>파몬하</Text>
+		</Text>
+		<Text>
+			<GUID>1440134361</GUID>
+			<Text>파몬하</Text>
+		</Text>
+		<Text>
+			<GUID>1440134371</GUID>
+			<Text>파몬하</Text>
+		</Text>
+		<Text>
+			<GUID>1440134352</GUID>
+			<Text>엔칠라다</Text>
+		</Text>
+		<Text>
+			<GUID>1440134362</GUID>
+			<Text>엔칠라다</Text>
+		</Text>
+		<Text>
+			<GUID>1440134372</GUID>
+			<Text>엔칠라다</Text>
+		</Text>
+		<Text>
+			<GUID>1440134353</GUID>
+			<Text>바나나 빵</Text>
+		</Text>
+		<Text>
+			<GUID>1440134363</GUID>
+			<Text>바나나 빵</Text>
+		</Text>
+		<Text>
+			<GUID>1440134373</GUID>
+			<Text>바나나 빵</Text>
+		</Text>
+		<Text>
+			<GUID>1440134354</GUID>
+			<Text>셔벗 "헤드프리즈"</Text>
+		</Text>
+		<Text>
+			<GUID>1440134364</GUID>
+			<Text>셔벗 "헤드프리즈"</Text>
+		</Text>
+		<Text>
+			<GUID>1440134374</GUID>
+			<Text>셔벗 "헤드프리즈"</Text>
+		</Text>
+		<Text>
+			<GUID>1440134355</GUID>
+			<Text>바나나 포스테르</Text>
+		</Text>
+		<Text>
+			<GUID>1440134365</GUID>
+			<Text>바나나 포스테르</Text>
+		</Text>
+		<Text>
+			<GUID>1440134375</GUID>
+			<Text>바나나 포스테르</Text>
+		</Text>
+		<Text>
+			<GUID>1440134356</GUID>
+			<Text>카이피리냐</Text>
+		</Text>
+		<Text>
+			<GUID>1440134366</GUID>
+			<Text>카이피리냐</Text>
+		</Text>
+		<Text>
+			<GUID>1440134376</GUID>
+			<Text>카이피리냐</Text>
+		</Text>
+		<Text>
+			<GUID>1440134357</GUID>
+			<Text>나베가도</Text>
+		</Text>
+		<Text>
+			<GUID>1440134367</GUID>
+			<Text>나베가도</Text>
+		</Text>
+		<Text>
+			<GUID>1440134377</GUID>
+			<Text>나베가도</Text>
+		</Text>
+		<Text>
+			<GUID>1440134358</GUID>
+			<Text>원숭이 섬의 비밀</Text>
+		</Text>
+		<Text>
+			<GUID>1440134368</GUID>
+			<Text>원숭이 섬의 비밀</Text>
+		</Text>
+		<Text>
+			<GUID>1440134378</GUID>
+			<Text>원숭이 섬의 비밀</Text>
+		</Text>
+		<Text>
+			<GUID>1440134400</GUID>
+			<Text>구세주 그리스도상</Text>
+		</Text>
+		<Text>
+			<GUID>1440134401</GUID>
+			<Text>구세주 그리스도상 옆어 조금 구급의 과자를 먹는 것은 어떤 여행객도 평생 잊지 못할 경험이다.</Text>
+		</Text>
+		<Text>
+			<GUID>1440134410</GUID>
+			<Text>구세주 그리스도상</Text>
+		</Text>
+		<Text>
+			<GUID>1440134411</GUID>
+			<Text>구세주 그리스도상</Text>
+		</Text>
+		<Text>
+			<GUID>1440134412</GUID>
+			<Text>구세주 그리스도상</Text>
+		</Text>
+		<Text>
+			<GUID>1440134402</GUID>
+			<Text>브리오슈 로얄</Text>
+		</Text>
+		<Text>
+			<GUID>1440134403</GUID>
+			<Text>트라이플 탑</Text>
+		</Text>
+		<Text>
+			<GUID>1440134404</GUID>
+			<Text>레이디 마멀레이드</Text>
+		</Text>
+		<Text>
+			<GUID>1440134413</GUID>
+			<Text>그것은 자주 사소한 것에 관한 것이다. 생선구이든 커피 한 잔이든 초콜릿 한 조각이든 담패든 하루를 더 좋게 만든다.</Text>
+		</Text>
+		<Text>
+			<GUID>1440134414</GUID>
+			<Text>신대륙 각지에서 과지. 물입형 여행을 하고 싶은 여행객에게 경험이다.</Text>
+		</Text>
+		<Text>
+			<GUID>1440134415</GUID>
+			<Text>집멀미는 심지어 가장 탐험적인 여행객에게도 온다. 좋은 집에서 가져온 약간의 과자는 때때로 그것을 좋아질 수 있다.</Text>
+		</Text>
+		<Text>
+			<GUID>1440134420</GUID>
+			<Text>브리오슈 로얄</Text>
+		</Text>
+		<Text>
+			<GUID>1440134421</GUID>
+			<Text>트라이플 탑</Text>
+		</Text>
+		<Text>
+			<GUID>1440134422</GUID>
+			<Text>레이디 마멀레이드</Text>
+		</Text>
+		<Text>
+			<GUID>1440134405</GUID>
+			<Text>[AssetData(1010348) Text]</Text>
+		</Text>
+		<Text>
+			<GUID>1440134406</GUID>
+			<Text>[AssetData(1440134400) Text]</Text>
+		</Text>
+	</ModOp>
+</ModOps>

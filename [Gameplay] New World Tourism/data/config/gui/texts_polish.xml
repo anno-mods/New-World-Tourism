@@ -1,0 +1,321 @@
+<ModOps>
+	<!-- Polish Translation by Thurif -->
+	<ModOp Path="/TextExport/Texts" Type="add">
+		<Text>
+			<GUID>1440134340</GUID>
+			<Text>Restauracja</Text>
+		</Text>
+		<Text>
+			<GUID>1440134341</GUID>
+			<Text>Kawiarnia</Text>
+		</Text>
+		<Text>
+			<GUID>1440134342</GUID>
+			<Text>Bar</Text>
+		</Text>
+		<Text>
+			<GUID>1440134300</GUID>
+			<Text>Tropikalny Hotel</Text>
+		</Text>
+		<Text>
+			<GUID>1440134301</GUID>
+			<Text>Przystanek autobusowy</Text>
+		</Text>
+		<Text>
+			<GUID>1440134302</GUID>
+			<Text>Publiczne kotwicowisko</Text>
+		</Text>
+		<Text>
+			<GUID>1440134330</GUID>
+			<Text>Churrasco</Text>
+		</Text>
+		<Text>
+			<GUID>1440134331</GUID>
+			<Text>Pamonha</Text>
+		</Text>
+		<Text>
+			<GUID>1440134332</GUID>
+			<Text>Enchilady</Text>
+		</Text>
+		<Text>
+			<GUID>1440134333</GUID>
+			<Text>Chleb bananowy</Text>
+		</Text>
+		<Text>
+			<GUID>1440134334</GUID>
+			<Text>Sorbet "Odmrażający Głowę"</Text>
+		</Text>
+		<Text>
+			<GUID>1440134335</GUID>
+			<Text>Lody z bananami</Text>
+		</Text>
+		<Text>
+			<GUID>1440134336</GUID>
+			<Text>Caipirinha</Text>
+		</Text>
+		<Text>
+			<GUID>1440134337</GUID>
+			<Text>Grzane wino "Navegado"</Text>
+		</Text>
+		<Text>
+			<GUID>1440134338</GUID>
+			<Text>Sekret Małpiej Wyspy</Text>
+		</Text>
+		<Text>
+			<GUID>1440134303</GUID>
+			<Text>Restauracja: Churrasco</Text>
+		</Text>
+		<Text>
+			<GUID>1440134304</GUID>
+			<Text>Restauracja: Pamonha</Text>
+		</Text>
+		<Text>
+			<GUID>1440134305</GUID>
+			<Text>Restauracja: Enchilady</Text>
+		</Text>
+		<Text>
+			<GUID>1440134306</GUID>
+			<Text>Kawiarnia: Chleb bananowy</Text>
+		</Text>
+		<Text>
+			<GUID>1440134307</GUID>
+			<Text>Kawiarnia: Sorbet "Odmrażający Głowę"</Text>
+		</Text>
+		<Text>
+			<GUID>1440134308</GUID>
+			<Text>Kawiarnia: Lody z bananami</Text>
+		</Text>
+		<Text>
+			<GUID>1440134309</GUID>
+			<Text>Bar: Caipirinha</Text>
+		</Text>
+		<Text>
+			<GUID>1440134310</GUID>
+			<Text>Bar: Grzane wino "Navegado"</Text>
+		</Text>
+		<Text>
+			<GUID>1440134311</GUID>
+			<Text>Bar: Sekret Małpiej Wyspy</Text>
+		</Text>
+		<Text>
+			<GUID>1440134380</GUID>
+			<Text>Turyści</Text>
+		</Text>
+		<Text>
+			<GUID>1440134381</GUID>
+			<Text>Wyborny kawał mięsa, pieczony w najczystszym tłuszczu.</Text>
+		</Text>
+		<Text>
+			<GUID>1440134382</GUID>
+			<Text>Kukurydziana pasta z kiełbasą i czerwoną papryką, zawinięta w kukurydzianą łuskę dla dodatkowej niespodzianki.</Text>
+		</Text>
+		<Text>
+			<GUID>1440134383</GUID>
+			<Text>Enchilady są dziwnym daniem, to burrito z czekoladową salsą. Zaufaj smakoszom Nowego Świata, Twoje zmysły tego nie pożałują.</Text>
+		</Text>
+		<Text>
+			<GUID>1440134384</GUID>
+			<Text>Chleb bananowy to zdrowa i słodka alternatywa dla każdego, kto nie znosi śmietany.</Text>
+		</Text>
+		<Text>
+			<GUID>1440134385</GUID>
+			<Text>Ten sorbet zamrozi Twoje zmysły, gdy tylko go spróbujesz.</Text>
+		</Text>
+		<Text>
+			<GUID>1440134386</GUID>
+			<Text>To doprawdy dość łatwopalny deser, który mocno wyprzedzaja swoje czasy.</Text>
+		</Text>
+		<Text>
+			<GUID>1440134387</GUID>
+			<Text>"Mały farmer" jest dość kwaśnym, ale perfektcyjnym odświeżeniem dla każdego, kto nie potrzebuje używać swojego mózgu przez następnę parę godzin.</Text>
+		</Text>
+		<Text>
+			<GUID>1440134388</GUID>
+			<Text>Gorący z drink z podwójnym efektem grzania.</Text>
+		</Text>
+		<Text>
+			<GUID>1440134389</GUID>
+			<Text>Docenisz ten drink jedynie po pokonaniu mistrza szermierki, kradzieży starożytnego artefaktu oraz odnalezieniu skarbu.</Text>
+		</Text>
+		<Text>
+			<GUID>1440134394</GUID>
+			<Text>Wszystkie rezydencje Nowego Świata</Text>
+		</Text>
+		<Text>
+			<GUID>1440134395</GUID>
+			<Text>Ring bokserski</Text>
+		</Text>
+		<Text>
+			<GUID>1440134350</GUID>
+			<Text>Churrasco</Text>
+		</Text>
+		<Text>
+			<GUID>1440134360</GUID>
+			<Text>Churrasco</Text>
+		</Text>
+		<Text>
+			<GUID>1440134370</GUID>
+			<Text>Churrasco</Text>
+		</Text>
+		<Text>
+			<GUID>1440134351</GUID>
+			<Text>Pamonha</Text>
+		</Text>
+		<Text>
+			<GUID>1440134361</GUID>
+			<Text>Pamonha</Text>
+		</Text>
+		<Text>
+			<GUID>1440134371</GUID>
+			<Text>Pamonha</Text>
+		</Text>
+		<Text>
+			<GUID>1440134352</GUID>
+			<Text>Enchilady</Text>
+		</Text>
+		<Text>
+			<GUID>1440134362</GUID>
+			<Text>Enchilady</Text>
+		</Text>
+		<Text>
+			<GUID>1440134372</GUID>
+			<Text>Enchilady</Text>
+		</Text>
+		<Text>
+			<GUID>1440134353</GUID>
+			<Text>Chleb bananowy</Text>
+		</Text>
+		<Text>
+			<GUID>1440134363</GUID>
+			<Text>Chleb bananowy</Text>
+		</Text>
+		<Text>
+			<GUID>1440134373</GUID>
+			<Text>Chleb bananowy</Text>
+		</Text>
+		<Text>
+			<GUID>1440134354</GUID>
+			<Text>Sorbet "Odmrażający Głowę"</Text>
+		</Text>
+		<Text>
+			<GUID>1440134364</GUID>
+			<Text>Sorbet "Odmrażający Głowę"</Text>
+		</Text>
+		<Text>
+			<GUID>1440134374</GUID>
+			<Text>Sorbet "Odmrażający Głowę"</Text>
+		</Text>
+		<Text>
+			<GUID>1440134355</GUID>
+			<Text>Lody z bananami</Text>
+		</Text>
+		<Text>
+			<GUID>1440134365</GUID>
+			<Text>Lody z bananami</Text>
+		</Text>
+		<Text>
+			<GUID>1440134375</GUID>
+			<Text>Lody z bananami</Text>
+		</Text>
+		<Text>
+			<GUID>1440134356</GUID>
+			<Text>Caipirinha</Text>
+		</Text>
+		<Text>
+			<GUID>1440134366</GUID>
+			<Text>Caipirinha</Text>
+		</Text>
+		<Text>
+			<GUID>1440134376</GUID>
+			<Text>Caipirinha</Text>
+		</Text>
+		<Text>
+			<GUID>1440134357</GUID>
+			<Text>Grzane wino "Navegado"</Text>
+		</Text>
+		<Text>
+			<GUID>1440134367</GUID>
+			<Text>Grzane wino "Navegado"</Text>
+		</Text>
+		<Text>
+			<GUID>1440134377</GUID>
+			<Text>Grzane wino "Navegado"</Text>
+		</Text>
+		<Text>
+			<GUID>1440134358</GUID>
+			<Text>Sekret Małpiej Wyspy</Text>
+		</Text>
+		<Text>
+			<GUID>1440134368</GUID>
+			<Text>Sekret Małpiej Wyspy</Text>
+		</Text>
+		<Text>
+			<GUID>1440134378</GUID>
+			<Text>Sekret Małpiej Wyspy</Text>
+		</Text>
+		<Text>
+			<GUID>1440134400</GUID>
+			<Text>Chrystus Odkupiciel</Text>
+		</Text>
+		<Text>
+			<GUID>1440134401</GUID>
+			<Text>Możliwość zdjedzenia wyjątkowego posiłku u stóp pominka Chrystusa Odkupiciela to przeżycie, którego żaden turysta nie zapomni do końca życia.</Text>
+		</Text>
+		<Text>
+			<GUID>1440134410</GUID>
+			<Text>Chrystus Odkupiciel</Text>
+		</Text>
+		<Text>
+			<GUID>1440134411</GUID>
+			<Text>Chrystus Odkupiciel</Text>
+		</Text>
+		<Text>
+			<GUID>1440134412</GUID>
+			<Text>Chrystus Odkupiciel</Text>
+		</Text>
+		<Text>
+			<GUID>1440134402</GUID>
+			<Text>Królewska brioszka</Text>
+		</Text>
+		<Text>
+			<GUID>1440134403</GUID>
+			<Text>Wielowarstwowa Wieża</Text>
+		</Text>
+		<Text>
+			<GUID>1440134404</GUID>
+			<Text>Lady Marmolada</Text>
+		</Text>
+		<Text>
+			<GUID>1440134413</GUID>
+			<Text>Często liczą się właśnie te małe rzeczy. Czy to grillowana kolba kukrydzy, filiżanka kawy, kawałek czekolady lub cygaro. Te rzeczy uczynią Twój dzień lepszym.</Text>
+		</Text>
+		<Text>
+			<GUID>1440134414</GUID>
+			<Text>Dania z całego Nowgo Świata. Doświadczenie dla turystów chcących w pełni zanurzyć się w doznaniach podróży.</Text>
+		</Text>
+		<Text>
+			<GUID>1440134415</GUID>
+			<Text>Tęsknota za domem zdarzają się nawet najwytrwalszym turystom. Mała przekąska z rodzinnych stron może od czasu do czasu ulżyć w cierpieniu.</Text>
+		</Text>
+		<Text>
+			<GUID>1440134420</GUID>
+			<Text>Królewska brioszka</Text>
+		</Text>
+		<Text>
+			<GUID>1440134421</GUID>
+			<Text>Wielowarstwowa Wieża</Text>
+		</Text>
+		<Text>
+			<GUID>1440134422</GUID>
+			<Text>Lady Marmolada</Text>
+		</Text>
+		<Text>
+			<GUID>1440134405</GUID>
+			<Text>[AssetData(1010348) Text]</Text>
+		</Text>
+		<Text>
+			<GUID>1440134406</GUID>
+			<Text>[AssetData(1440134400) Text]</Text>
+		</Text>
+	</ModOp>
+</ModOps>
