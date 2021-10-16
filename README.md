@@ -37,6 +37,8 @@ We want to specifically thank all the people who helped translate this mod into 
 - sealring - Russian and Spanish
 - MaxCheng95 - Traditional Chinese
 
+An additional thank you to Lordys/xormenter who provided a hotel reskin for this mod!
+
 <h1></h1>
 
 <p align="center">Please check and report bugs at the <a href="https://github.com/anno-mods/New-World-Tourism/issues">Issues</a></p>
