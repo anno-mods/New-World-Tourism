@@ -1,37 +1,32 @@
-## Welcome to GitHub Pages
+# New World Tourism
 
-You can use the [editor on GitHub](https://github.com/anno-mods/New-World-Tourism/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<p align="left">
+    [Gameplay] New World Tourism is a new mod that adds tropical hotels, restaurants, bars and Cafés, altogether with a total of nine newly designed recipes for them. Be it the new Pamonha, Banana Bread or the headfreezing fruit sorbet, the tourists cannot wait to taste all the new world specialities, as well as your local population who will have a great time visiting your restaurants.
+</p>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<h1></h1>
 
-### Markdown
+<p align="center">
+    <img src ="https://staticdelivery.nexusmods.com/mods/2820/images/196/196-1630445384-1489610267.jpeg">
+</p>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+> ### You can always find the latest release of this mod collection [here](https://github.com/anno-mods/New-World-Tourism/releases/latest).
 
-```markdown
-Syntax highlighted code block
+<h1></h1>
 
-# Header 1
-## Header 2
-### Header 3
+<p align="left">
+    The New World get's a new monument: After constructing a total of 8 Tropical Hotels, you can welcome Tourists to the Restaurant "La Reine" around Christo Redentor! So, essentially, this is an extension of the tourist season DLC to the New World. Of course, this mod will require the Tourist Season DLC.
+</p>
 
-- Bulleted
-- List
+<h1></h1>
 
-1. Numbered
-2. List
+## Restaurants
 
-**Bold** and _Italic_ and `Code` text
+- New World Restaurant: Churrasco, Pamonha and Enchiladas
+- New World Café: Banana Bread, Headfreezing sorbet and Bananas Foster
+- New World Bar: Caipirinha, Navegado and "The Secret of Monkey Island"
+  
+<h1></h1>
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/anno-mods/New-World-Tourism/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<p align="center">Please check and report bugs at the <a href="https://github.com/anno-mods/New-World-Tourism/issues">Issues</a></p>
+<br />
