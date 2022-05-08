@@ -5087,7 +5087,7 @@
 				<Standard>
 					<GUID>1440134400</GUID>
 					<Name>Tourist_monument_colony_blank (restaurant)</Name>
-					<IconFilename>data/ui/2kimages/main/3dicons/icon_eiffel_tower.png</IconFilename>
+					<IconFilename>data\ui\icons\newworldtourists\icon_christo.png</IconFilename>
 					<InfoDescription>133587</InfoDescription>
 					<Version>dlc08</Version>
 				</Standard>
@@ -5243,7 +5243,7 @@
 				<Standard>
 					<GUID>1440134410</GUID>
 					<Name>Tourist_monument_colony_snacks_var1 (restaurant)</Name>
-					<IconFilename>data/ui/2kimages/main/3dicons/icon_eiffel_tower.png</IconFilename>
+					<IconFilename>data\ui\icons\newworldtourists\icon_christo.png</IconFilename>
 					<InfoDescription>133587</InfoDescription>
 					<Version>dlc08</Version>
 				</Standard>
@@ -5421,7 +5421,7 @@
 				<Standard>
 					<GUID>1440134411</GUID>
 					<Name>Tourist_monument_colony_snacks_var2 (restaurant)</Name>
-					<IconFilename>data/ui/2kimages/main/3dicons/icon_eiffel_tower.png</IconFilename>
+					<IconFilename>data\ui\icons\newworldtourists\icon_christo.png</IconFilename>
 					<InfoDescription>133587</InfoDescription>
 					<Version>dlc08</Version>
 				</Standard>
@@ -5599,7 +5599,7 @@
 				<Standard>
 					<GUID>1440134412</GUID>
 					<Name>Tourist_monument_colony_snacks_var3 (restaurant)</Name>
-					<IconFilename>data/ui/2kimages/main/3dicons/icon_eiffel_tower.png</IconFilename>
+					<IconFilename>data\ui\icons\newworldtourists\icon_christo.png</IconFilename>
 					<InfoDescription>133587</InfoDescription>
 					<Version>dlc08</Version>
 				</Standard>
@@ -5922,6 +5922,7 @@
 				<Standard>
 					<GUID>1440134406</GUID>
 					<Name>Christo Redentor Need</Name>
+					<IconFilename>data\ui\icons\newworldtourists\icon_christo.png</IconFilename>
 				</Standard>
 				<Text />
 				<Locked />
@@ -5933,10 +5934,12 @@
 		</Asset>
 	</ModOp>
 
-	<ModOp GUID = '601379' Type = "add" Path = "/Values/PopulationLevel7/PopulationInputs/Item[Product = '133573' or Product = '132761']">
+	<!-- ensure to not restrict other mod's needs with not(RequiredToBeBuilding)-->
+	<ModOp GUID = '601379' Type = "add" Path = "/Values/PopulationLevel7/PopulationInputs/Item[(Product = '133573' or Product = '132761') and (not(RequiredToBeBuilding) or RequiredToBeBuilding='601445')]">
 		<RequiredToBeBuilding>601445</RequiredToBeBuilding>
 	</ModOp>
-	<ModOp GUID = '601379' Type = "addNextSibling" Path = "/Values/PopulationLevel7/PopulationInputs/Item[Product = '133573']">
+	<!-- use [last()] because there may be several entries for that need -->
+	<ModOp GUID = '601379' Type = "addNextSibling" Path = "/Values/PopulationLevel7/PopulationInputs/Item[Product = '133573'][last()]">
 		<Item>
 			<Product>1440134405</Product>
 			<SupplyWeight>25</SupplyWeight>
@@ -5946,7 +5949,8 @@
 			<RequiredToBeBuilding>1440134300</RequiredToBeBuilding>
 		  </Item>
 	</ModOp>
-	<ModOp GUID = '601379' Type = "addNextSibling" Path = "/Values/PopulationLevel7/PopulationInputs/Item[Product = '132761']">
+	<!-- use [last()] because there may be several entries for that need -->
+	<ModOp GUID = '601379' Type = "addNextSibling" Path = "/Values/PopulationLevel7/PopulationInputs/Item[Product = '132761'][last()]">
 		<Item>
 			<Product>1440134406</Product>
 			<SupplyWeight>80</SupplyWeight>
