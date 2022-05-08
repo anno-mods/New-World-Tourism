@@ -1,5 +1,5 @@
 {
-  "Version": "1.1",
+  "Version": "1.2",
   "ModID": "FamTaubeLexy_NewWorldHotels",
   "IncompatibleIds": [
     "NewHorizons"
@@ -49,7 +49,7 @@
       "Chinese": null,
       "English": "Unlock for New World Tourists is 4.000 OW Tourists and 1.500 Obreros. Obreros only start counting once you reached 4.000 OW Tourists.",
       "French": null,
-      "German": "Freischaltung für NW-Touristen erfolgt bei 4.000 AW-Touristen und 1.5000 Obreros. Obreros werden erst gezählt, wenn 4.000 AW-Touristen erreicht wurden.",
+      "German": "Freischaltung für NW-Touristen erfolgt bei 4.000 AW-Touristen und 1.500 Obreros. Obreros werden erst gezählt, wenn 4.000 AW-Touristen erreicht wurden.",
       "Italian": null,
       "Japanese": null,
       "Korean": null,
