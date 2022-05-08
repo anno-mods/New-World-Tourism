@@ -28,7 +28,9 @@
 				<SoundEmitter />
 				<Infolayer />
 				<FeedbackController />
-				<Residence7 />
+				<Residence7>
+					<IsBaseResidence>0</IsBaseResidence>
+				</Residence7>
 				<LogisticNode />
 				<AmbientMoodProvider />
 				<UpgradeList />
@@ -101,6 +103,9 @@
 						</Item>
 						<Item>
 							<Need>134781</Need>
+						</Item>
+						<Item>
+							<Need>1440134407</Need>
 						</Item>
 					</ShowNeeds>
 				</BusStop>
@@ -4493,6 +4498,45 @@
 				<ItemContainerUpgrade />
 			</Values>
 		</Asset>
+		<Asset>
+			<Template>GuildhouseBuff</Template>
+			<Values>
+				<Standard>
+					<GUID>1440134413</GUID>
+					<Name>S02_DryEvSunglare_Choice1_EmbraceSunlight</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/consumables/icon_fire_bomb_3.png</IconFilename>
+					<InfoDescription>143511</InfoDescription>
+				</Standard>
+				<ItemEffect />
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Embrace Sunlight</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>55049</LineID>
+				</Text>
+				<FactoryUpgrade />
+				<BuildingUpgrade />
+				<Buff />
+				<CultureUpgrade>
+					<HideBuff>1</HideBuff>
+				</CultureUpgrade>
+				<ModuleOwnerUpgrade />
+				<IncidentInfectableUpgrade />
+				<PowerplantUpgrade />
+				<IndustrializableUpgrade>
+					<ProvideIndustrialization>1</ProvideIndustrialization>
+				</IndustrializableUpgrade>
+				<ItemContainerUpgrade />
+				<IncidentInfluencerUpgrade />
+				<IrrigationUpgrade />
+				<EcoSystemProviderUpgrade />
+				<ResourceUpgrade />
+			</Values>
+		</Asset>
 	</ModOp>
 
 	<!-- Triggers -->
@@ -5101,6 +5145,11 @@
 				</Building>
 				<Blocking />
 				<Object>
+					<Skins>
+						<SkinList>
+							<Item />
+						</SkinList>
+					</Skins>
 					<Variations>
 						<Item>
 							<Filename>data/graphics/buildings/special/monument_colony01_christ/monument_colony01_christ.cfg</Filename>
@@ -5201,7 +5250,9 @@
 					<Murmur>Tourist_Tower</Murmur>
 				</AmbientMoodProvider>
 				<Attackable />
-				<UpgradeList />
+				<UpgradeList>
+					<DefaultBuff>1440134413</DefaultBuff>
+				</UpgradeList>
 				<Pausable>
 					<CanPauseManually>0</CanPauseManually>
 				</Pausable>
@@ -5256,6 +5307,11 @@
 				</Building>
 				<Blocking />
 				<Object>
+					<Skins>
+						<SkinList>
+							<Item />
+						</SkinList>
+					</Skins>
 					<Variations>
 						<Item>
 							<Filename>data/graphics/buildings/special/monument_colony01_christ/monument_colony01_christ.cfg</Filename>
@@ -5371,15 +5427,19 @@
 					</Maintenances>
 				</Maintenance>
 				<Industrializable>
-					<MandatoryIndustrialization>0</MandatoryIndustrialization>
+					<MandatoryIndustrialization>1</MandatoryIndustrialization>
 				</Industrializable>
 				<IncidentInfectable />
-				<Electrifiable />
+				<Electrifiable>
+					<ElectricityBoost>0</ElectricityBoost>
+				</Electrifiable>
 				<AmbientMoodProvider>
 					<Murmur>Tourist_Tower</Murmur>
 				</AmbientMoodProvider>
 				<Attackable />
-				<UpgradeList />
+				<UpgradeList>
+					<DefaultBuff>1440134413</DefaultBuff>
+				</UpgradeList>
 				<Pausable />
 				<FeedbackController>
 					<NightBehavior>HideNone</NightBehavior>
@@ -5434,6 +5494,11 @@
 				</Building>
 				<Blocking />
 				<Object>
+					<Skins>
+						<SkinList>
+							<Item />
+						</SkinList>
+					</Skins>
 					<Variations>
 						<Item>
 							<Filename>data/graphics/buildings/special/monument_colony01_christ/monument_colony01_christ.cfg</Filename>
@@ -5549,15 +5614,19 @@
 					</Maintenances>
 				</Maintenance>
 				<Industrializable>
-					<MandatoryIndustrialization>0</MandatoryIndustrialization>
+					<MandatoryIndustrialization>1</MandatoryIndustrialization>
 				</Industrializable>
 				<IncidentInfectable />
-				<Electrifiable />
+				<Electrifiable>
+					<ElectricityBoost>0</ElectricityBoost>
+				</Electrifiable>
 				<AmbientMoodProvider>
 					<Murmur>Tourist_Tower</Murmur>
 				</AmbientMoodProvider>
 				<Attackable />
-				<UpgradeList />
+				<UpgradeList>
+					<DefaultBuff>1440134413</DefaultBuff>
+				</UpgradeList>
 				<Pausable />
 				<FeedbackController>
 					<NightBehavior>HideNone</NightBehavior>
@@ -5612,6 +5681,11 @@
 				</Building>
 				<Blocking />
 				<Object>
+					<Skins>
+						<SkinList>
+							<Item />
+						</SkinList>
+					</Skins>
 					<Variations>
 						<Item>
 							<Filename>data/graphics/buildings/special/monument_colony01_christ/monument_colony01_christ.cfg</Filename>
@@ -5727,15 +5801,19 @@
 					</Maintenances>
 				</Maintenance>
 				<Industrializable>
-					<MandatoryIndustrialization>0</MandatoryIndustrialization>
+					<MandatoryIndustrialization>1</MandatoryIndustrialization>
 				</Industrializable>
 				<IncidentInfectable />
-				<Electrifiable />
+				<Electrifiable>
+					<ElectricityBoost>0</ElectricityBoost>
+				</Electrifiable>
 				<AmbientMoodProvider>
 					<Murmur>Tourist_Tower</Murmur>
 				</AmbientMoodProvider>
 				<Attackable />
-				<UpgradeList />
+				<UpgradeList>
+					<DefaultBuff>1440134413</DefaultBuff>
+				</UpgradeList>
 				<Pausable />
 				<FeedbackController>
 					<NightBehavior>HideNone</NightBehavior>
@@ -5933,6 +6011,30 @@
 			</Values>
 		</Asset>
 	</ModOp>
+  
+  <!-- Hacienda Need -->
+	<ModOp Type = "addNextSibling" GUID = '133536'>
+		<Asset>
+			<BaseAssetGUID>133536</BaseAssetGUID>
+			<Values>
+				<Standard>
+					<GUID>1440134407</GUID>
+					<Name>Hacienda Need</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/icon_hacienda_main.png</IconFilename>
+				</Standard>
+				<Text />
+				<Locked>
+					<DLCDependency>24961</DLCDependency>
+				</Locked>
+				<Product>
+					<AssociatedRegion>Colony01</AssociatedRegion>
+					<HappinessCategory>Hotspots</HappinessCategory>
+					<NeededAttractiveness>0</NeededAttractiveness>
+				</Product>
+				<ExpeditionAttribute />
+			</Values>
+		</Asset>
+	</ModOp>
 
 	<!-- ensure to not restrict other mod's needs with not(RequiredToBeBuilding)-->
 	<ModOp GUID = '601379' Type = "add" Path = "/Values/PopulationLevel7/PopulationInputs/Item[(Product = '133573' or Product = '132761') and (not(RequiredToBeBuilding) or RequiredToBeBuilding='601445')]">
@@ -5947,7 +6049,7 @@
 			<FullWeightPopulationCount>50</FullWeightPopulationCount>
 			<NoWeightPopulationCount>49</NoWeightPopulationCount>
 			<RequiredToBeBuilding>1440134300</RequiredToBeBuilding>
-		  </Item>
+		</Item>
 	</ModOp>
 	<!-- use [last()] because there may be several entries for that need -->
 	<ModOp GUID = '601379' Type = "addNextSibling" Path = "/Values/PopulationLevel7/PopulationInputs/Item[Product = '132761'][last()]">
@@ -5958,12 +6060,25 @@
 			<FullWeightPopulationCount>4000</FullWeightPopulationCount>
 			<NoWeightPopulationCount>3999</NoWeightPopulationCount>
 			<RequiredToBeBuilding>1440134300</RequiredToBeBuilding>
-		  </Item>
+		</Item>
+		<Item>
+			<Product>1440134407</Product>
+			<HappinessValue>10</HappinessValue>
+			<IsOptionalHappinessValue>1</IsOptionalHappinessValue>
+			<MoneyValue>300</MoneyValue>
+			<RequiredToBeBuilding>1440134300</RequiredToBeBuilding>
+		</Item>
 	</ModOp>
 
 	<ModOp GUID = '601379' Type = "add" Path = "/Values/PopulationLevel7/HappinessDebuff/Hotspots/AffectedNeeds">
 		<Item>
 			<Need>1440134405</Need>
 		</Item>
+	</ModOp>
+
+	<ModOp GUID = '24768' Path = "/Values" Type = "add" >
+		<BusActivation>
+			<BusNeed>1440134407</BusNeed>
+		</BusActivation>
 	</ModOp>
 </ModOps>
