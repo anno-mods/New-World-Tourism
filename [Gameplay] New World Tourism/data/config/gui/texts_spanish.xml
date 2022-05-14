@@ -321,5 +321,17 @@
 			<GUID>1440134407</GUID>
 			<Text>[AssetData(24768) Text]</Text>
 		</Text>
+		<Text>
+			<GUID>1440134430</GUID>
+			<Text>Cristo Redentor: Cimientos</Text>
+		</Text>
+		<Text>
+			<GUID>1440134431</GUID>
+			<Text>Cristo Redentor: Andamiaje</Text>
+		</Text>
+		<Text>
+			<GUID>1440134432</GUID>
+			<Text>Cristo Redentor: Estructura</Text>
+		</Text>
 	</ModOp>
 </ModOps>

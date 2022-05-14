@@ -321,5 +321,17 @@
 			<GUID>1440134407</GUID>
 			<Text>[AssetData(24768) Text]</Text>
 		</Text>
+		<Text>
+			<GUID>1440134430</GUID>
+			<Text>구세주 그리스도상: 기반</Text>
+		</Text>
+		<Text>
+			<GUID>1440134431</GUID>
+			<Text>구세주 그리스도상: 발판</Text>
+		</Text>
+		<Text>
+			<GUID>1440134432</GUID>
+			<Text>구세주 그리스도상: 구조물</Text>
+		</Text>
 	</ModOp>
 </ModOps>

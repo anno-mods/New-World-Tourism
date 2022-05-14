@@ -321,5 +321,17 @@
 			<GUID>1440134407</GUID>
 			<Text>[AssetData(24768) Text]</Text>
 		</Text>
+		<Text>
+			<GUID>1440134430</GUID>
+			<Text>基督像：地基</Text>
+		</Text>
+		<Text>
+			<GUID>1440134431</GUID>
+			<Text>基督像：鷹架</Text>
+		</Text>
+		<Text>
+			<GUID>1440134432</GUID>
+			<Text>基督像：結構</Text>
+		</Text>
 	</ModOp>
 </ModOps>
