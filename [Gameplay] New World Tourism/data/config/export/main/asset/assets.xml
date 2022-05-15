@@ -2883,6 +2883,13 @@
 							<Building>1440134300</Building>
 						</Item>
 						<Item>
+							<!-- 
+								automatically include Small Hotels if available,
+								that way it can be loaded before or after
+							-->
+							<Building>1500010529</Building>
+						</Item>
+						<Item>
 							<Building>1440134340</Building>
 						</Item>
 						<Item>
