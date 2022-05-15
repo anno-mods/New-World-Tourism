@@ -4553,7 +4553,7 @@
 			<Values>
 				<Standard>
 					<GUID>1440134390</GUID>
-					<Name>Dev Trigger: Unhide all Tourist NW</Name>
+					<Name>Unhide all Tourist NW</Name>
 				</Standard>
 				<Trigger>
 					<TriggerCondition>
@@ -4748,6 +4748,98 @@
 										<UnlockAssets>
 											<Item>
 												<Asset>1440134400</Asset>
+											</Item>
+										</UnlockAssets>
+									</ActionUnlockAsset>
+								</Values>
+							</TriggerAction>
+						</Item>
+					</TriggerActions>
+				</Trigger>
+				<TriggerSetup />
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>Trigger</Template>
+			<Values>
+				<Standard>
+					<GUID>1440134440</GUID>
+					<Name>Unlock Monument Construction Phases</Name>
+				</Standard>
+				<Trigger>
+					<TriggerCondition>
+						<Template>ConditionPlayerCounter</Template>
+						<Values>
+							<Condition />
+							<ConditionPlayerCounter>
+								<PlayerCounter>PopulationByLevel</PlayerCounter>
+								<Context>15000006</Context>
+								<CounterAmount>1500</CounterAmount>
+							</ConditionPlayerCounter>
+						</Values>
+					</TriggerCondition>
+					<TriggerActions>
+						<Item>
+							<TriggerAction>
+								<Template>ActionUnlockAsset</Template>
+								<Values>
+									<Action />
+									<ActionUnlockAsset>
+										<UnhideAssets>
+											<Item>
+												<Asset>1440134430</Asset>
+											</Item>
+											<Item>
+												<Asset>1440134431</Asset>
+											</Item>
+											<Item>
+												<Asset>1440134432</Asset>
+											</Item>
+										</UnhideAssets>
+									</ActionUnlockAsset>
+								</Values>
+							</TriggerAction>
+						</Item>
+					</TriggerActions>
+				</Trigger>
+				<TriggerSetup />
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>Trigger</Template>
+			<Values>
+				<Standard>
+					<GUID>1440134441</GUID>
+					<Name>Unlock Monument Construction Phases</Name>
+				</Standard>
+				<Trigger>
+					<TriggerCondition>
+						<Template>ConditionPlayerCounter</Template>
+						<Values>
+							<Condition />
+							<ConditionPlayerCounter>
+								<PlayerCounter>ObjectBuilt</PlayerCounter>
+								<Context>1440134300</Context>
+								<CounterAmount>8</CounterAmount>
+							</ConditionPlayerCounter>
+						</Values>
+					</TriggerCondition>
+					<TriggerActions>
+						<Item>
+							<TriggerAction>
+								<Template>ActionUnlockAsset</Template>
+								<Values>
+									<Action />
+									<ActionUnlockAsset>
+										<UnlockAssets>
+											<Item>
+												<Asset>1440134430</Asset>
+											</Item>
+											<Item>
+												<Asset>1440134431</Asset>
+											</Item>
+											<Item>
+												<Asset>1440134432</Asset>
 											</Item>
 										</UnlockAssets>
 									</ActionUnlockAsset>
@@ -6159,7 +6251,7 @@
 				</Selection>
 				<Constructable />
 				<Locked>
-					<DefaultLockedState>0</DefaultLockedState>
+					<DefaultLockedState>1</DefaultLockedState>
 					<DLCDependency>410084</DLCDependency>
 				</Locked>
 				<SoundEmitter>
@@ -6295,7 +6387,7 @@
 				</Selection>
 				<Constructable />
 				<Locked>
-					<DefaultLockedState>0</DefaultLockedState>
+					<DefaultLockedState>1</DefaultLockedState>
 					<DLCDependency>410084</DLCDependency>
 				</Locked>
 				<SoundEmitter>
@@ -6441,7 +6533,7 @@
 				</Selection>
 				<Constructable />
 				<Locked>
-					<DefaultLockedState>0</DefaultLockedState>
+					<DefaultLockedState>1</DefaultLockedState>
 					<DLCDependency>410084</DLCDependency>
 				</Locked>
 				<SoundEmitter>
