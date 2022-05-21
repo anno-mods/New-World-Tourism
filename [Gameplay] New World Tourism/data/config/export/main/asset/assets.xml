@@ -6063,9 +6063,9 @@
 		</Item>
 		<Item>
 			<Product>1440134407</Product>
-			<HappinessValue>10</HappinessValue>
+			<HappinessValue>3</HappinessValue>
 			<IsOptionalHappinessValue>1</IsOptionalHappinessValue>
-			<MoneyValue>300</MoneyValue>
+			<MoneyValue>75</MoneyValue>
 			<RequiredToBeBuilding>1440134300</RequiredToBeBuilding>
 		</Item>
 	</ModOp>
