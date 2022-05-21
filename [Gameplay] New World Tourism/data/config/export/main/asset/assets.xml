@@ -5232,7 +5232,6 @@
 					<Name>Tourist_monument_colony_blank (restaurant)</Name>
 					<IconFilename>data\ui\icons\newworldtourists\icon_christo.png</IconFilename>
 					<InfoDescription>133587</InfoDescription>
-					<Version>dlc08</Version>
 				</Standard>
 				<Building>
 					<BuildingCategoryName>134142</BuildingCategoryName>
@@ -5404,11 +5403,11 @@
 					<Name>Tourist_monument_colony_snacks_var1 (restaurant)</Name>
 					<IconFilename>data\ui\icons\newworldtourists\icon_christo.png</IconFilename>
 					<InfoDescription>133587</InfoDescription>
-					<Version>dlc08</Version>
 				</Standard>
 				<Building>
 					<BuildingCategoryName>134142</BuildingCategoryName>
 					<SkipUnlockMessage>1</SkipUnlockMessage>
+					<PickingAsset>1440134430</PickingAsset>
 					<DestructionConfirmation>1</DestructionConfirmation>
 					<BuildModeRandomRotation>90</BuildModeRandomRotation>
 					<AssociatedRegions>Colony01</AssociatedRegions>
@@ -5592,11 +5591,11 @@
 					<Name>Tourist_monument_colony_snacks_var2 (restaurant)</Name>
 					<IconFilename>data\ui\icons\newworldtourists\icon_christo.png</IconFilename>
 					<InfoDescription>133587</InfoDescription>
-					<Version>dlc08</Version>
 				</Standard>
 				<Building>
 					<BuildingCategoryName>134142</BuildingCategoryName>
 					<SkipUnlockMessage>1</SkipUnlockMessage>
+					<PickingAsset>1440134430</PickingAsset>
 					<DestructionConfirmation>1</DestructionConfirmation>
 					<BuildModeRandomRotation>90</BuildModeRandomRotation>
 					<AssociatedRegions>Colony01</AssociatedRegions>
@@ -5780,11 +5779,11 @@
 					<Name>Tourist_monument_colony_snacks_var3 (restaurant)</Name>
 					<IconFilename>data\ui\icons\newworldtourists\icon_christo.png</IconFilename>
 					<InfoDescription>133587</InfoDescription>
-					<Version>dlc08</Version>
 				</Standard>
 				<Building>
 					<BuildingCategoryName>134142</BuildingCategoryName>
 					<SkipUnlockMessage>1</SkipUnlockMessage>
+					<PickingAsset>1440134430</PickingAsset>
 					<DestructionConfirmation>1</DestructionConfirmation>
 					<BuildModeRandomRotation>90</BuildModeRandomRotation>
 					<AssociatedRegions>Colony01</AssociatedRegions>
