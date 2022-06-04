@@ -20,9 +20,9 @@
   },
   "ModName": {
     "Chinese": null,
-    "English": "New World Hotels",
+    "English": "New World Tourism",
     "French": null,
-    "German": "Hotels in der neuen Welt",
+    "German": "Touristen in der neuen Welt",
     "Italian": null,
     "Japanese": null,
     "Korean": null,
@@ -33,9 +33,9 @@
   },
   "Description": {
     "Chinese": null,
-    "English": "Adds Tourists and Hotels to the new World.",
+    "English": "Adds Tourists and Hotels to the new World with a set of 9 newly designed recipes in Cafe, Bar and Restaurant",
     "French": null,
-    "German": "Fügt Touristen und Hotels für die neue Welt hinzu.",
+    "German": "Fügt Touristen und Hotels für die neue Welt hinzu, sowie ein Set mit 9 neu designten Rezepten für Cafe, Bar und Restaurant.",
     "Italian": null,
     "Japanese": null,
     "Korean": null,
@@ -57,6 +57,19 @@
       "Russian": null,
       "Spanish": null,
       "Taiwanese": null
+    },
+    {
+      "Chinese": null,
+      "English": "Tourist Hotspot Needs in the new world are only satisfied by Old World Buildings. in that case, you either cannot fulfil the need, or you need a New World version of the building (like in the New World Docklands mod.)",
+      "French": null,
+      "German": "Touristen-Hotspotbedürfnisse könnnen meist nur durch Alte-Welt Gebäude erfüllt werden. Entweder wird auf die Erfüllung verzichtet, oder es wird eine Mod benötigt, die einen Klon des Gebäudes in die neue Welt einfügt (wie in der New-World-Docklands Mod.)",
+      "Italian": null,
+      "Japanese": null,
+      "Korean": null,
+      "Polish": null,
+      "Russian": null,
+      "Spanish": null,
+      "Taiwanese": null
     }
   ],
   "DLCDependencies": [
@@ -65,7 +78,7 @@
       "Dependant": "required"
     }
   ],
-  "CreatorName": "Fam, DaLexy and Taubenangriff. Thanks to Lordys for the NW Hotel Retexture!",
+  "CreatorName": "Fam, DaLexy and Taubenangriff. Thanks to Lordys for the NW Hotel Retexture and Jakob for the Construction Phases!",
   "CreatorContact": "https://discord.gg/YTQGDFK",
   "Image" : null
 }
