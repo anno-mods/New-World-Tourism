@@ -1,6 +1,6 @@
 <ModOps>
   <!-- monument: completed -->
-  <ModOp Type="replace" GUID="1440134400" Path="/Values/Object/Variations">
+  <ModOp Type="replace" GUID="1440134400,1440134410,1440134411,1440134412" Path="/Values/Object/Variations">
     <Variations>
       <Item>
         <Filename>data/graphics/buildings/special/monument_colony01_christ/christo_small_3.cfg</Filename>
