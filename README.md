@@ -37,7 +37,8 @@ We want to specifically thank all the people who helped translate this mod into 
 - sealring - Russian and Spanish
 - MaxCheng95 - Traditional Chinese
 
-An additional thank you to Lordys/xormenter who provided a hotel reskin for this mod!
+An additional thanks goes to Lordys/xormenter who provided a hotel reskin for this mod!
+Also, thanks to Jakob for development on Version 1.2!
 
 <h1></h1>
 
