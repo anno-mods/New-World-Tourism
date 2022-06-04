@@ -320,5 +320,17 @@
 			<GUID>1440134407</GUID>
 			<Text>[AssetData(24768) Text]</Text>
 		</Text>
+		<Text>
+			<GUID>1440134430</GUID>
+			<Text>Christo Redentor: Fundamente</Text>
+		</Text>
+		<Text>
+			<GUID>1440134431</GUID>
+			<Text>Christo Redentor: Gerüst</Text>
+		</Text>
+		<Text>
+			<GUID>1440134432</GUID>
+			<Text>Christo Redentor: Aufbau</Text>
+		</Text>
 	</ModOp>
 </ModOps>

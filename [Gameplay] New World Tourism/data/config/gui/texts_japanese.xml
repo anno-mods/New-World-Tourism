@@ -322,5 +322,17 @@
 			<GUID>1440134407</GUID>
 			<Text>[AssetData(24768) Text]</Text>
 		</Text>
+		<Text>
+			<GUID>1440134430</GUID>
+			<Text>クリスト・ヘデントール像: 基礎</Text>
+		</Text>
+		<Text>
+			<GUID>1440134431</GUID>
+			<Text>クリスト・ヘデントール像: 足場</Text>
+		</Text>
+		<Text>
+			<GUID>1440134432</GUID>
+			<Text>クリスト・ヘデントール像: 構造</Text>
+		</Text>
 	</ModOp>
 </ModOps>

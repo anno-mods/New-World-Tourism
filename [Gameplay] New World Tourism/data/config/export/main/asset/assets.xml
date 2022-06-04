@@ -2883,6 +2883,13 @@
 							<Building>1440134300</Building>
 						</Item>
 						<Item>
+							<!-- 
+								automatically include Small Hotels if available,
+								that way it can be loaded before or after
+							-->
+							<Building>1500010529</Building>
+						</Item>
+						<Item>
 							<Building>1440134340</Building>
 						</Item>
 						<Item>
@@ -2904,7 +2911,7 @@
 							<Building>137609</Building>
 						</Item>
 						<Item>
-							<Building>1440134400</Building>
+							<Building>1440134430</Building>
 						</Item>
 					</BuildingList>
 				</ConstructionCategory>
@@ -4546,7 +4553,7 @@
 			<Values>
 				<Standard>
 					<GUID>1440134390</GUID>
-					<Name>Dev Trigger: Unhide all Tourist NW</Name>
+					<Name>Unhide all Tourist NW</Name>
 				</Standard>
 				<Trigger>
 					<TriggerCondition>
@@ -4741,6 +4748,98 @@
 										<UnlockAssets>
 											<Item>
 												<Asset>1440134400</Asset>
+											</Item>
+										</UnlockAssets>
+									</ActionUnlockAsset>
+								</Values>
+							</TriggerAction>
+						</Item>
+					</TriggerActions>
+				</Trigger>
+				<TriggerSetup />
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>Trigger</Template>
+			<Values>
+				<Standard>
+					<GUID>1440134440</GUID>
+					<Name>Unlock Monument Construction Phases</Name>
+				</Standard>
+				<Trigger>
+					<TriggerCondition>
+						<Template>ConditionPlayerCounter</Template>
+						<Values>
+							<Condition />
+							<ConditionPlayerCounter>
+								<PlayerCounter>PopulationByLevel</PlayerCounter>
+								<Context>15000006</Context>
+								<CounterAmount>1500</CounterAmount>
+							</ConditionPlayerCounter>
+						</Values>
+					</TriggerCondition>
+					<TriggerActions>
+						<Item>
+							<TriggerAction>
+								<Template>ActionUnlockAsset</Template>
+								<Values>
+									<Action />
+									<ActionUnlockAsset>
+										<UnhideAssets>
+											<Item>
+												<Asset>1440134430</Asset>
+											</Item>
+											<Item>
+												<Asset>1440134431</Asset>
+											</Item>
+											<Item>
+												<Asset>1440134432</Asset>
+											</Item>
+										</UnhideAssets>
+									</ActionUnlockAsset>
+								</Values>
+							</TriggerAction>
+						</Item>
+					</TriggerActions>
+				</Trigger>
+				<TriggerSetup />
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>Trigger</Template>
+			<Values>
+				<Standard>
+					<GUID>1440134441</GUID>
+					<Name>Unlock Monument Construction Phases</Name>
+				</Standard>
+				<Trigger>
+					<TriggerCondition>
+						<Template>ConditionPlayerCounter</Template>
+						<Values>
+							<Condition />
+							<ConditionPlayerCounter>
+								<PlayerCounter>ObjectBuilt</PlayerCounter>
+								<Context>1440134300</Context>
+								<CounterAmount>8</CounterAmount>
+							</ConditionPlayerCounter>
+						</Values>
+					</TriggerCondition>
+					<TriggerActions>
+						<Item>
+							<TriggerAction>
+								<Template>ActionUnlockAsset</Template>
+								<Values>
+									<Action />
+									<ActionUnlockAsset>
+										<UnlockAssets>
+											<Item>
+												<Asset>1440134430</Asset>
+											</Item>
+											<Item>
+												<Asset>1440134431</Asset>
+											</Item>
+											<Item>
+												<Asset>1440134432</Asset>
 											</Item>
 										</UnlockAssets>
 									</ActionUnlockAsset>
@@ -5133,15 +5232,15 @@
 					<Name>Tourist_monument_colony_blank (restaurant)</Name>
 					<IconFilename>data\ui\icons\newworldtourists\icon_christo.png</IconFilename>
 					<InfoDescription>133587</InfoDescription>
-					<Version>dlc08</Version>
 				</Standard>
 				<Building>
 					<BuildingCategoryName>134142</BuildingCategoryName>
 					<SkipUnlockMessage>1</SkipUnlockMessage>
-					<PickingAsset>1440134400</PickingAsset>
+					<PickingAsset>1440134430</PickingAsset>
 					<DestructionConfirmation>1</DestructionConfirmation>
 					<BuildModeRandomRotation>90</BuildModeRandomRotation>
 					<AssociatedRegions>Colony01</AssociatedRegions>
+					<AllowChangeDirection>1</AllowChangeDirection>
 				</Building>
 				<Blocking />
 				<Object>
@@ -5279,6 +5378,14 @@
 						</Item>
 					</Uniques>
 				</BuildingUnique>
+				<Monument>
+					<UnfinishedIcon>1440134438</UnfinishedIcon>
+					<FinishedIcon>1440134439</FinishedIcon>
+					<ShutdownText>6783</ShutdownText>
+					<MonumentHeadline>1440134400</MonumentHeadline>
+					<ProgressbarHeight>108</ProgressbarHeight>
+					<AddOneToPhaseCount>0</AddOneToPhaseCount>
+				</Monument>
 				<Culture>
 					<Attractiveness>250</Attractiveness>
 					<CultureSpawnGroup>1</CultureSpawnGroup>
@@ -5296,14 +5403,15 @@
 					<Name>Tourist_monument_colony_snacks_var1 (restaurant)</Name>
 					<IconFilename>data\ui\icons\newworldtourists\icon_christo.png</IconFilename>
 					<InfoDescription>133587</InfoDescription>
-					<Version>dlc08</Version>
 				</Standard>
 				<Building>
 					<BuildingCategoryName>134142</BuildingCategoryName>
 					<SkipUnlockMessage>1</SkipUnlockMessage>
+					<PickingAsset>1440134430</PickingAsset>
 					<DestructionConfirmation>1</DestructionConfirmation>
 					<BuildModeRandomRotation>90</BuildModeRandomRotation>
 					<AssociatedRegions>Colony01</AssociatedRegions>
+					<AllowChangeDirection>1</AllowChangeDirection>
 				</Building>
 				<Blocking />
 				<Object>
@@ -5314,7 +5422,7 @@
 					</Skins>
 					<Variations>
 						<Item>
-							<Filename>data/graphics/buildings/special/monument_colony01_christ/monument_colony01_christ.cfg</Filename>
+							<Filename>data/graphics/buildings/special/monument_colony01_christ/christo_small_3.cfg</Filename>
 						</Item>
 					</Variations>
 				</Object>
@@ -5483,14 +5591,15 @@
 					<Name>Tourist_monument_colony_snacks_var2 (restaurant)</Name>
 					<IconFilename>data\ui\icons\newworldtourists\icon_christo.png</IconFilename>
 					<InfoDescription>133587</InfoDescription>
-					<Version>dlc08</Version>
 				</Standard>
 				<Building>
 					<BuildingCategoryName>134142</BuildingCategoryName>
 					<SkipUnlockMessage>1</SkipUnlockMessage>
+					<PickingAsset>1440134430</PickingAsset>
 					<DestructionConfirmation>1</DestructionConfirmation>
 					<BuildModeRandomRotation>90</BuildModeRandomRotation>
 					<AssociatedRegions>Colony01</AssociatedRegions>
+					<AllowChangeDirection>1</AllowChangeDirection>
 				</Building>
 				<Blocking />
 				<Object>
@@ -5501,7 +5610,7 @@
 					</Skins>
 					<Variations>
 						<Item>
-							<Filename>data/graphics/buildings/special/monument_colony01_christ/monument_colony01_christ.cfg</Filename>
+							<Filename>data/graphics/buildings/special/monument_colony01_christ/christo_small_3.cfg</Filename>
 						</Item>
 					</Variations>
 				</Object>
@@ -5670,14 +5779,15 @@
 					<Name>Tourist_monument_colony_snacks_var3 (restaurant)</Name>
 					<IconFilename>data\ui\icons\newworldtourists\icon_christo.png</IconFilename>
 					<InfoDescription>133587</InfoDescription>
-					<Version>dlc08</Version>
 				</Standard>
 				<Building>
 					<BuildingCategoryName>134142</BuildingCategoryName>
 					<SkipUnlockMessage>1</SkipUnlockMessage>
+					<PickingAsset>1440134430</PickingAsset>
 					<DestructionConfirmation>1</DestructionConfirmation>
 					<BuildModeRandomRotation>90</BuildModeRandomRotation>
 					<AssociatedRegions>Colony01</AssociatedRegions>
+					<AllowChangeDirection>1</AllowChangeDirection>
 				</Building>
 				<Blocking />
 				<Object>
@@ -5688,7 +5798,7 @@
 					</Skins>
 					<Variations>
 						<Item>
-							<Filename>data/graphics/buildings/special/monument_colony01_christ/monument_colony01_christ.cfg</Filename>
+							<Filename>data/graphics/buildings/special/monument_colony01_christ/christo_small_3.cfg</Filename>
 						</Item>
 					</Variations>
 				</Object>
@@ -6080,5 +6190,501 @@
 		<BusActivation>
 			<BusNeed>1440134407</BusNeed>
 		</BusActivation>
+	</ModOp>
+	
+	<!-- # Monument Stages -->
+	<ModOp GUID="1440134400" Type="addNextSibling">
+		<Asset>
+			<Template>Monument</Template>
+			<Values>
+				<Standard>
+					<GUID>1440134430</GUID>
+					<Name>Christo_Phase1</Name>
+					<IconFilename>data\ui\icons\newworldtourists\icon_christo.png</IconFilename>
+					<InfoDescription>133587</InfoDescription>
+				</Standard>
+				<Building>
+					<PickingAsset>1440134430</PickingAsset>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AllowChangeDirection>1</AllowChangeDirection>
+				</Building>
+				<Blocking />
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>100000</Amount>
+						</Item>
+						<Item>
+							<Ingredient>1010196</Ingredient>
+							<Amount>40</Amount>
+						</Item>
+						<Item>
+							<Ingredient>1010205</Ingredient>
+							<Amount>50</Amount>
+						</Item>
+						<Item>
+							<Ingredient>1010218</Ingredient>
+							<Amount>30</Amount>
+						</Item>
+						<Item>
+							<Ingredient>1010202</Ingredient>
+							<Amount>60</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data/graphics/buildings/special/monument_colony01_christ/monument_colony01_christ_0.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<Mesh />
+				<Selection>
+					<GUIType>Monument</GUIType>
+					<ParticipantMessageArcheType>SA_Resident_tier01_atWork</ParticipantMessageArcheType>
+				</Selection>
+				<Constructable />
+				<Locked>
+					<DefaultLockedState>1</DefaultLockedState>
+					<DLCDependency>410084</DLCDependency>
+				</Locked>
+				<SoundEmitter>
+					<ActiveSounds>
+						<Item>
+							<Sound>270396</Sound>
+						</Item>
+					</ActiveSounds>
+					<BuildingRepaired>
+						<Item>
+							<Sound>203866</Sound>
+						</Item>
+					</BuildingRepaired>
+				</SoundEmitter>
+				<FeedbackController />
+				<Infolayer />
+				<FactoryBase>
+					<FactoryInputs>
+						<Item>
+							<Product>1010205</Product>
+							<Amount>5</Amount>
+							<StorageAmount>150</StorageAmount>
+						</Item>
+						<Item>
+							<Product>1010202</Product>
+							<Amount>5</Amount>
+							<StorageAmount>150</StorageAmount>
+						</Item>
+					</FactoryInputs>
+					<CycleTime>60</CycleTime>
+				</FactoryBase>
+				<LogisticNode>
+					<TransporterCountMax>2</TransporterCountMax>
+				</LogisticNode>
+				<Monument>
+					<UpgradeTarget>1440134431</UpgradeTarget>
+					<MicrophaseCount>30</MicrophaseCount>
+					<UnfinishedIcon>1440134433</UnfinishedIcon>
+					<FinishedIcon>1440134433</FinishedIcon>
+					<ShutdownText>6783</ShutdownText>
+					<MonumentHeadline>1440134400</MonumentHeadline>
+					<BackgroundImage>
+						<Blueprint>data\ui\icons\newworldtourists\monument\monument_christo_blueprint.png</Blueprint>
+						<PhasePlanned>data\ui\icons\newworldtourists\monument\monument_christo_1.png</PhasePlanned>
+						<PhaseFinished>data\ui\icons\newworldtourists\monument\monument_christo_2.png</PhaseFinished>
+					</BackgroundImage>
+					<ProgressbarHeight>103</ProgressbarHeight>
+				</Monument>
+				<Culture />
+				<AmbientMoodProvider>
+					<Murmur>MonumentConstruction</Murmur>
+				</AmbientMoodProvider>
+				<Maintenance>
+					<Maintenances>
+						<Item>
+							<Product>1010366</Product>
+							<Amount>150</Amount>
+							<ShutdownThreshold>0.4</ShutdownThreshold>
+						</Item>
+					</Maintenances>
+					<ConsumerPriorityAlarmed>2</ConsumerPriorityAlarmed>
+				</Maintenance>
+				<Attackable>
+					<MaximumHitPoints>10000</MaximumHitPoints>
+					<SelfHealPerHealTick>6</SelfHealPerHealTick>
+				</Attackable>
+				<Pausable></Pausable>
+				<BuildingUnique>
+					<Uniques>
+						<Item>
+							<UniqueType>TourismMonument</UniqueType>
+							<UniqueScope>Area</UniqueScope>
+						</Item>
+					</Uniques>
+				</BuildingUnique>
+				<UpgradeList />
+				<Industrializable />
+				<QuestObject />
+				<Electrifiable />
+				<BusActivation />
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>Monument</Template>
+			<Values>
+				<Standard>
+					<GUID>1440134431</GUID>
+					<Name>Christo_Phase2</Name>
+					<IconFilename>data\ui\icons\newworldtourists\icon_christo.png</IconFilename>
+					<InfoDescription>133587</InfoDescription>
+				</Standard>
+				<Building>
+					<SkipUnlockMessage>1</SkipUnlockMessage>
+					<PickingAsset>1440134430</PickingAsset>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AllowChangeDirection>1</AllowChangeDirection>
+				</Building>
+				<Blocking />
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>100000</Amount>
+						</Item>
+						<Item>
+							<Ingredient>1010196</Ingredient>
+							<Amount>40</Amount>
+						</Item>
+						<Item>
+							<Ingredient>1010205</Ingredient>
+							<Amount>200</Amount>
+						</Item>
+						<Item>
+							<Ingredient>1010202</Ingredient>
+							<Amount>210</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data/graphics/buildings/special/monument_colony01_christ/monument_colony01_christ_1.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<Mesh />
+				<Selection>
+					<GUIType>Monument</GUIType>
+					<ParticipantMessageArcheType>SA_Resident_tier01_atWork</ParticipantMessageArcheType>
+				</Selection>
+				<Constructable />
+				<Locked>
+					<DefaultLockedState>1</DefaultLockedState>
+					<DLCDependency>410084</DLCDependency>
+				</Locked>
+				<SoundEmitter>
+					<ActiveSounds>
+						<Item>
+							<Sound>270398</Sound>
+						</Item>
+					</ActiveSounds>
+					<BuildingRepaired>
+						<Item>
+							<Sound>203866</Sound>
+						</Item>
+					</BuildingRepaired>
+				</SoundEmitter>
+				<FeedbackController />
+				<Infolayer />
+				<FactoryBase>
+					<FactoryInputs>
+						<Item>
+							<Product>1010196</Product>
+							<Amount>2</Amount>
+							<StorageAmount>60</StorageAmount>
+						</Item>
+						<Item>
+							<Product>1010218</Product>
+							<Amount>4</Amount>
+							<StorageAmount>120</StorageAmount>
+						</Item>
+						<Item>
+							<Product>1010202</Product>
+							<Amount>5</Amount>
+							<StorageAmount>150</StorageAmount>
+						</Item>
+					</FactoryInputs>
+					<CycleTime>60</CycleTime>
+				</FactoryBase>
+				<LogisticNode>
+					<TransporterCountMax>2</TransporterCountMax>
+				</LogisticNode>
+				<Monument>
+					<UpgradeTarget>1440134432</UpgradeTarget>
+					<UseReplaceInsteadOfChangeGUID>1</UseReplaceInsteadOfChangeGUID>
+					<MicrophaseCount>30</MicrophaseCount>
+					<UnfinishedIcon>1440134434</UnfinishedIcon>
+					<FinishedIcon>1440134435</FinishedIcon>
+					<ShutdownText>6783</ShutdownText>
+					<MonumentHeadline>1440134400</MonumentHeadline>
+					<BackgroundImage>
+						<Blueprint>data\ui\icons\newworldtourists\monument\monument_christo_blueprint.png</Blueprint>
+						<PhasePlanned>data\ui\icons\newworldtourists\monument\monument_christo_2.png</PhasePlanned>
+						<PhaseFinished>data\ui\icons\newworldtourists\monument\monument_christo_3.png</PhaseFinished>
+					</BackgroundImage>
+					<ProgressbarHeight>105</ProgressbarHeight>
+				</Monument>
+				<Culture></Culture>
+				<AmbientMoodProvider>
+					<Murmur>MonumentConstruction</Murmur>
+				</AmbientMoodProvider>
+				<Maintenance>
+					<Maintenances>
+						<Item>
+							<Product>1010367</Product>
+							<Amount>150</Amount>
+							<ShutdownThreshold>0.4</ShutdownThreshold>
+						</Item>
+					</Maintenances>
+					<ConsumerPriorityAlarmed>2</ConsumerPriorityAlarmed>
+				</Maintenance>
+				<Attackable>
+					<MaximumHitPoints>10000</MaximumHitPoints>
+					<SelfHealPerHealTick>6</SelfHealPerHealTick>
+				</Attackable>
+				<Pausable />
+				<BuildingUnique>
+					<Uniques>
+						<Item>
+							<UniqueType>TourismMonument</UniqueType>
+							<UniqueScope>Area</UniqueScope>
+						</Item>
+					</Uniques>
+				</BuildingUnique>
+				<UpgradeList />
+				<Industrializable />
+				<QuestObject />
+				<Electrifiable />
+				<BusActivation />
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>Monument</Template>
+			<Values>
+				<Standard>
+					<GUID>1440134432</GUID>
+					<Name>Christo_Phase3</Name>
+					<IconFilename>data\ui\icons\newworldtourists\icon_christo.png</IconFilename>
+					<InfoDescription>133587</InfoDescription>
+				</Standard>
+				<Building>
+					<SkipUnlockMessage>1</SkipUnlockMessage>
+					<PickingAsset>1440134430</PickingAsset>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AllowChangeDirection>1</AllowChangeDirection>
+				</Building>
+				<Blocking />
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>100000</Amount>
+						</Item>
+						<Item>
+							<Ingredient>1010196</Ingredient>
+							<Amount>100</Amount>
+						</Item>
+						<Item>
+							<Ingredient>1010205</Ingredient>
+							<Amount>200</Amount>
+						</Item>
+						<Item>
+							<Ingredient>1010218</Ingredient>
+							<Amount>130</Amount>
+						</Item>
+						<Item>
+							<Ingredient>1010202</Ingredient>
+							<Amount>360</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data/graphics/buildings/special/monument_colony01_christ/monument_colony01_christ_2.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<Mesh />
+				<Selection>
+					<GUIType>Monument</GUIType>
+					<ParticipantMessageArcheType>SA_Resident_tier01_atWork</ParticipantMessageArcheType>
+				</Selection>
+				<Constructable />
+				<Locked>
+					<DefaultLockedState>1</DefaultLockedState>
+					<DLCDependency>410084</DLCDependency>
+				</Locked>
+				<SoundEmitter>
+					<ActiveSounds>
+						<Item>
+							<Sound>270398</Sound>
+						</Item>
+					</ActiveSounds>
+					<BuildingRepaired>
+						<Item>
+							<Sound>203866</Sound>
+						</Item>
+					</BuildingRepaired>
+				</SoundEmitter>
+				<FeedbackController />
+				<Infolayer />
+				<FactoryBase>
+					<FactoryInputs>
+						<Item>
+							<Product>1010218</Product>
+							<Amount>1</Amount>
+							<StorageAmount>30</StorageAmount>
+						</Item>
+						<Item>
+							<Product>1010202</Product>
+							<Amount>7</Amount>
+							<StorageAmount>210</StorageAmount>
+						</Item>
+					</FactoryInputs>
+					<CycleTime>60</CycleTime>
+				</FactoryBase>
+				<LogisticNode>
+					<TransporterCountMax>2</TransporterCountMax>
+				</LogisticNode>
+				<Monument>
+					<UpgradeTarget>1440134400</UpgradeTarget>
+					<UseReplaceInsteadOfChangeGUID>1</UseReplaceInsteadOfChangeGUID>
+					<MicrophaseCount>30</MicrophaseCount>
+					<UnfinishedIcon>1440134436</UnfinishedIcon>
+					<FinishedIcon>1440134437</FinishedIcon>
+					<ShutdownText>6783</ShutdownText>
+					<MonumentHeadline>1440134400</MonumentHeadline>
+					<BackgroundImage>
+						<Blueprint>data\ui\icons\newworldtourists\monument\monument_christo_blueprint.png</Blueprint>
+						<PhasePlanned>data\ui\icons\newworldtourists\monument\monument_christo_3.png</PhasePlanned>
+						<PhaseFinished>data\ui\icons\newworldtourists\monument\monument_christo_4.png</PhaseFinished>
+					</BackgroundImage>
+					<ProgressbarHeight>105</ProgressbarHeight>
+				</Monument>
+				<Culture></Culture>
+				<AmbientMoodProvider>
+					<Murmur>MonumentConstruction</Murmur>
+				</AmbientMoodProvider>
+				<Maintenance>
+					<Maintenances>
+						<Item>
+							<Product>1010367</Product>
+							<Amount>300</Amount>
+							<ShutdownThreshold>0.4</ShutdownThreshold>
+						</Item>
+					</Maintenances>
+					<ConsumerPriorityAlarmed>2</ConsumerPriorityAlarmed>
+				</Maintenance>
+				<Attackable>
+					<MaximumHitPoints>10000</MaximumHitPoints>
+					<SelfHealPerHealTick>6</SelfHealPerHealTick>
+				</Attackable>
+				<Pausable />
+				<BuildingUnique>
+					<Uniques>
+						<Item>
+							<UniqueType>TourismMonument</UniqueType>
+							<UniqueScope>Area</UniqueScope>
+						</Item>
+					</Uniques>
+				</BuildingUnique>
+				<UpgradeList />
+				<Industrializable />
+				<QuestObject />
+				<Electrifiable />
+				<BusActivation />
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>Icon</Template>
+			<Values>
+				<Standard>
+					<GUID>1440134433</GUID>
+					<Name>icon_phase0</Name>
+					<IconFilename>data\ui\icons\newworldtourists\icon_christo_0.png</IconFilename>
+				</Standard>
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>Icon</Template>
+			<Values>
+				<Standard>
+					<GUID>1440134434</GUID>
+					<Name>icon_phase1</Name>
+					<IconFilename>data\ui\icons\newworldtourists\icon_christo_1.png</IconFilename>
+				</Standard>
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>Icon</Template>
+			<Values>
+				<Standard>
+					<GUID>1440134435</GUID>
+					<Name>icon_phase1done</Name>
+					<IconFilename>data\ui\icons\newworldtourists\icon_christo_1done.png</IconFilename>
+				</Standard>
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>Icon</Template>
+			<Values>
+				<Standard>
+					<GUID>1440134436</GUID>
+					<Name>icon_phase2</Name>
+					<IconFilename>data\ui\icons\newworldtourists\icon_christo_2.png</IconFilename>
+				</Standard>
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>Icon</Template>
+			<Values>
+				<Standard>
+					<GUID>1440134437</GUID>
+					<Name>icon_phase2done</Name>
+					<IconFilename>data\ui\icons\newworldtourists\icon_christo_2done.png</IconFilename>
+				</Standard>
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>Icon</Template>
+			<Values>
+				<Standard>
+					<GUID>1440134438</GUID>
+					<Name>icon_phase3</Name>
+					<IconFilename>data\ui\icons\newworldtourists\icon_christo_3.png</IconFilename>
+				</Standard>
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>Icon</Template>
+			<Values>
+				<Standard>
+					<GUID>1440134439</GUID>
+					<Name>icon_phase3done</Name>
+					<IconFilename>data\ui\icons\newworldtourists\icon_christo_3done.png</IconFilename>
+				</Standard>
+			</Values>
+		</Asset>
 	</ModOp>
 </ModOps>

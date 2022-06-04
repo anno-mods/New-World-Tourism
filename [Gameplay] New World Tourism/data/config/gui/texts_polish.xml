@@ -321,5 +321,17 @@
 			<GUID>1440134407</GUID>
 			<Text>[AssetData(24768) Text]</Text>
 		</Text>
+		<Text>
+			<GUID>1440134430</GUID>
+			<Text>Chrystus Odkupiciel: fundamenty</Text>
+		</Text>
+		<Text>
+			<GUID>1440134431</GUID>
+			<Text>Chrystus Odkupiciel: rusztowanie</Text>
+		</Text>
+		<Text>
+			<GUID>1440134432</GUID>
+			<Text>Chrystus Odkupiciel: konstrukcja</Text>
+		</Text>
 	</ModOp>
 </ModOps>

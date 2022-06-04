@@ -321,5 +321,17 @@
 			<GUID>1440134407</GUID>
 			<Text>[AssetData(24768) Text]</Text>
 		</Text>
+		<Text>
+			<GUID>1440134430</GUID>
+			<Text>Христос-Искупитель: фундамент</Text>
+		</Text>
+		<Text>
+			<GUID>1440134431</GUID>
+			<Text>Христос-Искупитель: возведение лесов</Text>
+		</Text>
+		<Text>
+			<GUID>1440134432</GUID>
+			<Text>Христос-Искупитель: каркас</Text>
+		</Text>
 	</ModOp>
 </ModOps>
