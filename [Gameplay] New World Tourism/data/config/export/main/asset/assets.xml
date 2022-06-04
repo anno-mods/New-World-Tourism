@@ -5422,7 +5422,7 @@
 					</Skins>
 					<Variations>
 						<Item>
-							<Filename>data/graphics/buildings/special/monument_colony01_christ/christo_small_3.cfg</Filename>
+							<Filename>data/graphics/buildings/special/monument_colony01_christ/monument_colony01_christ.cfg</Filename>
 						</Item>
 					</Variations>
 				</Object>
@@ -5610,7 +5610,7 @@
 					</Skins>
 					<Variations>
 						<Item>
-							<Filename>data/graphics/buildings/special/monument_colony01_christ/christo_small_3.cfg</Filename>
+							<Filename>data/graphics/buildings/special/monument_colony01_christ/monument_colony01_christ.cfg</Filename>
 						</Item>
 					</Variations>
 				</Object>
@@ -5798,7 +5798,7 @@
 					</Skins>
 					<Variations>
 						<Item>
-							<Filename>data/graphics/buildings/special/monument_colony01_christ/christo_small_3.cfg</Filename>
+							<Filename>data/graphics/buildings/special/monument_colony01_christ/monument_colony01_christ.cfg</Filename>
 						</Item>
 					</Variations>
 				</Object>
