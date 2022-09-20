@@ -6146,9 +6146,13 @@
 		</Asset>
 	</ModOp>
 
-	<!-- ensure to not restrict other mod's needs with not(RequiredToBeBuilding)-->
-	<ModOp GUID = '601379' Type = "add" Path = "/Values/PopulationLevel7/PopulationInputs/Item[(Product = '133573' or Product = '132761') and (not(RequiredToBeBuilding) or RequiredToBeBuilding='601445')]">
-		<RequiredToBeBuilding>601445</RequiredToBeBuilding>
+	<!-- ensure to not restrict other mod's needs with not(RequiredBuildings)-->
+	<ModOp GUID = '601379' Type = "add" Path = "/Values/PopulationLevel7/PopulationInputs/Item[(Product = '133573' or Product = '132761') and (not(RequiredBuildings/Item/RequiredBuilding) or RequiredBuildings/Item/RequiredBuilding='601445')]">
+		<RequiredBuildings>
+			<Item>
+				<RequiredBuilding>601445</RequiredBuilding>
+			</Item>
+		</RequiredBuildings>
 	</ModOp>
 	<!-- use [last()] because there may be several entries for that need -->
 	<ModOp GUID = '601379' Type = "addNextSibling" Path = "/Values/PopulationLevel7/PopulationInputs/Item[Product = '133573'][last()]">
@@ -6158,7 +6162,11 @@
 			<MoneyValue>45</MoneyValue>
 			<FullWeightPopulationCount>50</FullWeightPopulationCount>
 			<NoWeightPopulationCount>49</NoWeightPopulationCount>
-			<RequiredToBeBuilding>1440134300</RequiredToBeBuilding>
+			<RequiredBuildings>
+				<Item>
+					<RequiredBuilding>1440134300</RequiredBuilding>
+				</Item>
+			</RequiredBuildings>
 		</Item>
 	</ModOp>
 	<!-- use [last()] because there may be several entries for that need -->
@@ -6169,14 +6177,22 @@
 			<MoneyValue>135</MoneyValue>
 			<FullWeightPopulationCount>4000</FullWeightPopulationCount>
 			<NoWeightPopulationCount>3999</NoWeightPopulationCount>
-			<RequiredToBeBuilding>1440134300</RequiredToBeBuilding>
+			<RequiredBuildings>
+				<Item>
+					<RequiredBuilding>1440134300</RequiredBuilding>
+				</Item>
+			</RequiredBuildings>
 		</Item>
 		<Item>
 			<Product>1440134407</Product>
 			<HappinessValue>10</HappinessValue>
 			<IsOptionalHappinessValue>1</IsOptionalHappinessValue>
 			<MoneyValue>300</MoneyValue>
-			<RequiredToBeBuilding>1440134300</RequiredToBeBuilding>
+			<RequiredBuildings>
+				<Item>
+					<RequiredBuilding>1440134300</RequiredBuilding>
+				</Item>
+			</RequiredBuildings>
 		</Item>
 	</ModOp>
 
