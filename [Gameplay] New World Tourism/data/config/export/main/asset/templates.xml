@@ -1,0 +1,5 @@
+<ModOps>
+  <ModOp Type="add" Path="//Template[Name='Hacienda']/Properties">
+    <BusActivation />
+  </ModOp>
+</ModOps>
