@@ -1,4 +1,6 @@
 <ModOps>
+	<Include File="./assets-hotel-needs.include.xml" />
+
 	<ModOp Type="addNextSibling" GUID='601445'>
 		<Asset>
 			<BaseAssetGUID>601445</BaseAssetGUID>
@@ -2869,7 +2871,7 @@
 				<Standard>
 					<GUID>1440134380</GUID>
 					<Name>TourismConstructionMenu</Name>
-					<IconFilename>data/ui/2kimages/main/3dicons/icon_hotel.png</IconFilename>
+					<IconFilename>data/ui/2kimages/main/icons/workforce/icon_workforce_2d_tourist.png</IconFilename>
 				</Standard>
 				<ConstructionCategory>
 					<BuildingList>
@@ -5378,14 +5380,6 @@
 						</Item>
 					</Uniques>
 				</BuildingUnique>
-				<Monument>
-					<UnfinishedIcon>1440134438</UnfinishedIcon>
-					<FinishedIcon>1440134439</FinishedIcon>
-					<ShutdownText>6783</ShutdownText>
-					<MonumentHeadline>1440134400</MonumentHeadline>
-					<ProgressbarHeight>108</ProgressbarHeight>
-					<AddOneToPhaseCount>0</AddOneToPhaseCount>
-				</Monument>
 				<Culture>
 					<Attractiveness>250</Attractiveness>
 					<CultureSpawnGroup>1</CultureSpawnGroup>
@@ -5968,8 +5962,6 @@
 			<WorkforceEntry>132723</WorkforceEntry>
 		</Item>
 	</ModOp>
-
-
 	<!-- ITEMEFFECT TARGET POOLS -->
 
 	<!-- Tourist Residence -->
@@ -6055,7 +6047,6 @@
 		<Item>
 			<GUID>1440134342</GUID>
 		</Item>
-
 		<Item>
 			<GUID>1440134400</GUID>
 		</Item>
@@ -6146,59 +6137,18 @@
 		</Asset>
 	</ModOp>
 
-	<!-- ensure to not restrict other mod's needs with not(RequiredBuildings)-->
-	<ModOp GUID = '601379' Type = "add" Path = "/Values/PopulationLevel7/PopulationInputs/Item[(Product = '133573' or Product = '132761') and (not(RequiredBuildings/Item/RequiredBuilding) or RequiredBuildings/Item/RequiredBuilding='601445')]">
-		<RequiredBuildings>
-			<Item>
-				<RequiredBuilding>601445</RequiredBuilding>
-			</Item>
-		</RequiredBuildings>
-	</ModOp>
-	<!-- use [last()] because there may be several entries for that need -->
-	<ModOp GUID = '601379' Type = "addNextSibling" Path = "/Values/PopulationLevel7/PopulationInputs/Item[Product = '133573'][last()]">
+	<!-- Add dependencies for new needs -->
+	<ModOp Type="add" GUID="601379" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='1440134405' or Product='1440134406' or Product='1440134407']/RequiredBuildings">
 		<Item>
-			<Product>1440134405</Product>
-			<SupplyWeight>25</SupplyWeight>
-			<MoneyValue>45</MoneyValue>
-			<FullWeightPopulationCount>50</FullWeightPopulationCount>
-			<NoWeightPopulationCount>49</NoWeightPopulationCount>
-			<RequiredBuildings>
-				<Item>
-					<RequiredBuilding>1440134300</RequiredBuilding>
-				</Item>
-			</RequiredBuildings>
-		</Item>
-	</ModOp>
-	<!-- use [last()] because there may be several entries for that need -->
-	<ModOp GUID = '601379' Type = "addNextSibling" Path = "/Values/PopulationLevel7/PopulationInputs/Item[Product = '132761'][last()]">
-		<Item>
-			<Product>1440134406</Product>
-			<SupplyWeight>80</SupplyWeight>
-			<MoneyValue>135</MoneyValue>
-			<FullWeightPopulationCount>4000</FullWeightPopulationCount>
-			<NoWeightPopulationCount>3999</NoWeightPopulationCount>
-			<RequiredBuildings>
-				<Item>
-					<RequiredBuilding>1440134300</RequiredBuilding>
-				</Item>
-			</RequiredBuildings>
-		</Item>
-		<Item>
-			<Product>1440134407</Product>
-			<HappinessValue>10</HappinessValue>
-			<IsOptionalHappinessValue>1</IsOptionalHappinessValue>
-			<MoneyValue>300</MoneyValue>
-			<RequiredBuildings>
-				<Item>
-					<RequiredBuilding>1440134300</RequiredBuilding>
-				</Item>
-			</RequiredBuildings>
+		  <RequiredBuilding>1440134300</RequiredBuilding>
+		  <Region>Colony01</Region>
 		</Item>
 	</ModOp>
 
-	<ModOp GUID = '601379' Type = "add" Path = "/Values/PopulationLevel7/HappinessDebuff/Hotspots/AffectedNeeds">
+	<ModOp Type="add" GUID="601379" Path="/Values/PopulationLevel7/PopulationInputs/Item[not(Product='132761') and not(Product='133573')]/RequiredBuildings">
 		<Item>
-			<Need>1440134405</Need>
+		  <RequiredBuilding>1440134300</RequiredBuilding>
+		  <Region>Colony01</Region>
 		</Item>
 	</ModOp>
 
@@ -6444,7 +6394,6 @@
 				</LogisticNode>
 				<Monument>
 					<UpgradeTarget>1440134432</UpgradeTarget>
-					<UseReplaceInsteadOfChangeGUID>1</UseReplaceInsteadOfChangeGUID>
 					<MicrophaseCount>30</MicrophaseCount>
 					<UnfinishedIcon>1440134434</UnfinishedIcon>
 					<FinishedIcon>1440134435</FinishedIcon>
@@ -6702,5 +6651,14 @@
 				</Standard>
 			</Values>
 		</Asset>
+	</ModOp>
+
+	<ModOp GUID = '502285' Path="/Values/MonumentScene/DataForNonMonumentTargets" Type="add">
+		<Item>
+			<TargetBuilding>1440134400</TargetBuilding>
+			<UnfinishedIcon>1440134438</UnfinishedIcon>
+			<FinishedIcon>1440134439</FinishedIcon>
+			<ProgressbarHeight>108</ProgressbarHeight>
+		  </Item>
 	</ModOp>
 </ModOps>
