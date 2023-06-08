@@ -1,5 +1,5 @@
 {
-  "Version": "1.2.2",
+  "Version": "1.3",
   "ModID": "FamTaubeLexy_NewWorldHotels",
   "IncompatibleIds": [
     "NewHorizons"
@@ -76,9 +76,13 @@
     {
       "DLC": "Tourism",
       "Dependant": "required"
+    },
+    {
+      "DLC": "NewWorldRising",
+      "Dependant": "partly"
     }
   ],
-  "CreatorName": "Fam, DaLexy and Taubenangriff. Thanks to Lordys for the NW Hotel Retexture and Jakob for the Construction Phases!",
+  "CreatorName": "Fam, DaLexy, Taubenangriff, Lordys and Jakob",
   "CreatorContact": "https://discord.gg/YTQGDFK",
   "Image" : null
 }
