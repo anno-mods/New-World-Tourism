@@ -5221,7 +5221,7 @@
 					</Skins>
 					<Variations>
 						<Item>
-							<Filename>data/graphics/buildings/special/monument_colony01_christ/monument_colony01_christ.cfg</Filename>
+							<Filename>data/graphics/buildings/special/monument_colony01_christ/christo_small_3.cfg</Filename>
 						</Item>
 					</Variations>
 				</Object>
@@ -5384,7 +5384,7 @@
 					</Skins>
 					<Variations>
 						<Item>
-							<Filename>data/graphics/buildings/special/monument_colony01_christ/monument_colony01_christ.cfg</Filename>
+							<Filename>data/graphics/buildings/special/monument_colony01_christ/christo_small_3.cfg</Filename>
 						</Item>
 					</Variations>
 				</Object>
@@ -5572,7 +5572,7 @@
 					</Skins>
 					<Variations>
 						<Item>
-							<Filename>data/graphics/buildings/special/monument_colony01_christ/monument_colony01_christ.cfg</Filename>
+							<Filename>data/graphics/buildings/special/monument_colony01_christ/christo_small_3.cfg</Filename>
 						</Item>
 					</Variations>
 				</Object>
@@ -5760,7 +5760,7 @@
 					</Skins>
 					<Variations>
 						<Item>
-							<Filename>data/graphics/buildings/special/monument_colony01_christ/monument_colony01_christ.cfg</Filename>
+							<Filename>data/graphics/buildings/special/monument_colony01_christ/christo_small_3.cfg</Filename>
 						</Item>
 					</Variations>
 				</Object>
@@ -6173,7 +6173,7 @@
 				<Object>
 					<Variations>
 						<Item>
-							<Filename>data/graphics/buildings/special/monument_colony01_christ/monument_colony01_christ_0.cfg</Filename>
+							<Filename>data/graphics/buildings/special/monument_colony01_christ/christo_small_0.cfg</Filename>
 						</Item>
 					</Variations>
 				</Object>
@@ -6309,7 +6309,7 @@
 				<Object>
 					<Variations>
 						<Item>
-							<Filename>data/graphics/buildings/special/monument_colony01_christ/monument_colony01_christ_1.cfg</Filename>
+							<Filename>data/graphics/buildings/special/monument_colony01_christ/christo_small_1.cfg</Filename>
 						</Item>
 					</Variations>
 				</Object>
@@ -6454,7 +6454,7 @@
 				<Object>
 					<Variations>
 						<Item>
-							<Filename>data/graphics/buildings/special/monument_colony01_christ/monument_colony01_christ_2.cfg</Filename>
+							<Filename>data/graphics/buildings/special/monument_colony01_christ/christo_small_2.cfg</Filename>
 						</Item>
 					</Variations>
 				</Object>

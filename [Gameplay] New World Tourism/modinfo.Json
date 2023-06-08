@@ -4,6 +4,9 @@
   "IncompatibleIds": [
     "NewHorizons"
   ],
+  "DeprecateIds": [
+    "jakob_nw_monument_small"
+  ],
   "ModDependencies": null,
   "Category": {
     "Chinese": null,
