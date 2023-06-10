@@ -86,6 +86,10 @@
       "Dependant": "required"
     },
     {
+      "DLC": "SeedsOfChange",
+      "Dependant": "partly"
+    },
+    {
       "DLC": "NewWorldRising",
       "Dependant": "partly"
     }

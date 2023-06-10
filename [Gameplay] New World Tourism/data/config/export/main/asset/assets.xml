@@ -1,4 +1,5 @@
 <ModOps>
+	<!-- # Buildings -->
 	<ModOp Type="addNextSibling" GUID='601445'>
 		<Asset>
 			<BaseAssetGUID>601445</BaseAssetGUID>
@@ -43,13 +44,6 @@
 				<BusActivation />
 			</Values>
 		</Asset>
-	</ModOp>
-
-	<ModOp GUID='132751,132755,132754,133573,132761,601485,133535,355,133891' Type="replace" Path="/Values/Product/AssociatedRegion">
-		<AssociatedRegion>Moderate;Colony01</AssociatedRegion>
-	</ModOp>
-
-	<ModOp Type="addNextSibling" GUID='601326'>
 		<Asset>
 			<BaseAssetGUID>601326</BaseAssetGUID>
 			<Values>
@@ -99,13 +93,22 @@
 							<Need>132754</Need>
 						</Item>
 						<Item>
-							<Need>1440134406</Need>
-						</Item>
-						<Item>
 							<Need>134781</Need>
 						</Item>
 						<Item>
 							<Need>1440134407</Need>
+						</Item>
+						<Item>
+							<Need>1440134416</Need>
+						</Item>
+						<Item>
+							<Need>1440134417</Need>
+						</Item>
+						<Item>
+							<Need>1440134418</Need>
+						</Item>
+						<Item>
+							<Need>1440134406</Need>
 						</Item>
 					</ShowNeeds>
 				</BusStop>
@@ -118,6 +121,10 @@
 	</ModOp>
 
 	<ModOp GUID='101259' Type="replace">
+		<ModOp GUID='132751,132755,132754,133573,132761,601485,133535,355,133891' Type="replace"
+			Path="/Values/Product/AssociatedRegion">
+			<AssociatedRegion>Moderate;Colony01</AssociatedRegion>
+		</ModOp>
 		<Asset>
 			<Template>PublicServiceBuildingWithBus</Template>
 			<Values>
@@ -257,29 +264,209 @@
 		</Asset>
 	</ModOp>
 
-	<!-- # Botanical Garden -->
-	<ModOp GUID = '114141,102282,102283' Type = "replace" Path = "/Template">
-		<Template>CultureBuilding</Template>
-	</ModOp>
-	<ModOp GUID = '114141' Type = "add" Path = "/Values">
-		<BusActivation>
-			<BusNeed>355</BusNeed>
-		</BusActivation>
-	</ModOp>
+	<!-- # Needs -->
+	<Group>
+		    <ModOp GUID='134781' Type="addNextSibling">
+			<Asset>
+				<BaseAssetGUID>134781</BaseAssetGUID>
+				<Values>
+					<Standard>
+						<GUID>1440134416</GUID>
+						<Name>Beach Need</Name>
+						<IconFilename>data/ui/2kimages/main/3dicons/public_building/icon_beach.png</IconFilename>
+					</Standard>
+					<Text />
+					<Locked>
+						<DLCDependency>24963</DLCDependency>
+					</Locked>
+					<Product>
+						<AssociatedRegion>Colony01</AssociatedRegion>
+						<HappinessCategory>Hotspots</HappinessCategory>
+						<NeededAttractiveness>0</NeededAttractiveness>
+					</Product>
+					<ExpeditionAttribute />
+				</Values>
+			</Asset>
+			<Asset>
+				<BaseAssetGUID>133573</BaseAssetGUID>
+				<Values>
+					<Standard>
+						<GUID>1440134417</GUID>
+						<Name>Cinema Need</Name>
+						<IconFilename>data/ui/2kimages/main/3dicons/public_building/icon_cinema.png</IconFilename>
+					</Standard>
+					<Text />
+					<Locked>
+						<DLCDependency>24963</DLCDependency>
+					</Locked>
+					<Product>
+						<AssociatedRegion>Colony01</AssociatedRegion>
+						<HappinessCategory>Hotspots</HappinessCategory>
+						<NeededAttractiveness>0</NeededAttractiveness>
+					</Product>
+					<ExpeditionAttribute />
+				</Values>
+			</Asset>
+			<Asset>
+				<BaseAssetGUID>133536</BaseAssetGUID>
+				<Values>
+					<Standard>
+						<GUID>1440134418</GUID>
+						<Name>Stadium Need</Name>
+						<IconFilename>data/ui/2kimages/main/3dicons/icon_stadium.png</IconFilename>
+					</Standard>
+					<Text />
+					<Locked>
+						<DLCDependency>24963</DLCDependency>
+					</Locked>
+					<Product>
+						<AssociatedRegion>Colony01</AssociatedRegion>
+						<HappinessCategory>Hotspots</HappinessCategory>
+						<NeededAttractiveness>0</NeededAttractiveness>
+					</Product>
+					<ExpeditionAttribute />
+				</Values>
+			</Asset>
+			<Asset>
+				<BaseAssetGUID>133573</BaseAssetGUID>
+				<Values>
+					<Standard>
+						<GUID>1440134405</GUID>
+						<IconFilename>data/ui/2kimages/main/3dicons/icon_box_arena.png</IconFilename>
+						<Name>Boxing Arena Need</Name>
+					</Standard>
+					<Text />
+					<Locked />
+					<Product>
+						<AssociatedRegion>Colony01</AssociatedRegion>
+					</Product>
+					<ExpeditionAttribute />
+				</Values>
+			</Asset>
+			<Asset>
+				<BaseAssetGUID>132761</BaseAssetGUID>
+				<Values>
+					<Standard>
+						<GUID>1440134406</GUID>
+						<Name>Christo Redentor Need</Name>
+						<IconFilename>data\ui\icons\newworldtourists\icon_christo.png</IconFilename>
+					</Standard>
+					<Text />
+					<Locked />
+					<Product>
+						<AssociatedRegion>Colony01</AssociatedRegion>
+					</Product>
+					<ExpeditionAttribute />
+				</Values>
+			</Asset>
+			<Asset>
+				<BaseAssetGUID>133536</BaseAssetGUID>
+				<Values>
+					<Standard>
+						<GUID>1440134407</GUID>
+						<Name>Hacienda Need</Name>
+						<IconFilename>data/ui/2kimages/main/3dicons/icon_hacienda_main.png</IconFilename>
+					</Standard>
+					<Text />
+					<Locked>
+						<DLCDependency>24961</DLCDependency>
+					</Locked>
+					<Product>
+						<AssociatedRegion>Colony01</AssociatedRegion>
+						<HappinessCategory>Hotspots</HappinessCategory>
+						<NeededAttractiveness>0</NeededAttractiveness>
+					</Product>
+					<ExpeditionAttribute />
+				</Values>
+			</Asset>
+		</ModOp>
+	</Group>
 
-	<!-- # Zoo -->
-	<ModOp GUID = '102282' Type = "add" Path = "/Values">
-		<BusActivation>
-			<BusNeed>601485</BusNeed>
-		</BusActivation>
-	</ModOp>
-
-	<!-- # Museum -->
-	<ModOp GUID = '102283' Type = "add" Path = "/Values">
-		<BusActivation>
-			<BusNeed>133535</BusNeed>
-		</BusActivation>
-	</ModOp>
+	<!-- # Bus Connections -->
+	<Group>
+		<ModOp GUID = '114141' Type = "add" Path = "/Values">
+			<BusActivation>
+				<BusNeed>355</BusNeed>
+			</BusActivation>
+		</ModOp>
+		<ModOp GUID = '102282' Type = "add" Path = "/Values">
+			<BusActivation>
+				<BusNeed>601485</BusNeed>
+			</BusActivation>
+		</ModOp>
+		<ModOp GUID = '102283' Type = "add" Path = "/Values">
+			<BusActivation>
+				<BusNeed>133535</BusNeed>
+			</BusActivation>
+		</ModOp>
+		<ModOp GUID = '24768' Path = "/Values" Type = "add" >
+			<BusActivation>
+				<BusNeed>1440134407</BusNeed>
+			</BusActivation>
+		</ModOp>
+		<ModOp GUID = '6264' Type = "add" Path = "/Values">
+			<BusActivation>
+				<BusNeed>1440134416</BusNeed>
+			</BusActivation>
+		</ModOp>
+		<ModOp GUID = '6018' Type = "add" Path = "/Values">
+			<BusActivation>
+				<BusNeed>1440134417</BusNeed>
+			</BusActivation>
+		</ModOp>
+		<ModOp GUID = '6121' Type = "add" Path = "/Values">
+			<BusActivation>
+				<BusNeed>1440134418</BusNeed>
+			</BusActivation>
+		</ModOp>
+		<ModOp GUID='134346' Type="add" Path="/Values/FeedbackBuildingGroup/Buildings">
+			<Item>
+				<Building>1440134302</Building>
+			</Item>
+			<Item>
+				<Building>1440134303</Building>
+			</Item>
+			<Item>
+				<Building>1440134304</Building>
+			</Item>
+			<Item>
+				<Building>1440134305</Building>
+			</Item>
+			<Item>
+				<Building>1440134306</Building>
+			</Item>
+			<Item>
+				<Building>1440134307</Building>
+			</Item>
+			<Item>
+				<Building>1440134308</Building>
+			</Item>
+			<Item>
+				<Building>1440134309</Building>
+			</Item>
+			<Item>
+				<Building>1440134310</Building>
+			</Item>
+			<Item>
+				<Building>1440134311</Building>
+			</Item>
+			<Item>
+				<Building>1440134410</Building>
+			</Item>
+			<Item>
+				<Building>1440134411</Building>
+			</Item>
+			<Item>
+				<Building>1440134412</Building>
+			</Item>
+			<Item>
+				<Building>101259</Building>
+			</Item>
+			<Item>
+				<Building>1440134300</Building>
+			</Item>
+		</ModOp>
+	</Group>
 
 	<!-- # Pier -->
 	<ModOp Type='addNextSibling' GUID='133890'>
@@ -367,55 +554,6 @@
 				</Item>
 			</UpgradeCost>
 		</Upgradable>
-	</ModOp>
-
-	<!-- # All Tourism Bus Target Buildings -->
-	<ModOp GUID='134346' Type="add" Path="/Values/FeedbackBuildingGroup/Buildings">
-		<Item>
-			<Building>1440134302</Building>
-		</Item>
-		<Item>
-			<Building>1440134303</Building>
-		</Item>
-		<Item>
-			<Building>1440134304</Building>
-		</Item>
-		<Item>
-			<Building>1440134305</Building>
-		</Item>
-		<Item>
-			<Building>1440134306</Building>
-		</Item>
-		<Item>
-			<Building>1440134307</Building>
-		</Item>
-		<Item>
-			<Building>1440134308</Building>
-		</Item>
-		<Item>
-			<Building>1440134309</Building>
-		</Item>
-		<Item>
-			<Building>1440134310</Building>
-		</Item>
-		<Item>
-			<Building>1440134311</Building>
-		</Item>
-		<Item>
-			<Building>1440134410</Building>
-		</Item>
-		<Item>
-			<Building>1440134411</Building>
-		</Item>
-		<Item>
-			<Building>1440134412</Building>
-		</Item>
-		<Item>
-			<Building>101259</Building>
-		</Item>
-		<Item>
-			<Building>1440134300</Building>
-		</Item>
 	</ModOp>
 
 	<!-- # Restaurants -->
@@ -2800,7 +2938,7 @@
 		</Item>
 	</ModOp>
 
-	<!-- Buffs 100% -->
+	<!-- # Buffs 100% -->
 	<ModOp Type="addNextSibling" GUID='133907'>
 		<Asset>
 			<Template>TownhallBuff</Template>
@@ -4100,7 +4238,7 @@
 		</Asset>
 	</ModOp>
 
-	<!-- Triggers -->
+	<!-- # Triggers -->
 	<ModOp Type="addNextSibling" GUID='132814'>
 		<Asset>
 			<Template>Trigger</Template>
@@ -5549,71 +5687,7 @@
 		</Item>
 	</ModOp>
 
-	<!-- Boxing Arena Need -->
-	<ModOp Type = "addNextSibling" GUID = '133573'>
-		<Asset>
-			<BaseAssetGUID>133573</BaseAssetGUID>
-			<Values>
-				<Standard>
-					<GUID>1440134405</GUID>
-					<IconFilename>data/ui/2kimages/main/3dicons/icon_box_arena.png</IconFilename>
-					<Name>Boxing Arena Need</Name>
-				</Standard>
-				<Text />
-				<Locked />
-				<Product>
-					<AssociatedRegion>Colony01</AssociatedRegion>
-				</Product>
-				<ExpeditionAttribute />
-			</Values>
-		</Asset>
-	</ModOp>
-
-	<!-- Christo Redentor Need -->
-	<ModOp Type = "addNextSibling" GUID = '132761'>
-		<Asset>
-			<BaseAssetGUID>132761</BaseAssetGUID>
-			<Values>
-				<Standard>
-					<GUID>1440134406</GUID>
-					<Name>Christo Redentor Need</Name>
-					<IconFilename>data\ui\icons\newworldtourists\icon_christo.png</IconFilename>
-				</Standard>
-				<Text />
-				<Locked />
-				<Product>
-					<AssociatedRegion>Colony01</AssociatedRegion>
-				</Product>
-				<ExpeditionAttribute />
-			</Values>
-		</Asset>
-	</ModOp>
-  
-  <!-- Hacienda Need -->
-	<ModOp Type = "addNextSibling" GUID = '133536'>
-		<Asset>
-			<BaseAssetGUID>133536</BaseAssetGUID>
-			<Values>
-				<Standard>
-					<GUID>1440134407</GUID>
-					<Name>Hacienda Need</Name>
-					<IconFilename>data/ui/2kimages/main/3dicons/icon_hacienda_main.png</IconFilename>
-				</Standard>
-				<Text />
-				<Locked>
-					<DLCDependency>24961</DLCDependency>
-				</Locked>
-				<Product>
-					<AssociatedRegion>Colony01</AssociatedRegion>
-					<HappinessCategory>Hotspots</HappinessCategory>
-					<NeededAttractiveness>0</NeededAttractiveness>
-				</Product>
-				<ExpeditionAttribute />
-			</Values>
-		</Asset>
-	</ModOp>
-
-	<!-- Add dependencies for new needs -->
+	<!-- Add dependencies for new needs
 	<ModOp Type="add" GUID="601379" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='1440134405' or Product='1440134406' or Product='1440134407']/RequiredBuildings">
 		<Item>
 		  <RequiredBuilding>1440134300</RequiredBuilding>
@@ -5626,13 +5700,7 @@
 		  <RequiredBuilding>1440134300</RequiredBuilding>
 		  <Region>Colony01</Region>
 		</Item>
-	</ModOp>
-
-	<ModOp GUID = '24768' Path = "/Values" Type = "add" >
-		<BusActivation>
-			<BusNeed>1440134407</BusNeed>
-		</BusActivation>
-	</ModOp>
+	</ModOp> -->
 	
 	<!-- # Monument Stages -->
 	<ModOp GUID="1440134400" Type="addNextSibling">

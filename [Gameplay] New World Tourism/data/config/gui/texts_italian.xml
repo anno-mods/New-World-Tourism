@@ -1,5 +1,4 @@
 <ModOps>
-	<!-- Italian Translation by Robbob -->
 	<ModOp Path="/TextExport/Texts" Type="add">
 		<Text>
 			<GUID>1440134340</GUID>
@@ -332,6 +331,18 @@
 		<Text>
 			<GUID>1440134432</GUID>
 			<Text>Christo Redentor: Struttura</Text>
+		</Text>
+		<Text>
+			<GUID>1440134416</GUID>
+			<Text>[AssetData(6264) Text]</Text>
+		</Text>
+		<Text>
+			<GUID>1440134417</GUID>
+			<Text>[AssetData(6018) Text]</Text>
+		</Text>
+		<Text>
+			<GUID>1440134418</GUID>
+			<Text>[AssetData(6121) Text]</Text>
 		</Text>
 	</ModOp>
 </ModOps>
