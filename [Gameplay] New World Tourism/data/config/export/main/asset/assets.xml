@@ -4340,28 +4340,6 @@
 							</TriggerAction>
 						</Item>
 					</TriggerActions>
-					<SubTriggers>
-						<Item>
-							<SubTrigger>
-								<Template>AutoCreateTrigger</Template>
-								<Values>
-									<Trigger>
-										<TriggerCondition>
-											<Template>ConditionPlayerCounter</Template>
-											<Values>
-												<Condition />
-												<ConditionPlayerCounter>
-													<PlayerCounter>PopulationByLevel</PlayerCounter>
-													<Context>15000006</Context>
-													<CounterAmount>1500</CounterAmount>
-												</ConditionPlayerCounter>
-											</Values>
-										</TriggerCondition>
-									</Trigger>
-								</Values>
-							</SubTrigger>
-						</Item>
-					</SubTriggers>
 				</Trigger>
 				<TriggerSetup />
 			</Values>
@@ -4543,14 +4521,74 @@
 				<TriggerSetup />
 			</Values>
 		</Asset>
+		<Asset>
+			<Template>FeatureUnlock</Template>
+			<Values>
+				<Standard>
+					<GUID>1440134442</GUID>
+					<Name>Creative Mode</Name>
+				</Standard>
+				<Trigger>
+					<TriggerCondition>
+              <Template>ConditionIsCreativeMode</Template>
+              <Values>
+                <Condition />
+                <ConditionIsCreativeMode />
+              </Values>
+            </TriggerCondition>
+					<TriggerActions>
+						<Item>
+							<TriggerAction>
+								<Template>ActionUnlockAsset</Template>
+								<Values>
+									<Action />
+									<ActionUnlockAsset>
+										<UnlockAssets>
+											<Item>
+												<Asset>1440134300</Asset>
+											</Item>
+											<Item>
+												<Asset>1440134301</Asset>
+											</Item>
+											<Item>
+												<Asset>1440134302</Asset>
+											</Item>
+											<Item>
+												<Asset>1440134340</Asset>
+											</Item>
+											<Item>
+												<Asset>1440134341</Asset>
+											</Item>
+											<Item>
+												<Asset>1440134342</Asset>
+											</Item>
+											<Item>
+												<Asset>1440134400</Asset>
+											</Item>
+											<Item>
+												<Asset>1440134430</Asset>
+											</Item>
+											<Item>
+												<Asset>1440134431</Asset>
+											</Item>
+											<Item>
+												<Asset>1440134432</Asset>
+											</Item>
+										</UnlockAssets>
+									</ActionUnlockAsset>
+								</Values>
+							</TriggerAction>
+						</Item>
+					</TriggerActions>
+				</Trigger>
+				<TriggerSetup />
+			</Values>
+		</Asset>
 	</ModOp>
 
 	<ModOp GUID='120058' Path="/Values/ProductStorageList/ProductList" Type="add">
 		<Item>
 			<Product>1010213</Product>
-		</Item>
-		<Item>
-			<Product>1010247</Product>
 		</Item>
 		<Item>
 			<Product>1010250</Product>
