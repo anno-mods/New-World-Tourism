@@ -1,6 +1,4 @@
 <ModOps>
-	<Include File="./assets-hotel-needs.include.xml" />
-
 	<ModOp Type="addNextSibling" GUID='601445'>
 		<Asset>
 			<BaseAssetGUID>601445</BaseAssetGUID>

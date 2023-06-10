@@ -7,7 +7,12 @@
   "DeprecateIds": [
     "jakob_nw_monument_small"
   ],
-  "ModDependencies": null,
+  "ModDependencies": [
+    "https://github.com/anno-mods/shared-resources/releases/download/v6/shared-pools-and-definitions.zip"
+  ],
+  "LoadAfterIds": [
+    "shared-pools-and-definitions"
+  ],
   "Category": {
     "Chinese": null,
     "English": "Gameplay",
