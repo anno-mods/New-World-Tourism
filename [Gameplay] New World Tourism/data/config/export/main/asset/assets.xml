@@ -257,7 +257,7 @@
 		</Asset>
 	</ModOp>
 
-	<!-- Botanical Garden -->
+	<!-- # Botanical Garden -->
 	<ModOp GUID = '114141,102282,102283' Type = "replace" Path = "/Template">
 		<Template>CultureBuilding</Template>
 	</ModOp>
@@ -267,20 +267,21 @@
 		</BusActivation>
 	</ModOp>
 
-	<!-- Zoo -->
+	<!-- # Zoo -->
 	<ModOp GUID = '102282' Type = "add" Path = "/Values">
 		<BusActivation>
 			<BusNeed>601485</BusNeed>
 		</BusActivation>
 	</ModOp>
 
-	<!-- Museum -->
+	<!-- # Museum -->
 	<ModOp GUID = '102283' Type = "add" Path = "/Values">
 		<BusActivation>
 			<BusNeed>133535</BusNeed>
 		</BusActivation>
 	</ModOp>
 
+	<!-- # Pier -->
 	<ModOp Type='addNextSibling' GUID='133890'>
 		<Asset>
 			<BaseAssetGUID>133890</BaseAssetGUID>
@@ -337,7 +338,38 @@
 			<Building>1440134302</Building>
 		</Item>
 	</ModOp>
-	<!-- All Tourism Bus Target Buildings -->
+	<ModOp GUID='102284' Path="/Values/Upgradable" Type="replace">
+		<Upgradable>
+			<NextGUID>1440134302</NextGUID>
+			<UpgradeCost>
+				<Item>
+					<Amount>10000</Amount>
+					<Ingredient>1010017</Ingredient>
+				</Item>
+				<Item>
+					<Amount>15</Amount>
+					<Ingredient>1010196</Ingredient>
+				</Item>
+				<Item>
+					<Amount>25</Amount>
+					<Ingredient>1010205</Ingredient>
+				</Item>
+				<Item>
+					<Amount>20</Amount>
+					<Ingredient>1010218</Ingredient>
+				</Item>
+				<Item>
+					<Amount>10</Amount>
+					<Ingredient>1010207</Ingredient>
+				</Item>
+				<Item>
+					<Ingredient>1010202</Ingredient>
+				</Item>
+			</UpgradeCost>
+		</Upgradable>
+	</ModOp>
+
+	<!-- # All Tourism Bus Target Buildings -->
 	<ModOp GUID='134346' Type="add" Path="/Values/FeedbackBuildingGroup/Buildings">
 		<Item>
 			<Building>1440134302</Building>
@@ -386,37 +418,7 @@
 		</Item>
 	</ModOp>
 
-	<ModOp GUID='102284' Path="/Values/Upgradable" Type="replace">
-		<Upgradable>
-			<NextGUID>1440134302</NextGUID>
-			<UpgradeCost>
-				<Item>
-					<Amount>10000</Amount>
-					<Ingredient>1010017</Ingredient>
-				</Item>
-				<Item>
-					<Amount>15</Amount>
-					<Ingredient>1010196</Ingredient>
-				</Item>
-				<Item>
-					<Amount>25</Amount>
-					<Ingredient>1010205</Ingredient>
-				</Item>
-				<Item>
-					<Amount>20</Amount>
-					<Ingredient>1010218</Ingredient>
-				</Item>
-				<Item>
-					<Amount>10</Amount>
-					<Ingredient>1010207</Ingredient>
-				</Item>
-				<Item>
-					<Ingredient>1010202</Ingredient>
-				</Item>
-			</UpgradeCost>
-		</Upgradable>
-	</ModOp>
-
+	<!-- # Restaurants -->
 	<ModOp Type="addNextSibling" GUID='133350'>
 		<Asset>
 			<Template>Restaurant</Template>
@@ -2184,7 +2186,7 @@
 		</Asset>
 	</ModOp>
 
-	<!-- Recipes -->
+	<!-- # Recipes -->
 	<ModOp GUID='132757' Type="addNextSibling">
 		<Asset>
 			<Template>Recipe</Template>
@@ -2733,6 +2735,7 @@
 		</Asset>
 	</ModOp>
 
+	<!-- # Construction Menu -->
 	<ModOp GUID='132779' Type="addNextSibling">
 		<Asset>
 			<Template>ConstructionCategory</Template>
