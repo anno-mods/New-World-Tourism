@@ -169,15 +169,6 @@
 				<Selection>
 					<GUIType>PublicService</GUIType>
 				</Selection>
-				<Text>
-					<LocaText>
-						<English>
-							<Text>Boxing Arena</Text>
-							<ExportCount>2</ExportCount>
-						</English>
-					</LocaText>
-					<LineID>8499</LineID>
-				</Text>
 				<Constructable />
 				<Locked />
 				<SoundEmitter>
@@ -492,16 +483,6 @@
 				</Cost>
 				<Mesh />
 				<Selection />
-				<Text>
-					<LocaText>
-						<English>
-							<Text>Restaurant: Churrasco</Text>
-							<Status>Exported</Status>
-							<ExportCount>2</ExportCount>
-						</English>
-					</LocaText>
-					<LineID>49828</LineID>
-				</Text>
 				<Constructable />
 				<Locked>
 					<DLCDependency>410084</DLCDependency>
@@ -658,16 +639,6 @@
 				</Cost>
 				<Mesh />
 				<Selection />
-				<Text>
-					<LocaText>
-						<English>
-							<Text>Restaurant: Pamonha</Text>
-							<Status>Exported</Status>
-							<ExportCount>2</ExportCount>
-						</English>
-					</LocaText>
-					<LineID>49828</LineID>
-				</Text>
 				<Constructable />
 				<Locked>
 					<DLCDependency>410084</DLCDependency>
@@ -824,16 +795,6 @@
 				</Cost>
 				<Mesh />
 				<Selection />
-				<Text>
-					<LocaText>
-						<English>
-							<Text>Restaurant: Enchiladas</Text>
-							<Status>Exported</Status>
-							<ExportCount>2</ExportCount>
-						</English>
-					</LocaText>
-					<LineID>49828</LineID>
-				</Text>
 				<Constructable />
 				<Locked>
 					<DLCDependency>410084</DLCDependency>
@@ -990,16 +951,6 @@
 				</Cost>
 				<Mesh />
 				<Selection />
-				<Text>
-					<LocaText>
-						<English>
-							<Text>Restaurant: Enchiladas</Text>
-							<Status>Exported</Status>
-							<ExportCount>2</ExportCount>
-						</English>
-					</LocaText>
-					<LineID>49828</LineID>
-				</Text>
 				<Constructable />
 				<Locked>
 					<DLCDependency>410084</DLCDependency>
@@ -1120,16 +1071,6 @@
 				</Cost>
 				<Mesh />
 				<Selection />
-				<Text>
-					<LocaText>
-						<English>
-							<Text>Cafe: Banana Bread</Text>
-							<Status>Exported</Status>
-							<ExportCount>2</ExportCount>
-						</English>
-					</LocaText>
-					<LineID>49828</LineID>
-				</Text>
 				<Constructable />
 				<Locked>
 					<DLCDependency>410084</DLCDependency>
@@ -1286,16 +1227,6 @@
 				</Cost>
 				<Mesh />
 				<Selection />
-				<Text>
-					<LocaText>
-						<English>
-							<Text>Cafe: Tropical Brainfart</Text>
-							<Status>Exported</Status>
-							<ExportCount>2</ExportCount>
-						</English>
-					</LocaText>
-					<LineID>49828</LineID>
-				</Text>
 				<Constructable />
 				<Locked>
 					<DLCDependency>410084</DLCDependency>
@@ -1452,16 +1383,6 @@
 				</Cost>
 				<Mesh />
 				<Selection />
-				<Text>
-					<LocaText>
-						<English>
-							<Text>Cafe: Banana Foster</Text>
-							<Status>Exported</Status>
-							<ExportCount>2</ExportCount>
-						</English>
-					</LocaText>
-					<LineID>49828</LineID>
-				</Text>
 				<Constructable />
 				<Locked>
 					<DLCDependency>410084</DLCDependency>
@@ -1618,16 +1539,6 @@
 				</Cost>
 				<Mesh />
 				<Selection />
-				<Text>
-					<LocaText>
-						<English>
-							<Text>Cafe: Banana Foster</Text>
-							<Status>Exported</Status>
-							<ExportCount>2</ExportCount>
-						</English>
-					</LocaText>
-					<LineID>49828</LineID>
-				</Text>
 				<Constructable />
 				<Locked>
 					<DLCDependency>410084</DLCDependency>
@@ -1748,16 +1659,6 @@
 				</Cost>
 				<Mesh />
 				<Selection />
-				<Text>
-					<LocaText>
-						<English>
-							<Text>Bar: Caipirinha</Text>
-							<Status>Exported</Status>
-							<ExportCount>2</ExportCount>
-						</English>
-					</LocaText>
-					<LineID>49828</LineID>
-				</Text>
 				<Constructable />
 				<Locked>
 					<DLCDependency>410084</DLCDependency>
@@ -1914,16 +1815,6 @@
 				</Cost>
 				<Mesh />
 				<Selection />
-				<Text>
-					<LocaText>
-						<English>
-							<Text>Bar: Navegado</Text>
-							<Status>Exported</Status>
-							<ExportCount>2</ExportCount>
-						</English>
-					</LocaText>
-					<LineID>49828</LineID>
-				</Text>
 				<Constructable />
 				<Locked>
 					<DLCDependency>410084</DLCDependency>
@@ -2080,16 +1971,6 @@
 				</Cost>
 				<Mesh />
 				<Selection />
-				<Text>
-					<LocaText>
-						<English>
-							<Text>Bar: Monke</Text>
-							<Status>Exported</Status>
-							<ExportCount>2</ExportCount>
-						</English>
-					</LocaText>
-					<LineID>49828</LineID>
-				</Text>
 				<Constructable />
 				<Locked>
 					<DLCDependency>410084</DLCDependency>
@@ -2246,16 +2127,6 @@
 				</Cost>
 				<Mesh />
 				<Selection />
-				<Text>
-					<LocaText>
-						<English>
-							<Text>Bar: Monke</Text>
-							<Status>Exported</Status>
-							<ExportCount>2</ExportCount>
-						</English>
-					</LocaText>
-					<LineID>49828</LineID>
-				</Text>
 				<Constructable />
 				<Locked>
 					<DLCDependency>410084</DLCDependency>
@@ -2917,16 +2788,6 @@
 						</Item>
 					</BuildingList>
 				</ConstructionCategory>
-				<Text>
-					<LocaText>
-						<English>
-							<Text>Tourists</Text>
-							<Status>Exported</Status>
-							<ExportCount>1</ExportCount>
-						</English>
-					</LocaText>
-					<LineID>50519</LineID>
-				</Text>
 				<Locked />
 			</Values>
 		</Asset>
@@ -2956,16 +2817,6 @@
 					</EffectTargets>
 					<AllowStacking>0</AllowStacking>
 				</ItemEffect>
-				<Text>
-					<LocaText>
-						<English>
-							<Text>Churrasco</Text>
-							<Status>Exported</Status>
-							<ExportCount>1</ExportCount>
-						</English>
-					</LocaText>
-					<LineID>49907</LineID>
-				</Text>
 				<BuildingUpgrade />
 				<Buff />
 				<PopulationUpgrade />
@@ -3006,16 +2857,6 @@
 					</EffectTargets>
 					<AllowStacking>0</AllowStacking>
 				</ItemEffect>
-				<Text>
-					<LocaText>
-						<English>
-							<Text>Churrasco</Text>
-							<Status>Exported</Status>
-							<ExportCount>1</ExportCount>
-						</English>
-					</LocaText>
-					<LineID>49907</LineID>
-				</Text>
 				<BuildingUpgrade />
 				<Buff />
 
@@ -3057,16 +2898,6 @@
 					</EffectTargets>
 					<AllowStacking>0</AllowStacking>
 				</ItemEffect>
-				<Text>
-					<LocaText>
-						<English>
-							<Text>Churrasco</Text>
-							<Status>Exported</Status>
-							<ExportCount>1</ExportCount>
-						</English>
-					</LocaText>
-					<LineID>49907</LineID>
-				</Text>
 				<BuildingUpgrade />
 				<Buff />
 
@@ -3108,16 +2939,6 @@
 					</EffectTargets>
 					<AllowStacking>0</AllowStacking>
 				</ItemEffect>
-				<Text>
-					<LocaText>
-						<English>
-							<Text>Pamonha</Text>
-							<Status>Exported</Status>
-							<ExportCount>1</ExportCount>
-						</English>
-					</LocaText>
-					<LineID>49907</LineID>
-				</Text>
 				<BuildingUpgrade />
 				<Buff />
 
@@ -3159,16 +2980,6 @@
 					</EffectTargets>
 					<AllowStacking>0</AllowStacking>
 				</ItemEffect>
-				<Text>
-					<LocaText>
-						<English>
-							<Text>Pamonha</Text>
-							<Status>Exported</Status>
-							<ExportCount>1</ExportCount>
-						</English>
-					</LocaText>
-					<LineID>49907</LineID>
-				</Text>
 				<BuildingUpgrade />
 				<Buff />
 
@@ -3210,16 +3021,6 @@
 					</EffectTargets>
 					<AllowStacking>0</AllowStacking>
 				</ItemEffect>
-				<Text>
-					<LocaText>
-						<English>
-							<Text>Pamonha</Text>
-							<Status>Exported</Status>
-							<ExportCount>1</ExportCount>
-						</English>
-					</LocaText>
-					<LineID>49907</LineID>
-				</Text>
 				<BuildingUpgrade />
 				<Buff />
 
@@ -3261,16 +3062,6 @@
 					</EffectTargets>
 					<AllowStacking>0</AllowStacking>
 				</ItemEffect>
-				<Text>
-					<LocaText>
-						<English>
-							<Text>Enchiladas</Text>
-							<Status>Exported</Status>
-							<ExportCount>1</ExportCount>
-						</English>
-					</LocaText>
-					<LineID>49907</LineID>
-				</Text>
 				<BuildingUpgrade />
 				<Buff />
 
@@ -3312,16 +3103,6 @@
 					</EffectTargets>
 					<AllowStacking>0</AllowStacking>
 				</ItemEffect>
-				<Text>
-					<LocaText>
-						<English>
-							<Text>Enchiladas</Text>
-							<Status>Exported</Status>
-							<ExportCount>1</ExportCount>
-						</English>
-					</LocaText>
-					<LineID>49907</LineID>
-				</Text>
 				<BuildingUpgrade />
 				<Buff />
 
@@ -3363,16 +3144,6 @@
 					</EffectTargets>
 					<AllowStacking>0</AllowStacking>
 				</ItemEffect>
-				<Text>
-					<LocaText>
-						<English>
-							<Text>Enchiladas</Text>
-							<Status>Exported</Status>
-							<ExportCount>1</ExportCount>
-						</English>
-					</LocaText>
-					<LineID>49907</LineID>
-				</Text>
 				<BuildingUpgrade />
 				<Buff />
 
@@ -3414,16 +3185,6 @@
 					</EffectTargets>
 					<AllowStacking>0</AllowStacking>
 				</ItemEffect>
-				<Text>
-					<LocaText>
-						<English>
-							<Text>Banana Bread</Text>
-							<Status>Exported</Status>
-							<ExportCount>1</ExportCount>
-						</English>
-					</LocaText>
-					<LineID>49907</LineID>
-				</Text>
 				<BuildingUpgrade />
 				<Buff />
 
@@ -3465,16 +3226,6 @@
 					</EffectTargets>
 					<AllowStacking>0</AllowStacking>
 				</ItemEffect>
-				<Text>
-					<LocaText>
-						<English>
-							<Text>Banana Bread</Text>
-							<Status>Exported</Status>
-							<ExportCount>1</ExportCount>
-						</English>
-					</LocaText>
-					<LineID>49907</LineID>
-				</Text>
 				<BuildingUpgrade />
 				<Buff />
 
@@ -3516,16 +3267,6 @@
 					</EffectTargets>
 					<AllowStacking>0</AllowStacking>
 				</ItemEffect>
-				<Text>
-					<LocaText>
-						<English>
-							<Text>Banana Bread</Text>
-							<Status>Exported</Status>
-							<ExportCount>1</ExportCount>
-						</English>
-					</LocaText>
-					<LineID>49907</LineID>
-				</Text>
 				<BuildingUpgrade />
 				<Buff />
 
@@ -3567,16 +3308,6 @@
 					</EffectTargets>
 					<AllowStacking>0</AllowStacking>
 				</ItemEffect>
-				<Text>
-					<LocaText>
-						<English>
-							<Text>Sorbet</Text>
-							<Status>Exported</Status>
-							<ExportCount>1</ExportCount>
-						</English>
-					</LocaText>
-					<LineID>49907</LineID>
-				</Text>
 				<BuildingUpgrade />
 				<Buff />
 
@@ -3618,16 +3349,6 @@
 					</EffectTargets>
 					<AllowStacking>0</AllowStacking>
 				</ItemEffect>
-				<Text>
-					<LocaText>
-						<English>
-							<Text>Sorbet</Text>
-							<Status>Exported</Status>
-							<ExportCount>1</ExportCount>
-						</English>
-					</LocaText>
-					<LineID>49907</LineID>
-				</Text>
 				<BuildingUpgrade />
 				<Buff />
 
@@ -3669,16 +3390,6 @@
 					</EffectTargets>
 					<AllowStacking>0</AllowStacking>
 				</ItemEffect>
-				<Text>
-					<LocaText>
-						<English>
-							<Text>Sorbet</Text>
-							<Status>Exported</Status>
-							<ExportCount>1</ExportCount>
-						</English>
-					</LocaText>
-					<LineID>49907</LineID>
-				</Text>
 				<BuildingUpgrade />
 				<Buff />
 
@@ -3720,16 +3431,6 @@
 					</EffectTargets>
 					<AllowStacking>0</AllowStacking>
 				</ItemEffect>
-				<Text>
-					<LocaText>
-						<English>
-							<Text>Banana Foster</Text>
-							<Status>Exported</Status>
-							<ExportCount>1</ExportCount>
-						</English>
-					</LocaText>
-					<LineID>49907</LineID>
-				</Text>
 				<BuildingUpgrade />
 				<Buff />
 
@@ -3771,16 +3472,6 @@
 					</EffectTargets>
 					<AllowStacking>0</AllowStacking>
 				</ItemEffect>
-				<Text>
-					<LocaText>
-						<English>
-							<Text>Banana Foster</Text>
-							<Status>Exported</Status>
-							<ExportCount>1</ExportCount>
-						</English>
-					</LocaText>
-					<LineID>49907</LineID>
-				</Text>
 				<BuildingUpgrade />
 				<Buff />
 
@@ -3822,16 +3513,6 @@
 					</EffectTargets>
 					<AllowStacking>0</AllowStacking>
 				</ItemEffect>
-				<Text>
-					<LocaText>
-						<English>
-							<Text>Banana Foster</Text>
-							<Status>Exported</Status>
-							<ExportCount>1</ExportCount>
-						</English>
-					</LocaText>
-					<LineID>49907</LineID>
-				</Text>
 				<BuildingUpgrade />
 				<Buff />
 
@@ -3873,16 +3554,6 @@
 					</EffectTargets>
 					<AllowStacking>0</AllowStacking>
 				</ItemEffect>
-				<Text>
-					<LocaText>
-						<English>
-							<Text>Caipirinha</Text>
-							<Status>Exported</Status>
-							<ExportCount>1</ExportCount>
-						</English>
-					</LocaText>
-					<LineID>49907</LineID>
-				</Text>
 				<BuildingUpgrade />
 				<Buff />
 
@@ -3924,16 +3595,6 @@
 					</EffectTargets>
 					<AllowStacking>0</AllowStacking>
 				</ItemEffect>
-				<Text>
-					<LocaText>
-						<English>
-							<Text>Caipirinha</Text>
-							<Status>Exported</Status>
-							<ExportCount>1</ExportCount>
-						</English>
-					</LocaText>
-					<LineID>49907</LineID>
-				</Text>
 				<BuildingUpgrade />
 				<Buff />
 
@@ -3975,16 +3636,6 @@
 					</EffectTargets>
 					<AllowStacking>0</AllowStacking>
 				</ItemEffect>
-				<Text>
-					<LocaText>
-						<English>
-							<Text>Caipirinha</Text>
-							<Status>Exported</Status>
-							<ExportCount>1</ExportCount>
-						</English>
-					</LocaText>
-					<LineID>49907</LineID>
-				</Text>
 				<BuildingUpgrade />
 				<Buff />
 
@@ -4026,16 +3677,6 @@
 					</EffectTargets>
 					<AllowStacking>0</AllowStacking>
 				</ItemEffect>
-				<Text>
-					<LocaText>
-						<English>
-							<Text>Navegado</Text>
-							<Status>Exported</Status>
-							<ExportCount>1</ExportCount>
-						</English>
-					</LocaText>
-					<LineID>49907</LineID>
-				</Text>
 				<BuildingUpgrade />
 				<Buff />
 				<PopulationUpgrade />
@@ -4076,16 +3717,6 @@
 					</EffectTargets>
 					<AllowStacking>0</AllowStacking>
 				</ItemEffect>
-				<Text>
-					<LocaText>
-						<English>
-							<Text>Navegado</Text>
-							<Status>Exported</Status>
-							<ExportCount>1</ExportCount>
-						</English>
-					</LocaText>
-					<LineID>49907</LineID>
-				</Text>
 				<BuildingUpgrade />
 				<Buff />
 
@@ -4127,16 +3758,6 @@
 					</EffectTargets>
 					<AllowStacking>0</AllowStacking>
 				</ItemEffect>
-				<Text>
-					<LocaText>
-						<English>
-							<Text>Navegado</Text>
-							<Status>Exported</Status>
-							<ExportCount>1</ExportCount>
-						</English>
-					</LocaText>
-					<LineID>49907</LineID>
-				</Text>
 				<BuildingUpgrade />
 				<Buff />
 
@@ -4178,16 +3799,6 @@
 					</EffectTargets>
 					<AllowStacking>0</AllowStacking>
 				</ItemEffect>
-				<Text>
-					<LocaText>
-						<English>
-							<Text>The Secret of Monkey Island</Text>
-							<Status>Exported</Status>
-							<ExportCount>1</ExportCount>
-						</English>
-					</LocaText>
-					<LineID>49907</LineID>
-				</Text>
 				<BuildingUpgrade />
 				<Buff />
 
@@ -4229,16 +3840,6 @@
 					</EffectTargets>
 					<AllowStacking>0</AllowStacking>
 				</ItemEffect>
-				<Text>
-					<LocaText>
-						<English>
-							<Text>The Secret of Monkey Island</Text>
-							<Status>Exported</Status>
-							<ExportCount>1</ExportCount>
-						</English>
-					</LocaText>
-					<LineID>49907</LineID>
-				</Text>
 				<BuildingUpgrade />
 				<Buff />
 
@@ -4280,16 +3881,6 @@
 					</EffectTargets>
 					<AllowStacking>0</AllowStacking>
 				</ItemEffect>
-				<Text>
-					<LocaText>
-						<English>
-							<Text>The Secret of Monkey Island</Text>
-							<Status>Exported</Status>
-							<ExportCount>1</ExportCount>
-						</English>
-					</LocaText>
-					<LineID>49907</LineID>
-				</Text>
 				<BuildingUpgrade />
 				<Buff />
 
@@ -4331,16 +3922,6 @@
 					</EffectTargets>
 					<AllowStacking>0</AllowStacking>
 				</ItemEffect>
-				<Text>
-					<LocaText>
-						<English>
-							<Text>Christo Redentor</Text>
-							<Status>Exported</Status>
-							<ExportCount>1</ExportCount>
-						</English>
-					</LocaText>
-					<LineID>49907</LineID>
-				</Text>
 				<BuildingUpgrade />
 				<Buff />
 				<PopulationUpgrade>
@@ -4395,16 +3976,6 @@
 					</EffectTargets>
 					<AllowStacking>0</AllowStacking>
 				</ItemEffect>
-				<Text>
-					<LocaText>
-						<English>
-							<Text>Christo Redentor</Text>
-							<Status>Exported</Status>
-							<ExportCount>1</ExportCount>
-						</English>
-					</LocaText>
-					<LineID>49907</LineID>
-				</Text>
 				<BuildingUpgrade />
 				<Buff />
 				<PopulationUpgrade>
@@ -4459,16 +4030,6 @@
 					</EffectTargets>
 					<AllowStacking>0</AllowStacking>
 				</ItemEffect>
-				<Text>
-					<LocaText>
-						<English>
-							<Text>Christo Redentor</Text>
-							<Status>Exported</Status>
-							<ExportCount>1</ExportCount>
-						</English>
-					</LocaText>
-					<LineID>49907</LineID>
-				</Text>
 				<BuildingUpgrade />
 				<Buff />
 				<PopulationUpgrade>
@@ -4517,16 +4078,6 @@
 					<InfoDescription>143511</InfoDescription>
 				</Standard>
 				<ItemEffect />
-				<Text>
-					<LocaText>
-						<English>
-							<Text>Embrace Sunlight</Text>
-							<Status>Exported</Status>
-							<ExportCount>1</ExportCount>
-						</English>
-					</LocaText>
-					<LineID>55049</LineID>
-				</Text>
 				<FactoryUpgrade />
 				<BuildingUpgrade />
 				<Buff />
@@ -5210,7 +4761,6 @@
 					<DestructionConfirmation>1</DestructionConfirmation>
 					<BuildModeRandomRotation>90</BuildModeRandomRotation>
 					<AssociatedRegions>Colony01</AssociatedRegions>
-					<AllowChangeDirection>1</AllowChangeDirection>
 				</Building>
 				<Blocking />
 				<Object>
@@ -5251,16 +4801,6 @@
 				</Cost>
 				<Mesh />
 				<Selection />
-				<Text>
-					<LocaText>
-						<English>
-							<Text>Christo Redentor</Text>
-							<Status>Exported</Status>
-							<ExportCount>3</ExportCount>
-						</English>
-					</LocaText>
-					<LineID>49831</LineID>
-				</Text>
 				<Constructable />
 				<Locked>
 					<DLCDependency>410084</DLCDependency>
@@ -5373,7 +4913,6 @@
 					<DestructionConfirmation>1</DestructionConfirmation>
 					<BuildModeRandomRotation>90</BuildModeRandomRotation>
 					<AssociatedRegions>Colony01</AssociatedRegions>
-					<AllowChangeDirection>1</AllowChangeDirection>
 				</Building>
 				<Blocking />
 				<Object>
@@ -5414,16 +4953,6 @@
 				</Cost>
 				<Mesh />
 				<Selection />
-				<Text>
-					<LocaText>
-						<English>
-							<Text>Christo Redentor</Text>
-							<Status>Exported</Status>
-							<ExportCount>3</ExportCount>
-						</English>
-					</LocaText>
-					<LineID>49831</LineID>
-				</Text>
 				<Constructable />
 				<Locked>
 					<DLCDependency>410084</DLCDependency>
@@ -5561,7 +5090,6 @@
 					<DestructionConfirmation>1</DestructionConfirmation>
 					<BuildModeRandomRotation>90</BuildModeRandomRotation>
 					<AssociatedRegions>Colony01</AssociatedRegions>
-					<AllowChangeDirection>1</AllowChangeDirection>
 				</Building>
 				<Blocking />
 				<Object>
@@ -5602,16 +5130,6 @@
 				</Cost>
 				<Mesh />
 				<Selection />
-				<Text>
-					<LocaText>
-						<English>
-							<Text>Christo Redentor</Text>
-							<Status>Exported</Status>
-							<ExportCount>3</ExportCount>
-						</English>
-					</LocaText>
-					<LineID>49831</LineID>
-				</Text>
 				<Constructable />
 				<Locked>
 					<DLCDependency>410084</DLCDependency>
@@ -5749,7 +5267,6 @@
 					<DestructionConfirmation>1</DestructionConfirmation>
 					<BuildModeRandomRotation>90</BuildModeRandomRotation>
 					<AssociatedRegions>Colony01</AssociatedRegions>
-					<AllowChangeDirection>1</AllowChangeDirection>
 				</Building>
 				<Blocking />
 				<Object>
@@ -5790,16 +5307,6 @@
 				</Cost>
 				<Mesh />
 				<Selection />
-				<Text>
-					<LocaText>
-						<English>
-							<Text>Christo Redentor</Text>
-							<Status>Exported</Status>
-							<ExportCount>3</ExportCount>
-						</English>
-					</LocaText>
-					<LineID>49831</LineID>
-				</Text>
 				<Constructable />
 				<Locked>
 					<DLCDependency>410084</DLCDependency>
@@ -6143,7 +5650,6 @@
 					<AssociatedRegions>Colony01</AssociatedRegions>
 					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
 					<SecondPartyRelevant>0</SecondPartyRelevant>
-					<AllowChangeDirection>1</AllowChangeDirection>
 				</Building>
 				<Blocking />
 				<Cost>
@@ -6283,7 +5789,6 @@
 					<AssociatedRegions>Colony01</AssociatedRegions>
 					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
 					<SecondPartyRelevant>0</SecondPartyRelevant>
-					<AllowChangeDirection>1</AllowChangeDirection>
 				</Building>
 				<Blocking />
 				<Cost>
@@ -6424,7 +5929,6 @@
 					<AssociatedRegions>Colony01</AssociatedRegions>
 					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
 					<SecondPartyRelevant>0</SecondPartyRelevant>
-					<AllowChangeDirection>1</AllowChangeDirection>
 				</Building>
 				<Blocking />
 				<Cost>
