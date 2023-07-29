@@ -4187,69 +4187,152 @@
 	</Group>
 
 	<!-- # Construction Menu -->
-	<ModOp GUID='132779' Type="addNextSibling">
-		<Asset>
-			<Template>ConstructionCategory</Template>
-			<Values>
-				<Standard>
-					<GUID>1440134380</GUID>
-					<Name>TourismConstructionMenu</Name>
-					<IconFilename>data/ui/2kimages/main/icons/workforce/icon_workforce_2d_tourist.png</IconFilename>
-				</Standard>
-				<ConstructionCategory>
-					<BuildingList>
-						<Item>
-							<Building>102284</Building>
-						</Item>
-						<Item>
-							<Building>1440134301</Building>
-						</Item>
-						<Item>
-							<Building>1440134300</Building>
-						</Item>
-						<Item>
-							<!-- 
-								automatically include Small Hotels if available,
-								that way it can be loaded before or after
-							-->
-							<Building>1500010529</Building>
-						</Item>
-						<Item>
-							<Building>1440134340</Building>
-						</Item>
-						<Item>
-							<Building>133496</Building>
-						</Item>
-						<Item>
-							<Building>1440134341</Building>
-						</Item>
-						<Item>
-							<Building>137608</Building>
-						</Item>
-						<Item>
-							<Building>137607</Building>
-						</Item>
-						<Item>
-							<Building>1440134342</Building>
-						</Item>
-						<Item>
-							<Building>137609</Building>
-						</Item>
-						<Item>
-							<Building>1440134430</Building>
-						</Item>
-					</BuildingList>
-				</ConstructionCategory>
-				<Locked />
-			</Values>
-		</Asset>
-	</ModOp>
+	<Group>
+		<ModOp GUID='132779' Type="addNextSibling">
+			<Asset>
+				<Template>ConstructionCategory</Template>
+				<Values>
+					<Standard>
+						<GUID>1440134380</GUID>
+						<Name>TourismConstructionMenu</Name>
+						<IconFilename>data/ui/2kimages/main/icons/workforce/icon_workforce_2d_tourist.png</IconFilename>
+					</Standard>
+					<ConstructionCategory>
+						<BuildingList>
+							<Item>
+								<Building>102284</Building>
+							</Item>
+							<Item>
+								<Building>1440134301</Building>
+							</Item>
+							<Item>
+								<Building>1440134300</Building>
+							</Item>
+							<Item>
+								<!--
+									automatically include Small Hotels if available,
+									that way it can be loaded before or after
+								-->
+								<Building>1500010529</Building>
+							</Item>
+							<Item>
+								<Building>1440134340</Building>
+							</Item>
+							<Item>
+								<Building>133496</Building>
+							</Item>
+							<Item>
+								<Building>1440134341</Building>
+							</Item>
+							<Item>
+								<Building>137608</Building>
+							</Item>
+							<Item>
+								<Building>137607</Building>
+							</Item>
+							<Item>
+								<Building>1440134342</Building>
+							</Item>
+							<Item>
+								<Building>137609</Building>
+							</Item>
+							<Item>
+								<Building>1440134430</Building>
+							</Item>
+						</BuildingList>
+					</ConstructionCategory>
+					<Locked />
+				</Values>
+			</Asset>
+			<Asset>
+				<Template>ConstructionCategory</Template>
+				<Values>
+					<Standard>
+						<GUID>1440134446</GUID>
+						<Name>City Tourism Menu</Name>
+						<IconFilename>data/ui/2kimages/main/3dicons/icon_hotel.png</IconFilename>
+					</Standard>
+					<ConstructionCategory>
+						<BuildingList>
+							<Item>
+								<Building>102284</Building>
+								<IgnoreUnlockStateForCategoryVisibility>1</IgnoreUnlockStateForCategoryVisibility>
+							</Item>
+							<Item>
+								<Building>1440134301</Building>
+							</Item>
+							<Item>
+								<Building>1440134300</Building>
+							</Item>
+							<Item>
+								<Building>1500010529</Building>
+							</Item>
+							<Item>
+								<Building>1440134340</Building>
+							</Item>
+							<Item>
+								<Building>1440134341</Building>
+							</Item>
+							<Item>
+								<Building>1440134342</Building>
+							</Item>
+							<Item>
+								<Building>1440134430</Building>
+							</Item>
+						</BuildingList>
+						<CategoryDescription>13108</CategoryDescription>
+					</ConstructionCategory>
+					<Locked />
+				</Values>
+			</Asset>
+		</ModOp>
 
-	<ModOp GUID='25000035' Type="add" Path="/.//ConstructionMenu/RegionMenu/Colony01/CategoryMode/Tier/Categories">
-		<Item>
-			<Category>1440134380</Category>
-		</Item>
-	</ModOp>
+		<ModOp GUID='25000035' Type="add" Path="/.//ConstructionMenu/RegionMenu/Colony01/CategoryMode/Tier/Categories">
+			<Item>
+				<Category>1440134380</Category>
+			</Item>
+		</ModOp>
+
+		<ModOp GUID='500137' Type="addNextSibling"
+			Path="/Values/ConstructionCategory/BuildingList/Item[Building='101254' or position()=last()][1]">
+			<Item>
+				<Building>1440134446</Building>
+			</Item>
+		</ModOp>
+		<ModOp GUID='500138' Type="addNextSibling"
+			Path="/Values/ConstructionCategory/BuildingList/Item[Building='101259' or position()=last()][1]">
+			<Item>
+				<Building>1440134340</Building>
+			</Item>
+			<Item>
+				<Building>1440134341</Building>
+			</Item>
+			<Item>
+				<Building>1440134342</Building>
+			</Item>
+		</ModOp>
+		<ModOp GUID='500950' Type="addNextSibling"
+			Path="/Values/ConstructionCategory/BuildingList/Item[Building='500909' or position()=last()][1]">
+			<Item>
+				<Building>133496</Building>
+			</Item>
+			<Item>
+				<Building>137608</Building>
+			</Item>
+			<Item>
+				<Building>137607</Building>
+			</Item>
+			<Item>
+				<Building>137609</Building>
+			</Item>
+		</ModOp>
+		<ModOp GUID='500150' Type="addNextSibling"
+			Path="/Values/ConstructionCategory/BuildingList/Item[Building='114141' or position()=last()][1]">
+			<Item>
+				<Building>1440134430</Building>
+			</Item>
+		</ModOp>
+	</Group>
 
 	<!-- # Triggers -->
 	<ModOp Type="addNextSibling" GUID='25000035'>
