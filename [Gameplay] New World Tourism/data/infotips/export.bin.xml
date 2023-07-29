@@ -1,0 +1,42 @@
+<ModOps>
+  <ModOp Type="merge" Path="//InfoTipData[Guid='500934']">
+    <InfoElement>
+      <VisibilityElement>
+        <VisibilityElement />
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>1</ElementType>
+          </ElementType>
+          <CompareOperator>
+            <CompareOperator>1</CompareOperator>
+          </CompareOperator>
+          <ResultType>
+            <ResultType>1</ResultType>
+          </ResultType>
+          <ExpectedValueInt>102284</ExpectedValueInt>
+          <Condition>[Selection Object GUID]</Condition>
+        </VisibilityElement>
+        <OperatorType />
+      </VisibilityElement>
+    </InfoElement>
+    <InfoElement>
+      <VisibilityElement>
+        <VisibilityElement />
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>1</ElementType>
+          </ElementType>
+          <CompareOperator />
+          <ResultType>
+            <ResultType>1</ResultType>
+          </ResultType>
+          <ExpectedValueInt>102284</ExpectedValueInt>
+          <Condition>[Selection Object GUID]</Condition>
+        </VisibilityElement>
+        <OperatorType>
+          <OperatorType>1</OperatorType>
+        </OperatorType>
+      </VisibilityElement>
+    </InfoElement>
+  </ModOp>
+</ModOps>
