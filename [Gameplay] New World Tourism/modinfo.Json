@@ -1,10 +1,18 @@
 {
-  "Version": "1.2.2",
+  "Version": "1.99",
   "ModID": "FamTaubeLexy_NewWorldHotels",
   "IncompatibleIds": [
     "NewHorizons"
   ],
-  "ModDependencies": null,
+  "DeprecateIds": [
+    "jakob_nw_monument_small"
+  ],
+  "ModDependencies": [
+    "https://github.com/anno-mods/shared-resources/releases/download/v8.1/shared-pools-and-definitions.zip"
+  ],
+  "LoadAfterIds": [
+    "shared-pools-and-definitions"
+  ],
   "Category": {
     "Chinese": null,
     "English": "Gameplay",
@@ -44,41 +52,22 @@
     "Spanish": null,
     "Taiwanese": null
   },
-  "KnownIssues": [
-    {
-      "Chinese": null,
-      "English": "Unlock for New World Tourists is 4.000 OW Tourists and 1.500 Obreros. Obreros only start counting once you reached 4.000 OW Tourists.",
-      "French": null,
-      "German": "Freischaltung für NW-Touristen erfolgt bei 4.000 AW-Touristen und 1.500 Obreros. Obreros werden erst gezählt, wenn 4.000 AW-Touristen erreicht wurden.",
-      "Italian": null,
-      "Japanese": null,
-      "Korean": null,
-      "Polish": null,
-      "Russian": null,
-      "Spanish": null,
-      "Taiwanese": null
-    },
-    {
-      "Chinese": null,
-      "English": "Tourist Hotspot Needs in the new world are only satisfied by Old World Buildings. in that case, you either cannot fulfil the need, or you need a New World version of the building (like in the New World Docklands mod.)",
-      "French": null,
-      "German": "Touristen-Hotspotbedürfnisse könnnen meist nur durch Alte-Welt Gebäude erfüllt werden. Entweder wird auf die Erfüllung verzichtet, oder es wird eine Mod benötigt, die einen Klon des Gebäudes in die neue Welt einfügt (wie in der New-World-Docklands Mod.)",
-      "Italian": null,
-      "Japanese": null,
-      "Korean": null,
-      "Polish": null,
-      "Russian": null,
-      "Spanish": null,
-      "Taiwanese": null
-    }
-  ],
+  "KnownIssues": [],
   "DLCDependencies": [
     {
       "DLC": "Tourism",
       "Dependant": "required"
+    },
+    {
+      "DLC": "SeedsOfChange",
+      "Dependant": "partly"
+    },
+    {
+      "DLC": "NewWorldRising",
+      "Dependant": "partly"
     }
   ],
-  "CreatorName": "Fam, DaLexy and Taubenangriff. Thanks to Lordys for the NW Hotel Retexture and Jakob for the Construction Phases!",
+  "CreatorName": "Fam, DaLexy, Taubenangriff, Lordys and Jakob",
   "CreatorContact": "https://discord.gg/YTQGDFK",
   "Image" : null
 }
