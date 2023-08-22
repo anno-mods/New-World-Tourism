@@ -13,7 +13,7 @@ Additionally, the mod integrates well with New World Rising DLC, but it does not
 ---
 
 <p align="center">
-    <img src =![68747470733a2f2f737461746963646](https://github.com/anno-mods/New-World-Tourism/assets/51975164/9c07cef9-6612-4003-9bfc-dbe0c3038003)
+    <img src="https://raw.githubusercontent.com/anno-mods/New-World-Tourism/master/doc/screen0.jpg"
 >
 </p>
 
