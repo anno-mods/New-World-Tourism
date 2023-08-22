@@ -1,13 +1,20 @@
 # New World Tourism
 
 <p align="left">
-    [Gameplay] New World Tourism is a new mod that adds tropical hotels, restaurants, bars and Cafés, altogether with a total of nine newly designed recipes for them. Be it the new Pamonha, Banana Bread or the headfreezing fruit sorbet, the tourists cannot wait to taste all the new world specialities, as well as your local population who will have a great time visiting your restaurants.
+New World Tourism adds tropical hotels, restaurants, bars and cafés, altogether with a total of nine newly designed recipes for them. Be it the new Pamonha, Banana Bread or the headfreezing fruit sorbet, the tourists cannot wait to taste all the new world specialities, as well as your local population who will have a great time visiting your restaurants.
+
+The New World also get's a new monument: After gathering 1500 tourists, you can welcome Tourists to the Restaurant "La Reine" around Christo Redentor!
+
+So, essentially, this is an extension of the tourist season DLC to the New World. Of course, this mod will require the Tourist Season DLC.
+
+Additionally, the mod integrates well with New World Rising DLC, but it does not require it.
 </p>
 
 ---
 
 <p align="center">
-    <img src ="https://staticdelivery.nexusmods.com/mods/2820/images/196/196-1630445384-1489610267.jpeg">
+    <img src =![68747470733a2f2f737461746963646](https://github.com/anno-mods/New-World-Tourism/assets/51975164/9c07cef9-6612-4003-9bfc-dbe0c3038003)
+>
 </p>
 
 > ### You can always find the latest release of this mod [here](https://github.com/anno-mods/New-World-Tourism/releases/latest).
