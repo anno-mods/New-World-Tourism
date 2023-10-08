@@ -420,10 +420,11 @@
 				<BusNeed>1440134417</BusNeed>
 			</BusActivation>
 		</ModOp>
-		<ModOp GUID = '6121' Type = "add" Path = "/Values">
-			<BusActivation>
-				<BusNeed>1440134418</BusNeed>
-			</BusActivation>
+		<ModOp Path ="//Asset[Template='MonumentColony']/Values" Type = "add">
+			<BusActivation />
+		</ModOp>
+		<ModOp GUID = '6121' Type = "add" Path = "/Values/BusActivation">
+			<BusNeed>1440134418</BusNeed>
 		</ModOp>
 		<ModOp GUID='134346' Type="add" Path="/Values/FeedbackBuildingGroup/Buildings">
 			<Item>
