@@ -1,5 +1,5 @@
 {
-  "Version": "1.99",
+  "Version": "2.1",
   "ModID": "FamTaubeLexy_NewWorldHotels",
   "IncompatibleIds": [
     "NewHorizons"
@@ -8,36 +8,36 @@
     "jakob_nw_monument_small"
   ],
   "ModDependencies": [
-    "https://github.com/anno-mods/shared-resources/releases/download/v8.1/shared-pools-and-definitions.zip"
+    "shared-pools-and-definitions"
   ],
   "LoadAfterIds": [
     "shared-pools-and-definitions"
   ],
   "Category": {
-    "Chinese": null,
+    "Chinese": "Gameplay",
     "English": "Gameplay",
-    "French": null,
+    "French": "Gameplay",
     "German": "Spielablauf",
-    "Italian": null,
-    "Japanese": null,
-    "Korean": null,
+    "Italian": "Gameplay",
+    "Japanese": "Gameplay",
+    "Korean": "Gameplay",
     "Polish": "Rozgrywka",
-    "Russian": null,
-    "Spanish": null,
-    "Taiwanese": null
+    "Russian": "Gameplay",
+    "Spanish": "Gameplay",
+    "Taiwanese": "Gameplay"
   },
   "ModName": {
-    "Chinese": null,
+    "Chinese": "New World Tourism",
     "English": "New World Tourism",
-    "French": null,
+    "French": "New World Tourism",
     "German": "Touristen in der neuen Welt",
-    "Italian": null,
-    "Japanese": null,
-    "Korean": null,
-    "Polish": null,
-    "Russian": null,
-    "Spanish": null,
-    "Taiwanese": null
+    "Italian": "New World Tourism",
+    "Japanese": "New World Tourism",
+    "Korean": "New World Tourism",
+    "Polish": "New World Tourism",
+    "Russian": "New World Tourism",
+    "Spanish": "New World Tourism",
+    "Taiwanese": "New World Tourism"
   },
   "Description": {
     "Chinese": null,
@@ -69,5 +69,5 @@
   ],
   "CreatorName": "Fam, DaLexy, Taubenangriff, Lordys and Jakob",
   "CreatorContact": "https://discord.gg/YTQGDFK",
-  "Image" : null
+  "Image": null
 }
