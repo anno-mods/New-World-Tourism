@@ -408,6 +408,7 @@
 		<ModOp GUID = '24768' Type = "add" Path = "/Values">
 			<BusActivation>
 				<BusNeed>1440134407</BusNeed>
+				<ShowInfolayerOnlyIfRelevant>1</ShowInfolayerOnlyIfRelevant>
 			</BusActivation>
 		</ModOp>
 		<ModOp GUID = '6264' Type = "add" Path = "/Values">
@@ -421,7 +422,9 @@
 			</BusActivation>
 		</ModOp>
 		<ModOp Path ="//Asset[Template='MonumentColony']/Values" Type = "add">
-			<BusActivation />
+			<BusActivation>
+				<ShowInfolayerOnlyIfRelevant>1</ShowInfolayerOnlyIfRelevant>
+			</BusActivation>
 		</ModOp>
 		<ModOp GUID = '6121' Type = "add" Path = "/Values/BusActivation">
 			<BusNeed>1440134418</BusNeed>
@@ -471,6 +474,61 @@
 			</Item>
 			<Item>
 				<Building>1440134300</Building>
+			</Item>
+		</ModOp>
+
+		<ModOp Type="addNextSibling" GUID="601379" Condition="!~/Values/PopulationLevel7/PopulationInputs/Item[Product='1440134416']" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='355']">
+			<Item>
+				<Product>1440134416</Product>
+				<HappinessValue>5</HappinessValue>
+				<IsOptionalHappinessValue>1</IsOptionalHappinessValue>
+				<MoneyValue>125</MoneyValue>
+				<RequiredBuildings>
+					<Item>
+						<RequiredBuilding>1440134300</RequiredBuilding>
+						<Region>Colony01</Region>
+					</Item>
+				</RequiredBuildings>
+				<AdditionalGlobalUnlockRequirement>
+					<Population>5403</Population>
+					<MinPopulationAmount>1800</MinPopulationAmount>
+				</AdditionalGlobalUnlockRequirement>
+			</Item>
+		</ModOp>
+		<ModOp Type="addNextSibling" GUID="601379" Condition="!~/Values/PopulationLevel7/PopulationInputs/Item[Product='1440134417']" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='1440134416']">
+			<Item>
+				<Product>1440134417</Product>
+				<HappinessValue>8</HappinessValue>
+				<IsOptionalHappinessValue>1</IsOptionalHappinessValue>
+				<MoneyValue>250</MoneyValue>
+				<RequiredBuildings>
+					<Item>
+						<RequiredBuilding>1440134300</RequiredBuilding>
+						<Region>Colony01</Region>
+					</Item>
+				</RequiredBuildings>
+				<AdditionalGlobalUnlockRequirement>
+					<Population>5403</Population>
+					<MinPopulationAmount>4000</MinPopulationAmount>
+				</AdditionalGlobalUnlockRequirement>
+			</Item>
+		</ModOp>
+		<ModOp Type="addNextSibling" GUID="601379" Condition="!~/Values/PopulationLevel7/PopulationInputs/Item[Product='1440134418']" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='1440134417']">
+			<Item>
+				<Product>1440134418</Product>
+				<HappinessValue>10</HappinessValue>
+				<IsOptionalHappinessValue>1</IsOptionalHappinessValue>
+				<MoneyValue>125</MoneyValue>
+				<RequiredBuildings>
+					<Item>
+						<RequiredBuilding>1440134300</RequiredBuilding>
+						<Region>Colony01</Region>
+					</Item>
+				</RequiredBuildings>
+				<AdditionalGlobalUnlockRequirement>
+					<Population>5403</Population>
+					<MinPopulationAmount>6000</MinPopulationAmount>
+				</AdditionalGlobalUnlockRequirement>
 			</Item>
 		</ModOp>
 	</Group>
