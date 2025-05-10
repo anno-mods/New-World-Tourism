@@ -23,10 +23,13 @@ We wish you much fun with this mod!
 ### 2.2
 
 - 2.2.1: Removed incompatible warning with New Horizons
+- Improved compatibility with Hacienda clones
+- Added missing DLC12 needs to the optional hotspots (Beach, Cinema, Stadium)
+- Fixed issue with wrong texture used for second hotel
 
 ### 2.1
 
-
+- Fixed stadium upgrade issue
 
 ### 2.0
 
