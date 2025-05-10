@@ -18,7 +18,20 @@ We wish you much fun with this mod!
     Fam, DaLexy and Taubenangriff
 </p>
 
-## 2.0 Changes
+## Changes
+
+### 2.2
+
+- 2.2.1: Removed incompatible warning with New Horizons
+- Improved compatibility with Hacienda clones
+- Added missing DLC12 needs to the optional hotspots (Beach, Cinema, Stadium)
+- Fixed issue with wrong texture used for second hotel
+
+### 2.1
+
+- Fixed stadium upgrade issue
+
+### 2.0
 
 The changes are save game compatible, but you may need to adjust your production and move Christo Redentor.
 
