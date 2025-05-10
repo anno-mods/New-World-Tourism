@@ -18,7 +18,17 @@ We wish you much fun with this mod!
     Fam, DaLexy and Taubenangriff
 </p>
 
-## 2.0 Changes
+## Changes
+
+### 2.2
+
+- 2.2.1: Removed incompatible warning with New Horizons
+
+### 2.1
+
+
+
+### 2.0
 
 The changes are save game compatible, but you may need to adjust your production and move Christo Redentor.
 
