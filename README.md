@@ -27,6 +27,11 @@ We wish you much fun with this mod!
 - Added missing DLC12 needs to the optional hotspots (Beach, Cinema, Stadium)
 - Fixed issue with wrong texture used for second hotel
 
+- 2.2.2: By Serp and Lion
+- removed outdated infotip and replaced with lions shared mod shared-infotip-fix-tourist-buildings-lion053
+- Fix unlock of Christo/Bar/Restaurant/Cafe (wont fix savegames). Bug was: You need to have the tourists in the session you first entered when activating the mod to unlock everything. Now you need them in New World instead.
+
+
 ### 2.1
 
 - Fixed stadium upgrade issue
