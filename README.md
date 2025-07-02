@@ -29,7 +29,7 @@ We wish you much fun with this mod!
 
 - 2.2.2: By Serp and Lion
 - removed outdated infotip and replaced with lions shared mod shared-infotip-fix-tourist-buildings-lion053
-- Fix unlock of Christo/Bar/Restaurant/Cafe (wont fix savegames). Bug was: You need to have the tourists in the session you first entered when activating the mod to unlock everything. Now you need them in New World instead.
+- Fix unlock of Christo/Bar/Restaurant/Cafe (also fixes savegames). Bug was: You need to have the tourists in the session you first entered when activating the mod to unlock everything. Now you need them in New World instead.
 
 
 ### 2.1
