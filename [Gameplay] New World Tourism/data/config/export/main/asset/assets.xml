@@ -4517,6 +4517,9 @@
 								<CounterScope>Session</CounterScope>
 								<Context>601379</Context>
 								<CounterAmount>1</CounterAmount>
+                <CounterScopeUseCurrentContext>0</CounterScopeUseCurrentContext>
+                <CounterScopeContext>180025</CounterScopeContext>
+                <CounterScopeKeepFirstFound>0</CounterScopeKeepFirstFound>
 							</ConditionPlayerCounter>
 						</Values>
 					</TriggerCondition>
@@ -4548,6 +4551,15 @@
 			</Values>
 		</Asset>
 		<Asset>
+			<BaseAssetGUID>1440134445</BaseAssetGUID>
+			<Values>
+				<Standard>
+					<GUID>1500005623</GUID>
+					<Name>Tourism New World 1.1 savegamefix</Name>
+				</Standard>
+			</Values>
+		</Asset>
+		<Asset>
 			<Template>Trigger</Template>
 			<Values>
 				<Standard>
@@ -4565,6 +4577,9 @@
 								<CounterScope>Session</CounterScope>
 								<Context>601379</Context>
 								<CounterAmount>1500</CounterAmount>
+                <CounterScopeUseCurrentContext>0</CounterScopeUseCurrentContext>
+                <CounterScopeContext>180025</CounterScopeContext>
+                <CounterScopeKeepFirstFound>0</CounterScopeKeepFirstFound>
 							</ConditionPlayerCounter>
 						</Values>
 					</TriggerCondition>
@@ -4587,6 +4602,15 @@
 					</TriggerActions>
 				</Trigger>
 				<TriggerSetup />
+			</Values>
+		</Asset>
+		<Asset>
+			<BaseAssetGUID>1440134444</BaseAssetGUID>
+			<Values>
+				<Standard>
+					<GUID>1500005624</GUID>
+					<Name>Tourism New World 1.2 savegamefix</Name>
+				</Standard>
 			</Values>
 		</Asset>
 		<!-- <Asset>
@@ -4653,6 +4677,9 @@
 								<CounterScope>Session</CounterScope>
 								<Context>601379</Context>
 								<CounterAmount>1500</CounterAmount>
+                <CounterScopeUseCurrentContext>0</CounterScopeUseCurrentContext>
+                <CounterScopeContext>180025</CounterScopeContext>
+                <CounterScopeKeepFirstFound>0</CounterScopeKeepFirstFound>
 							</ConditionPlayerCounter>
 						</Values>
 					</TriggerCondition>
@@ -4681,6 +4708,15 @@
 					</TriggerActions>
 				</Trigger>
 				<TriggerSetup />
+			</Values>
+		</Asset>
+		<Asset>
+			<BaseAssetGUID>1440134443</BaseAssetGUID>
+			<Values>
+				<Standard>
+					<GUID>1500005625</GUID>
+					<Name>Unlock Monument Construction Phases savegamefix</Name>
+				</Standard>
 			</Values>
 		</Asset>
 		<Asset>
